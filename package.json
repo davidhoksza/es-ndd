@@ -1,0 +1,53 @@
+{
+  "name": "ES-NDD",
+  "version": "1.0.0",
+  "description": "Essential Sites in NDD proteins",
+  "main": "src/js/index.js",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidhoksza/es-ndd.git"
+  },
+  "author": "David Hoksza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidhoksza/es-ndd/issues"
+  },
+  "homepage": "https://github.com/davidhoksza/es-ndd#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@webpack-cli/init": "^1.1.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.2",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "chroma-js": "^2.1.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "molart": "^1.7.0",
+    "select2": "^4.1.0-rc.0",
+    "simple-line-icons": "^2.5.5",
+    "util": "^0.12.3"
+  }
+}
