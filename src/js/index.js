@@ -196,14 +196,8 @@ const assert = function(condition, message) {
 };
 
 
-let readyRan = false;
 $( document ).ready(function() {
 
-    if (readyRan){
-        return;
-    } else {
-        readyRan = true;
-    }
     geneSelection = $('#geneSelection');
     methodSelection = $('#methodSelection');
     sequenceSelection = $('#sequenceSelection');
@@ -790,7 +784,6 @@ function startMolArtWithFeatures(params) {
             molArtParams.pdbIds = params.pdbIds;
         }
         window.molartPlugin = new MolArt(molArtParams);
-        $("#molartWrapperContainer").css("display", "block" );
     })
 
 }
@@ -814,6 +807,7 @@ const btnShowOnClick = function(data) {
         }
     }
 
+    let molArtPromise;
     if (method === METHOD.PDB.id){
         // const pdbIds = data[gene][method][uniprotId].map(pdbId => pdbId.replace('_', ':'));
         const pdbIds = [structureId.replace('_', ':')];
@@ -822,7 +816,7 @@ const btnShowOnClick = function(data) {
             method: method,
             structureId: structureId
         });
-        startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, pdbIds:pdbIds});
+        molArtPromise = startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, pdbIds:pdbIds});
     }else if (method === METHOD.PDB_MULTI.id){
         // const pdbIds = data[gene][method][uniprotId].map(pdbId => pdbId.replace('_', ':'));
         const sStructureId = structureId.split("_");
@@ -832,7 +826,7 @@ const btnShowOnClick = function(data) {
             method: method,
             structureId: structureId
         });
-        startMolArtWithFeatures({
+        molArtPromise = startMolArtWithFeatures({
             dataUris: dataUris,
             structureId: structureId,
             pdbIds:pdbIds,
@@ -849,7 +843,7 @@ const btnShowOnClick = function(data) {
         });
 
         let chainId = ' ';
-        return getSSMapping({
+        molArtPromise = getSSMapping({
             mappingUri: dataUris.annotations[structureId],
             structureUri: dataUris.structure,
             pdbId: structureId,
@@ -871,20 +865,23 @@ const btnShowOnClick = function(data) {
             method: method,
         });
 
-        return getSSMapping({
+        molArtPromise = getSSMapping({
             mappingUri: dataUris.annotations[structureId],
             structureUri: dataUris.structure,
             pdbId:pdbId,
             chainId: chainId
         }).then(mappingsJson => {
-            console.log("mapping json", mappingsJson);
             startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, ssMapping:mappingsJson});
         });
     }
 
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $container.offset().top
-    }, 1000);
+    return molArtPromise.then(() => {
+        $("#molartWrapperContainer").css("display", "block" );
+        $("#mainInfoContainer").css("display", "none");
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $container.offset().top
+        }, 1000);
+    });
 
     // const pdbUri = getPdbUri(gene, method, sequence);
 
