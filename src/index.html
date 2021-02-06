@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>NDD</title>
+  <title>ES-NDD</title>
 
   <!-- Bootstrap core CSS -->
 <!--  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
@@ -27,14 +27,29 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">NDD</a>
+  <nav class="navbar navbar-dark static-top navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">ES-NDD</a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="documentation.html">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead text-white text-center">
+  <header class="masthead text-dark text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -73,7 +88,47 @@
     </div>
   </header>
 
-  <div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <p class="card-text"><span class="font-weight-bold">ES-NDD</span>
+              is developed to allow users explore essential sites in the structure of 163 neurodevelopmental
+              disorder (NDD) associated proteins. Essential sites represents residues in proteins
+              that are conserved across human paralog proteins, constraint of missense mutations and are
+              enriched for pathogenic variants in the 3D structure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <p> <span class="font-weight-bold">Disclaimer:</span> Please note that all content on this
+              website is provided for academic and research purposes only. It has not undergone
+              clinical validation, and should not be used for medical advice, diagnosis, or treatment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="warning" class="row">
+    <div class="col">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>You need to select a gene to explore!</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="molartWrapperContainer" class="container-fluid">
     <div class="row">
       <div class="card card w-100 m-3">
         <div class="card-body">
@@ -86,51 +141,16 @@
 
 
   <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+<!--  <footer class="footer bg-light">-->
+<!--    <div class="container">-->
+<!--      <div class="row">-->
+<!--        <div class="col-lg-12 text-center ">-->
+<!--          <p> <span class="font-weight-bold">Disclaimer:</span> Please note that all content on this website is provided for academic and research purposes only. It has not undergone clinical validation, and should not be used for medical advice, diagnosis, or treatment</p>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </footer>-->
 
   <!-- Bootstrap core JavaScript -->
 

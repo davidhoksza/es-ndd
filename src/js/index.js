@@ -18,20 +18,20 @@ import esNddData from '../../data/list.json'
 const METHOD = {
     PDB: {
         id: 'PDB',
-        label: 'monomeric-PDB'
+        label: 'Monomeric structure from Protein Data Bank'
     },
     PDB_MULTI: {
         id: 'PDB_MULTI',
-        label: 'multimeric-PDB'
+        label: 'Complex structure from Protein Data Bank'
     },
     SWISS:
         {
             id: 'SWISS',
-            label: 'SWISS-model'
+            label: 'Homology models from SWISS-PROT'
         },
     RAPTOR: {
         id: "RAPTOR",
-        label: 'RaptorX'
+        label: 'Predicted structures from RaptorX'
     }
 };
 
@@ -790,12 +790,16 @@ function startMolArtWithFeatures(params) {
             molArtParams.pdbIds = params.pdbIds;
         }
         window.molartPlugin = new MolArt(molArtParams);
+        $("#molartWrapperContainer").css("display", "block" );
     })
 
 }
 
 const btnShowOnClick = function(data) {
-    if ($('#btnShow').hasClass("disabled")) return;
+    if ($('#btnShow').hasClass("disabled")) {
+        // $('#warning').css("display", "block");
+        return;
+    }
 
     const gene = geneSelection.select2('data')[0].id;
     const method = methodSelection.select2('data')[0].id;
@@ -851,7 +855,6 @@ const btnShowOnClick = function(data) {
             pdbId: structureId,
             chainId: chainId
         }).then(mappingsJson => {
-            console.log("mapping json", mappingsJson);
             startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, ssMapping:mappingsJson});
         })
 
