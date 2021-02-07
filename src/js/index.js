@@ -8,9 +8,6 @@ import MolArt from 'molart'
 
 window.$ = $
 
-import navBar from './navbar';
-
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'simple-line-icons/css/simple-line-icons.css'
