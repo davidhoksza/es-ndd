@@ -6,6 +6,10 @@ import $ from 'jquery'
 import 'select2'
 import MolArt from 'molart'
 
+window.$ = $
+
+import navBar from './navbar';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
@@ -887,9 +891,9 @@ const btnShowOnClick = function(data) {
 
 };
 
-function loadData() {
-    return $.getJSON('data/list.json')
-}
+// function loadData() {
+//     return $.getJSON('data/list.json')
+// }
 
 function populateGeneList(data) {
 

@@ -39,7 +39,13 @@ module.exports = {
       test: /\.(js|jsx)$/,
       include: [path.resolve(__dirname, 'src/js')],
       loader: 'babel-loader'
-    }, {
+    },
+    //   {
+    //   test: /\.html$/i,
+    //   include: [path.resolve(__dirname, 'src')],
+    //   loader: 'html-loader',
+    // },
+      {
       test: /.css$/,
       use: [{
         loader: "style-loader"
@@ -54,11 +60,5 @@ module.exports = {
       type: 'asset/resource',
     }]
   },
-
-  // resolve: {
-  //   fallback: {
-  //     util: require.resolve("util/")
-  //   }
-  // },
 
 }

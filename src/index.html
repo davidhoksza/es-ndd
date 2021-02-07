@@ -27,26 +27,8 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-dark static-top navbar-expand-lg">
-    <a class="navbar-brand" href="index.html">ES-NDD</a>
+  <%= require('html-loader!./partials/navigation.html') %>
 
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="documentation.html">Documentation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
   <!-- Masthead -->
   <header class="masthead text-dark text-center">
@@ -151,11 +133,6 @@
 <!--      </div>-->
 <!--    </div>-->
 <!--  </footer>-->
-
-  <!-- Bootstrap core JavaScript -->
-
-<!--  <script src="bundle.js"></script>-->
-<!--  <script src="../node_modules/select2/dist/js/select2.full.min.js"></script>-->
 
 
 </body>
