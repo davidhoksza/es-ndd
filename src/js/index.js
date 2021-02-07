@@ -42,18 +42,43 @@ const METHOD = {
 const containerId = 'molartContainer';
 
 const annotationFields = {
-    // mtr: {
-    //     name: "mtr",
-    //     label: 'MTR',
-    //     tooltip: 'MTR',
-    //     category: "NDD"
-    //     , categorical: false
-    // },
+    HotSpot3D: {
+        name: "HotSpot3D",
+        label: 'Essential sites',
+        tooltip: 'Essential sites',
+        category: "Structural based annotations"
+        , categorical: true
+        , derived: false
+    },
+    paraz3dscore: {
+        name: "paraz3dscore",
+        label: 'Paralog conserved sites',
+        tooltip: 'Paralog conserved sites',
+        category: "Structural based annotations"
+        , categorical: false
+        , derived: false
+    },
+    mtr3dscore: {
+        name: "mtr3dscore",
+        label: 'Missense constraint sites',
+        tooltip: 'Missense constraint sites',
+        category: "Structural based annotations"
+        , categorical: false
+        , derived: false
+    },
+    PER_3D: {
+        name: "PER_3D",
+        label: 'Variant enriched sites',
+        tooltip: 'Variant enriched sites',
+        category: "Structural based annotations"
+        , categorical: true
+        , derived: true
+    },
     gscount: {
         name: "gscount",
         label: 'Neutral variants',
         tooltip: 'Neutral variants',
-        category: "NDD"
+        category: "Variants"
         , categorical: false
         , derived: false
     },
@@ -61,58 +86,11 @@ const annotationFields = {
         name: "pscount",
         label: 'Pathogenic variants',
         tooltip: 'Pathogenic variants',
-        category: "NDD"
+        category: "Variants"
         , categorical: false
         , derived: false
     },
-    // OR: {
-    //     name: "OR",
-    //     label: 'OR',
-    //     tooltip: 'OR',
-    //     category: "NDD"
-    //     , categorical: false
-    //     , derived: false
-    // },
-    // pvalue: {
-    //     name: "pvalue",
-    //     label: 'p-value',
-    //     tooltip: 'p-value',
-    //     category: "NDD"
-    //     , categorical: false
-    //     , derived: false
-    // },
-    PER_3D: {
-        name: "PER_3D",
-        label: 'PER-3D',
-        tooltip: 'PER-3D',
-        category: "NDD"
-        , categorical: true
-        , derived: true
-    },
-    mtr3dscore: {
-        name: "mtr3dscore",
-        label: 'Mtr3D-score',
-        tooltip: 'Mtr3D-score',
-        category: "NDD"
-        , categorical: false
-        , derived: false
-    },
-    paraz3dscore: {
-        name: "paraz3dscore",
-        label: 'Paraz3D-score',
-        tooltip: 'Paraz3D-score',
-        category: "NDD"
-        , categorical: false
-        , derived: false
-    },
-    HotSpot3D: {
-        name: "HotSpot3D",
-        label: 'Essential-3D',
-        tooltip: 'Essential-3D',
-        category: "NDD"
-        , categorical: true
-        , derived: false
-    }
+
 }
 
 const customConfig = generateCustomConfig();
@@ -730,7 +708,7 @@ function getExtraHighlights(tab) {
             label: 'Pathogenic',
             visual: {
                 type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 0.6, bondRadius: 0.13, detail: 'Automatic'},
+                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
                 color: convertToLiteMolRgb(chroma("red").rgb()),
                 alpha: 1
             }
@@ -741,7 +719,7 @@ function getExtraHighlights(tab) {
             label: 'Neutral',
             visual: {
                 type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 0.6, bondRadius: 0.13, detail: 'Automatic'},
+                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
                 color: convertToLiteMolRgb(chroma("blue").rgb()),
                 alpha: 1
             }
@@ -751,7 +729,7 @@ function getExtraHighlights(tab) {
             label: 'Both',
             visual: {
                 type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 0.6, bondRadius: 0.13, detail: 'Automatic'},
+                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
                 color: convertToLiteMolRgb(chroma("orange").rgb()),
                 alpha: 1
             }
@@ -771,11 +749,11 @@ function startMolArtWithFeatures(params) {
             containerId: containerId,
             alwaysLoadPredicted: false,
             customDataSources : [{
-                source: 'NDD',
+                source: 'ES-NDD',
                 useExtension: false,
                 data: features
             }],
-            exclusions: ['PREDICT_PROTEIN', 'VARIATION'],
+            exclusions: ['PREDICT_PROTEIN', 'VARIATION', 'ANTIGEN', 'MUTAGENESIS', 'PROTEOMICS'],
             extraHighlights: getExtraHighlights(features.data),
             customConfig: customConfig
         };
@@ -788,6 +766,10 @@ function startMolArtWithFeatures(params) {
             molArtParams.pdbIds = params.pdbIds;
         }
         window.molartPlugin = new MolArt(molArtParams);
+        window.molartPlugin.on("pvReady", () => {
+            $('.up_pftv_category-name[title="USER_PROVIDED_STRUCTURES"]').text("Selected structure");
+            $('.up_pftv_category-name[title="EXPERIMENTAL_STRUCTURES"]').text("Selected structure");
+        })
     })
 
 }

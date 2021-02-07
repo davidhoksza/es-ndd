@@ -19,9 +19,17 @@ module.exports = {
   plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: 'src/index.html'
+        template: 'src/index.html',
       }),
-      new webpack.DefinePlugin({
+    new HtmlWebpackPlugin({
+      template: 'src/contact.html',
+      filename: "contact.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/documentation.html',
+      filename: "documentation.html"
+    }),
+    new webpack.DefinePlugin({
         'process.env.NODE_DEBUG': JSON.stringify(process.env.NODE_DEBUG)
       }),
       new CopyPlugin({

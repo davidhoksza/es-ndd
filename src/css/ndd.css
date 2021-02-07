@@ -85,3 +85,7 @@ footer.footer {
 #warning{
   display: none;
 }
+
+.docs-letter {
+  color: #b21f2d;
+}
