@@ -1,17 +1,12 @@
-
-import 'bootstrap/dist/js/bootstrap.bundle.min'
 import _ from 'lodash'
 import chroma from 'chroma-js'
-import $ from 'jquery'
-import 'select2'
+// import $ from 'jquery'
+// import 'select2'
 import MolArt from 'molart'
 
-window.$ = $
-
-import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'simple-line-icons/css/simple-line-icons.css'
-import 'select2/dist/css/select2.min.css'
+// import 'select2/dist/css/select2.min.css'
 import '../css/ndd.css'
 
 import esNddData from '../../data/list.json'
