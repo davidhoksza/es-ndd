@@ -747,6 +747,7 @@ function startMolArtWithFeatures(params) {
             }],
             exclusions: ['PREDICT_PROTEIN', 'VARIATION', 'ANTIGEN', 'MUTAGENESIS', 'PROTEOMICS'],
             extraHighlights: getExtraHighlights(features.data),
+            lmInitSurfaceTransparency: 25,
             customConfig: customConfig
         };
 
