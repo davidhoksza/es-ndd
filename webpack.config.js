@@ -4,9 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 
-
 module.exports = {
-  mode: 'development',
+  mode: process.env.MODE,
   entry: './src/js/index.js',
   devtool: 'source-map',
   devServer: {
