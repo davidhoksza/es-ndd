@@ -891,7 +891,7 @@ function populateGeneList(data) {
         const gene = geneSelection.select2('data')[0].id;
         const method = methodSelection.select2('data')[0].id;
         structureSelection.val(null).trigger('change');
-        data[gene][method][sequence].forEach((structure, ix) => {
+        data[gene][method][sequence].sort().forEach((structure, ix) => {
             structureSelection.append(new Option(structure, structure, ix === 0, ix === 0));
         });
         $('#btnShow').removeClass("disabled");
