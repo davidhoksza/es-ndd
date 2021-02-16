@@ -38,7 +38,7 @@ module.exports = {
       new CopyPlugin({
         patterns: [
           { from: path.resolve(__dirname, 'data/pdb'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb`) },
-          { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb`) },
+          { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb-multi`) },
           { from: path.resolve(__dirname, 'data/raptor'), to: path.resolve(__dirname, `${TARGET_DIR}/data/raptor`) },
           { from: path.resolve(__dirname, 'data/swissmodel'), to: path.resolve(__dirname, `${TARGET_DIR}/data/swissmodel`) },
           { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, `${TARGET_DIR}/img`) },
