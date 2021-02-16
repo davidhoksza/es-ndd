@@ -688,8 +688,8 @@ function convertToLiteMolRgb(chromaRgb){
 }
 
 function getExtraHighlights(tab) {
-    const patientVariants = tab[annotationFields.pscount.name].map((v, i) => v === undefined ? undefined : tab.Position_in_structure[i]).filter(v => v !== undefined);
-    const populationVariants = tab[annotationFields.gscount.name].map((v, i) => v === undefined ? undefined : tab.Position_in_structure[i]).filter(v => v !== undefined);
+    const patientVariants = tab[annotationFields.pscount.name].map((v, i) => v === undefined ? undefined : parseInt(tab.Uniprot_position[i])).filter(v => v !== undefined);
+    const populationVariants = tab[annotationFields.gscount.name].map((v, i) => v === undefined ? undefined : parseInt(tab.Uniprot_position[i])).filter(v => v !== undefined);
 
     var extraHighlights = {
         controlVisibility: true, //whether the list of custom highlights will be shown as a dropdown through which the can control visibility of the individual highlights

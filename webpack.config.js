@@ -41,7 +41,6 @@ module.exports = {
         ],
       }),
   ],
-
   module: {
     rules: [{
       test: /\.(js|jsx)$/,
@@ -50,20 +49,27 @@ module.exports = {
     },
     //   {
     //   test: /\.html$/i,
-    //   include: [path.resolve(__dirname, 'src')],
     //   loader: 'html-loader',
     // },
+    //   {
+    //   test: /.css$/,
+    //   use: [{
+    //     loader: "style-loader"
+    //   }, {
+    //     loader: "css-loader",
+    //     options: {
+    //       sourceMap: true
+    //     }
+    //   }]
+    // },
       {
-      test: /.css$/,
-      use: [{
-        loader: "style-loader"
-      }, {
-        loader: "css-loader",
+        test: /\.css$/i,
+        loader: 'file-loader',
         options: {
-          sourceMap: true
+          outputPath: "css"
         }
-      }]
-    }, {
+      },
+      {
       test: /\.(woff(2)?|ttf|eot|jpg|svg)(\?v=\d+\.\d+\.\d+)?$/,
       type: 'asset/resource',
     }]
