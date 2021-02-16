@@ -734,11 +734,11 @@ function getExtraHighlights(tab) {
 
 function startMolArtWithFeatures(params) {
 
-    const uniprotId = sequenceSelection.select2('data')[0].id;
+    // const uniprotId = sequenceSelection.select2('data')[0].id;
 
     return getFeatures(params.dataUris.annotations[params.structureId], params.filters).then(features => {
         const molArtParams = {
-            uniprotId: uniprotId,
+            uniprotId: params.uniprotId,
             containerId: containerId,
             alwaysLoadPredicted: false,
             customDataSources : [{
@@ -778,6 +778,8 @@ const btnShowOnClick = function(data) {
     const method = methodSelection.select2('data')[0].id;
     const structureId = structureSelection.select2('data')[0].id;
 
+    const uniprotId = Object.keys(esNddData[gene][method])[0];
+
     const $container = $(`#${containerId}`);
     $container.empty();
     if (window.molartPlugin) {
@@ -796,7 +798,7 @@ const btnShowOnClick = function(data) {
             method: method,
             structureId: structureId
         });
-        molArtPromise = startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, pdbIds:pdbIds});
+        molArtPromise = startMolArtWithFeatures({uniprotId: uniprotId, dataUris: dataUris, structureId: structureId, pdbIds:pdbIds});
     }else if (method === METHOD.PDB_MULTI.id){
         // const pdbIds = data[gene][method][uniprotId].map(pdbId => pdbId.replace('_', ':'));
         const sStructureId = structureId.split("_");
@@ -807,6 +809,7 @@ const btnShowOnClick = function(data) {
             structureId: structureId
         });
         molArtPromise = startMolArtWithFeatures({
+            uniprotId: uniprotId,
             dataUris: dataUris,
             structureId: structureId,
             pdbIds:pdbIds,
@@ -829,7 +832,12 @@ const btnShowOnClick = function(data) {
             pdbId: structureId,
             chainId: chainId
         }).then(mappingsJson => {
-            startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, ssMapping:mappingsJson});
+            startMolArtWithFeatures({
+                uniprotId: uniprotId,
+                dataUris: dataUris,
+                structureId: structureId,
+                ssMapping: mappingsJson
+            });
         })
 
     } else if (method === METHOD.SWISS.id){
@@ -851,7 +859,12 @@ const btnShowOnClick = function(data) {
             pdbId:pdbId,
             chainId: chainId
         }).then(mappingsJson => {
-            startMolArtWithFeatures({dataUris: dataUris, structureId: structureId, ssMapping:mappingsJson});
+            startMolArtWithFeatures({
+                uniprotId: uniprotId,
+                dataUris: dataUris,
+                structureId: structureId,
+                ssMapping: mappingsJson
+            });
         });
     }
 
