@@ -1,51 +1,41 @@
 {
-  "KCNK3": {
-    "SWISS": {
-      "O14649": [
-        "KCNK3_A"
-      ]
-    },
-    "RAPTOR": {
-      "O14649": [
-        "KCNK3"
-      ]
-    }
-  },
-  "TRIP12": {
-    "RAPTOR": {
-      "Q14669": [
-        "TRIP12"
-      ]
-    }
-  },
-  "SF3B3": {
+  "NFATC1": {
     "PDB_MULTI": {
-      "Q15393": [
-        "6ah0_3",
-        "5o9z_w"
+      "O95644": [
+        "5sve_C"
       ]
     }
   },
-  "EIF5A": {
-    "PDB": {
-      "P63241": [
-        "5dlq_F"
-      ]
-    },
-    "SWISS": {
-      "P63241": [
-        "EIF5A_C"
-      ]
-    },
+  "CNOT3": {
     "RAPTOR": {
-      "P63241": [
-        "EIF5A"
+      "O75175": [
+        "CNOT3"
       ]
-    },
+    }
+  },
+  "PSMC1": {
     "PDB_MULTI": {
-      "P63241": [
-        "3cpf_A",
-        "5dlq_F"
+      "P62191": [
+        "5vhs_B",
+        "5vhp_B",
+        "5t0g_B",
+        "5vfr_B",
+        "5vhi_B",
+        "5vhr_B",
+        "5vhj_B",
+        "5vhn_B",
+        "5vhh_B",
+        "5vhf_B",
+        "5ln3_I",
+        "5m32_d",
+        "5vho_B",
+        "5t0j_B",
+        "5vhq_B",
+        "5t0i_B",
+        "5vhm_B",
+        "5vft_B",
+        "5t0h_B",
+        "5gjq_I"
       ]
     }
   },
@@ -61,998 +51,32 @@
       ]
     }
   },
-  "LSM4": {
-    "PDB_MULTI": {
-      "Q9Y4Z0": [
-        "5o9z_q",
-        "6ah0_s",
-        "3jcr_4"
-      ]
-    }
-  },
-  "CAND1": {
-    "PDB_MULTI": {
-      "Q86VP6": [
-        "4a0c_A"
-      ]
-    }
-  },
-  "PSMC4": {
-    "PDB_MULTI": {
-      "P43686": [
-        "5t0i_D",
-        "5t0g_D",
-        "5vhr_D",
-        "5vhm_D",
-        "5vhs_D",
-        "5ln3_K",
-        "5vhp_D",
-        "5vhn_D",
-        "5vho_D",
-        "5m32_e",
-        "5vhf_D",
-        "5t0j_D",
-        "5vhi_D",
-        "5gjq_K",
-        "5t0h_D",
-        "5vhq_D",
-        "5vfr_D",
-        "5vft_D",
-        "5vhh_D",
-        "5vhj_D"
-      ]
-    }
-  },
-  "USP9X": {
+  "BRPF1": {
     "RAPTOR": {
-      "Q93008": [
-        "USP9X"
-      ]
-    }
-  },
-  "AP1B1": {
-    "PDB_MULTI": {
-      "Q10567": [
-        "4hmy_B",
-        "6cri_J",
-        "6d84_B",
-        "6d83_B",
-        "6d84_F",
-        "6cm9_B",
-        "6cri_I",
-        "6cri_B",
-        "6dff_B"
-      ]
-    }
-  },
-  "CALCRL": {
-    "PDB_MULTI": {
-      "Q16602": [
-        "6e3y_R"
-      ]
-    }
-  },
-  "STAG1": {
-    "SWISS": {
-      "Q8WVM7": [
-        "STAG1_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q8WVM7": [
-        "STAG1"
-      ]
-    }
-  },
-  "NTSR1": {
-    "PDB_MULTI": {
-      "P30989": [
-        "6os9_R",
-        "6osa_R"
-      ]
-    }
-  },
-  "LSM3": {
-    "PDB_MULTI": {
-      "P62310": [
-        "6ah0_r",
-        "3jcr_3",
-        "5o9z_p"
-      ]
-    }
-  },
-  "PSMA5": {
-    "PDB_MULTI": {
-      "P28066": [
-        "5t0h_K",
-        "5t0g_K",
-        "5m32_R",
-        "5vft_k",
-        "5ln3_E",
-        "5vfr_k",
-        "5gjq_F",
-        "5t0i_K",
-        "5gjq_l",
-        "5m32_D",
-        "5t0j_K"
-      ]
-    }
-  },
-  "PRPF8": {
-    "PDB": {
-      "Q6P2Q9": [
-        "6icz_A"
-      ]
-    },
-    "SWISS": {
-      "Q6P2Q9": [
-        "PRPF8_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q6P2Q9": [
-        "PRPF8"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q6P2Q9": [
-        "3jcr_A",
-        "6ah0_A",
-        "5o9z_A"
-      ]
-    }
-  },
-  "PREX1": {
-    "PDB_MULTI": {
-      "Q8TCU6": [
-        "4yon_A",
-        "5fi0_A"
-      ]
-    }
-  },
-  "ARID2": {
-    "RAPTOR": {
-      "Q68CP9": [
-        "ARID2"
-      ]
-    }
-  },
-  "KIF5C": {
-    "RAPTOR": {
-      "O60282": [
-        "KIF5C"
-      ]
-    }
-  },
-  "KIF11": {
-    "RAPTOR": {
-      "P52732": [
-        "KIF11"
-      ]
-    }
-  },
-  "MLST8": {
-    "PDB_MULTI": {
-      "Q9BVC4": [
-        "5zcs_C",
-        "5h64_C",
-        "5zcs_D"
-      ]
-    }
-  },
-  "PPP2R3B": {
-    "PDB_MULTI": {
-      "Q9Y5P8": [
-        "4i5l_B",
-        "4i5n_B"
-      ]
-    }
-  },
-  "PSMB1": {
-    "PDB_MULTI": {
-      "P20618": [
-        "5gjq_f",
-        "5t0h_S",
-        "5t0i_S",
-        "5t0j_S",
-        "5m32_L",
-        "5vfr_s",
-        "5vft_S",
-        "5t0g_S",
-        "5ln3_6",
-        "5gjq_t",
-        "5m32_Z"
-      ]
-    }
-  },
-  "ZNF148": {
-    "RAPTOR": {
-      "Q9UQR1": [
-        "ZNF148"
-      ]
-    }
-  },
-  "KCNT1": {
-    "SWISS": {
-      "Q5JUK3": [
-        "KCNT1_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q5JUK3": [
-        "KCNT1"
-      ]
-    }
-  },
-  "APOA1": {
-    "PDB_MULTI": {
-      "P02647": [
-        "6ccx_C",
-        "6cc9_A",
-        "6cch_A",
-        "6cc9_C",
-        "6ccx_A",
-        "6cch_C"
-      ]
-    }
-  },
-  "UPF1": {
-    "PDB": {
-      "Q92900": [
-        "2wjy_A"
-      ]
-    },
-    "SWISS": {
-      "Q92900": [
-        "UPF1_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q92900": [
-        "UPF1"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q92900": [
-        "2gk6_A",
-        "2wjv_A"
-      ]
-    }
-  },
-  "CLCN4": {
-    "RAPTOR": {
-      "P51793": [
-        "CLCN4"
-      ]
-    }
-  },
-  "LSM6": {
-    "PDB_MULTI": {
-      "P62312": [
-        "6ah0_x",
-        "3jcr_6",
-        "5o9z_s"
-      ]
-    }
-  },
-  "CHRM2": {
-    "PDB_MULTI": {
-      "P08172": [
-        "6oik_R"
-      ]
-    }
-  },
-  "GNAI1": {
-    "PDB": {
-      "P63096": [
-        "6cmo_A"
-      ]
-    },
-    "SWISS": {
-      "P63096": [
-        "GNAI1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P63096": [
-        "GNAI1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P63096": [
-        "6crk_A",
-        "1kjy_A",
-        "6cmo_A",
-        "2xns_B",
-        "6dde_A",
-        "5tdh_A",
-        "6osa_A",
-        "2ik8_A",
-        "6os9_A",
-        "3qi2_A",
-        "1y3a_A",
-        "2om2_A",
-        "6n4b_A",
-        "3qe0_A",
-        "6ddf_A",
-        "3onw_A",
-        "6ot0_A",
-        "4g5q_A",
-        "2gtp_A",
-        "2g83_A"
-      ]
-    }
-  },
-  "WDR45": {
-    "PDB": {
-      "Q5MNZ6": [
-        "6iyy_A"
-      ]
-    },
-    "SWISS": {
-      "Q5MNZ6": [
-        "WDR45_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q5MNZ6": [
-        "WDR45"
-      ]
-    }
-  },
-  "PRPF3": {
-    "PDB_MULTI": {
-      "O43395": [
-        "6ah0_J",
-        "3jcr_K",
-        "5o9z_E"
-      ]
-    }
-  },
-  "TXNL4A": {
-    "PDB_MULTI": {
-      "P83876": [
-        "6ah0_O",
-        "3jcr_E",
-        "5o9z_J"
-      ]
-    }
-  },
-  "GABRB3": {
-    "PDB": {
-      "P28472": [
-        "6i53_B"
-      ]
-    },
-    "RAPTOR": {
-      "P28472": [
-        "GABRB3"
-      ]
-    },
-    "PDB_MULTI": {
-      "P28472": [
-        "4cof_C",
-        "4cof_B",
-        "6hug_E",
-        "6a96_B",
-        "6huj_E",
-        "6huo_E",
-        "6hug_B",
-        "4cof_A",
-        "6huo_B",
-        "6hup_B",
-        "6hup_E",
-        "6a96_C",
-        "4cof_D",
-        "6huk_B",
-        "6huj_B",
-        "6i53_E",
-        "4cof_E",
-        "6huk_E",
-        "6a96_E",
-        "6a96_D",
-        "6i53_B"
-      ]
-    }
-  },
-  "SPTAN1": {
-    "RAPTOR": {
-      "Q13813": [
-        "SPTAN1"
-      ]
-    }
-  },
-  "SMARCA4": {
-    "RAPTOR": {
-      "P51532": [
-        "SMARCA4"
-      ]
-    }
-  },
-  "ADORA2A": {
-    "PDB_MULTI": {
-      "P29274": [
-        "6gdg_A"
-      ]
-    }
-  },
-  "GNB2": {
-    "SWISS": {
-      "P62879": [
-        "GNB2_B"
-      ]
-    },
-    "RAPTOR": {
-      "P62879": [
-        "GNB2"
-      ]
-    }
-  },
-  "ADORA1": {
-    "PDB_MULTI": {
-      "P30542": [
-        "6d9h_R"
-      ]
-    }
-  },
-  "GNAI2": {
-    "PDB_MULTI": {
-      "P04899": [
-        "6d9h_A"
-      ]
-    }
-  },
-  "GNA11": {
-    "PDB_MULTI": {
-      "P29992": [
-        "6oij_A"
-      ]
-    }
-  },
-  "DYNC1H1": {
-    "PDB": {
-      "Q14204": [
-        "5nug_A"
-      ]
-    },
-    "SWISS": {
-      "Q14204": [
-        "DYNC1H1_A"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q14204": [
-        "5nug_A"
-      ]
-    }
-  },
-  "LMNB2": {
-    "PDB_MULTI": {
-      "Q03252": [
-        "5bnw_D"
-      ]
-    }
-  },
-  "EBF3": {
-    "SWISS": {
-      "Q9H4W6": [
-        "EBF3_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q9H4W6": [
-        "EBF3"
-      ]
-    }
-  },
-  "PSMC5": {
-    "PDB": {
-      "P62195": [
-        "5t0j_C"
-      ]
-    },
-    "SWISS": {
-      "P62195": [
-        "PSMC5_5"
-      ]
-    },
-    "RAPTOR": {
-      "P62195": [
-        "PSMC5"
-      ]
-    },
-    "PDB_MULTI": {
-      "P62195": [
-        "5vhq_C",
-        "5t0g_C",
-        "5vhr_C",
-        "5vhn_C",
-        "5t0h_C",
-        "5t0i_C",
-        "5vhf_C",
-        "5vho_C",
-        "5vhm_C",
-        "5vfr_C",
-        "5m32_h",
-        "5vhi_C",
-        "5vhs_C",
-        "5vft_C",
-        "5vhh_C",
-        "5ln3_J",
-        "5vhp_C",
-        "5t0j_C",
-        "5vhj_C",
-        "5gjq_J"
-      ]
-    }
-  },
-  "MFAP1": {
-    "PDB_MULTI": {
-      "P55081": [
-        "5o9z_K"
-      ]
-    }
-  },
-  "TAB1": {
-    "PDB_MULTI": {
-      "Q15750": [
-        "4ay5_I",
-        "4ay6_E"
-      ]
-    }
-  },
-  "AKAP5": {
-    "PDB_MULTI": {
-      "P24588": [
-        "3ll8_E"
-      ]
-    }
-  },
-  "PSMD10": {
-    "PDB_MULTI": {
-      "O75832": [
-        "5vhf_G",
-        "5vhm_G",
-        "5vhp_G",
-        "5vhj_G",
-        "5vhh_G",
-        "5vho_G",
-        "5vhn_G",
-        "5vhq_G",
-        "5vhi_G",
-        "5vhr_G"
-      ]
-    }
-  },
-  "SF3B6": {
-    "PDB_MULTI": {
-      "Q9Y3B4": [
-        "6ah0_5"
-      ]
-    }
-  },
-  "BST2": {
-    "PDB_MULTI": {
-      "Q10589": [
-        "6d84_R",
-        "6d83_T",
-        "6dff_T",
-        "6cri_d",
-        "6d84_T",
-        "6cri_T",
-        "6cri_c",
-        "6cm9_T"
-      ]
-    }
-  },
-  "PURA": {
-    "RAPTOR": {
-      "Q00577": [
-        "PURA"
-      ]
-    }
-  },
-  "PPIA": {
-    "PDB_MULTI": {
-      "P62937": [
-        "1mf8_C",
-        "1m63_C",
-        "1m63_G"
+      "P55201": [
+        "BRPF1"
       ]
     }
   },
   "AP1S3": {
     "PDB_MULTI": {
       "Q96PC3": [
-        "4hmy_S",
-        "6cm9_S",
-        "6cri_a",
-        "6dff_S",
-        "6cri_S",
-        "6d84_Q",
         "6d83_S",
+        "6cri_a",
+        "6cm9_S",
+        "6d84_Q",
+        "6dff_S",
+        "6cri_b",
         "6d84_S",
-        "6cri_b"
+        "4hmy_S",
+        "6cri_S"
       ]
     }
   },
-  "RPTOR": {
-    "PDB_MULTI": {
-      "Q8N122": [
-        "5h64_B"
-      ]
-    }
-  },
-  "RHO": {
-    "PDB_MULTI": {
-      "P08100": [
-        "6cmo_R"
-      ]
-    }
-  },
-  "PHF6": {
+  "SMC1A": {
     "RAPTOR": {
-      "Q8IWS0": [
-        "PHF6"
-      ]
-    }
-  },
-  "KCND3": {
-    "SWISS": {
-      "Q9UK17": [
-        "KCND3_B"
-      ]
-    },
-    "RAPTOR": {
-      "Q9UK17": [
-        "KCND3"
-      ]
-    }
-  },
-  "SCN2A": {
-    "PDB": {
-      "Q99250": [
-        "6j8e_A"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q99250": [
-        "6j8e_A"
-      ]
-    }
-  },
-  "PSMA3": {
-    "PDB_MULTI": {
-      "P25788": [
-        "5vft_m",
-        "5gjq_n",
-        "5m32_T",
-        "5m32_F",
-        "5gjq_X",
-        "5t0h_M",
-        "5vfr_m",
-        "5t0g_M",
-        "5ln3_G",
-        "5t0j_M",
-        "5t0i_M"
-      ]
-    }
-  },
-  "CTBP1": {
-    "PDB": {
-      "Q13363": [
-        "6cdf_A"
-      ]
-    },
-    "SWISS": {
-      "Q13363": [
-        "CTBP1_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q13363": [
-        "CTBP1"
-      ]
-    }
-  },
-  "RICTOR": {
-    "PDB_MULTI": {
-      "Q6R327": [
-        "5zcs_E",
-        "5zcs_F"
-      ]
-    }
-  },
-  "FBXO11": {
-    "RAPTOR": {
-      "Q86XK2": [
-        "FBXO11"
-      ]
-    }
-  },
-  "ADRB2": {
-    "PDB_MULTI": {
-      "P07550": [
-        "6ni3_R"
-      ]
-    }
-  },
-  "CSNK2A1": {
-    "PDB": {
-      "P68400": [
-        "1jwh_A"
-      ]
-    },
-    "SWISS": {
-      "P68400": [
-        "CSNK2A1_B"
-      ]
-    },
-    "RAPTOR": {
-      "P68400": [
-        "CSNK2A1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P68400": [
-        "3q9z_A",
-        "5ot5_A",
-        "5vie_D",
-        "4md7_E",
-        "1jwh_A",
-        "5moe_A",
-        "5oni_A",
-        "5orj_A",
-        "5oqu_A",
-        "5vie_B",
-        "3u9c_A",
-        "5orh_A",
-        "6eii_A",
-        "4md7_F",
-        "5oto_B",
-        "3w8l_A",
-        "3tax_B",
-        "6q4q_A",
-        "5cu3_B",
-        "4dgl_C",
-        "6hme_A",
-        "5mmf_A",
-        "5otp_A",
-        "4md9_E",
-        "5mmr_A",
-        "3nga_A",
-        "5hgv_B",
-        "4dgl_D",
-        "5vif_B",
-        "3fwq_A",
-        "3qa0_A",
-        "5mo6_B",
-        "4gyw_D",
-        "5mo8_A",
-        "3u87_A",
-        "5owl_A",
-        "5csh_A",
-        "5oue_A",
-        "5ku8_A",
-        "5ot5_B",
-        "5ork_A",
-        "1jwh_B",
-        "5oth_B",
-        "5mpj_A",
-        "5h8b_A",
-        "5ouu_A",
-        "4gyy_B",
-        "5mp8_A",
-        "6ehu_A",
-        "5kwh_A",
-        "5n1v_A",
-        "5otp_B",
-        "5cx9_A",
-        "6hbn_A",
-        "3juh_A",
-        "5ctp_A",
-        "5ot6_A",
-        "5ct0_A",
-        "3h30_A",
-        "5cqw_A",
-        "5cu2_A",
-        "5otl_A",
-        "3pe4_B",
-        "5os7_B",
-        "5ork_B",
-        "4nh1_A",
-        "6e37_B",
-        "4uba_A",
-        "5otd_B",
-        "5mow_A",
-        "3rps_A",
-        "5clp_A",
-        "5otd_A",
-        "4gz3_B",
-        "5cu3_A",
-        "5oqu_B",
-        "3q9x_A",
-        "4md9_F",
-        "4md8_F",
-        "5oth_A",
-        "5oum_A",
-        "6gmd_A",
-        "5mo5_A",
-        "5ouu_B",
-        "5mo7_A",
-        "4ib5_A",
-        "5cu0_A",
-        "5t1h_A",
-        "4nh1_B",
-        "5h8e_A",
-        "5orj_B",
-        "5oum_B",
-        "5oto_A",
-        "4md8_E",
-        "5cvh_A",
-        "6q38_A",
-        "5otl_B",
-        "5cs6_A",
-        "5mod_B"
-      ]
-    }
-  },
-  "KCNA2": {
-    "SWISS": {
-      "P16389": [
-        "KCNA2_B"
-      ]
-    },
-    "RAPTOR": {
-      "P16389": [
-        "KCNA2"
-      ]
-    }
-  },
-  "SLC35A2": {
-    "RAPTOR": {
-      "P78381": [
-        "SLC35A2"
-      ]
-    }
-  },
-  "VAV1": {
-    "PDB_MULTI": {
-      "P15498": [
-        "3bji_A"
-      ]
-    }
-  },
-  "CACNA1C": {
-    "RAPTOR": {
-      "Q13936": [
-        "CACNA1C"
-      ]
-    }
-  },
-  "WDR37": {
-    "RAPTOR": {
-      "Q9Y2I8": [
-        "WDR37"
-      ]
-    }
-  },
-  "OGT": {
-    "PDB": {
-      "O15294": [
-        "4xif_A"
-      ]
-    },
-    "SWISS": {
-      "O15294": [
-        "OGT_A"
-      ]
-    },
-    "RAPTOR": {
-      "O15294": [
-        "OGT"
-      ]
-    },
-    "PDB_MULTI": {
-      "O15294": [
-        "6ma4_A",
-        "5vie_C",
-        "4gyw_C",
-        "5c1d_A",
-        "3tax_A",
-        "6ma3_A",
-        "4n3b_A",
-        "4gz6_A",
-        "3pe3_B",
-        "4gz5_A",
-        "4n39_A",
-        "3pe3_C",
-        "4ay5_A",
-        "4xi9_A",
-        "4xif_A",
-        "4n3a_A",
-        "6e37_A",
-        "5vie_A",
-        "5hgv_A",
-        "5bnw_A",
-        "4gyy_A",
-        "4n3c_A",
-        "5vif_A",
-        "6ma5_A",
-        "3pe4_A",
-        "4cdr_D",
-        "4ay6_A",
-        "6ma1_A",
-        "5lwv_A",
-        "6ma2_A",
-        "3pe3_A",
-        "4gz3_A"
-      ]
-    }
-  },
-  "SGO1": {
-    "PDB_MULTI": {
-      "Q5FBB7": [
-        "3fga_D"
-      ]
-    }
-  },
-  "SCN8A": {
-    "RAPTOR": {
-      "Q9UQD0": [
-        "SCN8A"
-      ]
-    }
-  },
-  "NCF2": {
-    "PDB_MULTI": {
-      "P19878": [
-        "1e96_B"
-      ]
-    }
-  },
-  "ADCY5": {
-    "RAPTOR": {
-      "O95622": [
-        "ADCY5"
-      ]
-    }
-  },
-  "PDE6D": {
-    "PDB_MULTI": {
-      "O43924": [
-        "5tb5_B",
-        "5tar_B"
-      ]
-    }
-  },
-  "DOCK2": {
-    "PDB_MULTI": {
-      "Q92608": [
-        "2yin_B",
-        "3b13_A",
-        "3b13_C"
-      ]
-    }
-  },
-  "AP2S1": {
-    "SWISS": {
-      "P53680": [
-        "AP2S1_F"
-      ]
-    },
-    "RAPTOR": {
-      "P53680": [
-        "AP2S1"
-      ]
-    }
-  },
-  "SNRNP40": {
-    "PDB_MULTI": {
-      "Q96DI7": [
-        "5o9z_D",
-        "6ah0_E",
-        "3jcr_D"
+      "Q14683": [
+        "SMC1A"
       ]
     }
   },
@@ -1073,580 +97,31 @@
       ]
     }
   },
-  "SKP1": {
+  "CHRM2": {
     "PDB_MULTI": {
-      "P63208": [
-        "2ovq_A",
-        "2ovr_A",
-        "2ovp_A",
-        "5v4b_A"
+      "P08172": [
+        "6oik_R"
       ]
     }
   },
-  "USP14": {
-    "PDB_MULTI": {
-      "P54578": [
-        "5gjq_x"
-      ]
-    }
-  },
-  "BCL9": {
-    "PDB_MULTI": {
-      "O00512": [
-        "2gl7_C"
-      ]
-    }
-  },
-  "GABRA5": {
-    "PDB_MULTI": {
-      "P31644": [
-        "6a96_A"
-      ]
-    }
-  },
-  "ATP1A3": {
-    "SWISS": {
-      "P13637": [
-        "ATP1A3_A"
-      ]
-    },
+  "CACNA1C": {
     "RAPTOR": {
-      "P13637": [
-        "ATP1A3"
+      "Q13936": [
+        "CACNA1C"
       ]
     }
   },
-  "ASF1B": {
-    "PDB_MULTI": {
-      "Q9NVP2": [
-        "5bnx_D"
-      ]
-    }
-  },
-  "PRPF31": {
-    "PDB_MULTI": {
-      "Q8WWY3": [
-        "6ah0_L",
-        "3jcr_J",
-        "5o9z_H"
-      ]
-    }
-  },
-  "GRIN1": {
-    "PDB": {
-      "Q05586": [
-        "6ira_A"
-      ]
-    },
-    "SWISS": {
-      "Q05586": [
-        "GRIN1_B"
-      ]
-    },
+  "CLCN4": {
     "RAPTOR": {
-      "Q05586": [
-        "GRIN1"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q05586": [
-        "6irf_C",
-        "6irf_A",
-        "6irg_C",
-        "6ira_A",
-        "6irh_A",
-        "6ira_C",
-        "6irg_A",
-        "6irh_C"
+      "P51793": [
+        "CLCN4"
       ]
     }
   },
-  "SNRPB2": {
-    "PDB_MULTI": {
-      "P08579": [
-        "5o9z_1",
-        "6ah0_p"
-      ]
-    }
-  },
-  "PPP2R5D": {
-    "SWISS": {
-      "Q14738": [
-        "PPP2R5D_B"
-      ]
-    }
-  },
-  "NR4A2": {
-    "SWISS": {
-      "P43354": [
-        "NR4A2_A"
-      ]
-    },
+  "KIF11": {
     "RAPTOR": {
-      "P43354": [
-        "NR4A2"
-      ]
-    }
-  },
-  "CACNA1G": {
-    "RAPTOR": {
-      "O43497": [
-        "CACNA1G"
-      ]
-    }
-  },
-  "CLTC": {
-    "RAPTOR": {
-      "Q00610": [
-        "CLTC"
-      ]
-    }
-  },
-  "RPS6KA3": {
-    "SWISS": {
-      "P51812": [
-        "RPS6KA3_A"
-      ]
-    },
-    "RAPTOR": {
-      "P51812": [
-        "RPS6KA3"
-      ]
-    }
-  },
-  "SF3A1": {
-    "PDB_MULTI": {
-      "Q15459": [
-        "6ah0_u"
-      ]
-    }
-  },
-  "NOTCH1": {
-    "RAPTOR": {
-      "P46531": [
-        "NOTCH1"
-      ]
-    }
-  },
-  "SMC3": {
-    "RAPTOR": {
-      "Q9UQE7": [
-        "SMC3"
-      ]
-    }
-  },
-  "PSMD11": {
-    "PDB_MULTI": {
-      "O00231": [
-        "5vfr_X",
-        "5m32_l",
-        "5gjq_Q",
-        "5ln3_Q",
-        "5t0h_X",
-        "5t0j_X",
-        "5vft_X",
-        "5vhh_X",
-        "5vhs_X",
-        "5vhf_X",
-        "5vhi_X",
-        "5t0i_X",
-        "5t0g_X"
-      ]
-    }
-  },
-  "KDM6A": {
-    "RAPTOR": {
-      "O15550": [
-        "KDM6A"
-      ]
-    }
-  },
-  "DYRK1A": {
-    "RAPTOR": {
-      "Q13627": [
-        "DYRK1A"
-      ]
-    }
-  },
-  "LSM8": {
-    "PDB_MULTI": {
-      "O95777": [
-        "5o9z_u",
-        "6ah0_z",
-        "3jcr_8"
-      ]
-    }
-  },
-  "PSMC3": {
-    "PDB_MULTI": {
-      "P17980": [
-        "5vhn_F",
-        "5t0j_F",
-        "5vho_F",
-        "5vfr_F",
-        "5vhm_F",
-        "5vhr_F",
-        "5vhf_F",
-        "5gjq_M",
-        "5vft_F",
-        "5t0i_F",
-        "5vhq_F",
-        "5m32_g",
-        "5t0g_F",
-        "5t0h_F",
-        "5vhp_F",
-        "5vhj_F",
-        "5vhs_F",
-        "5ln3_M",
-        "5vhh_F",
-        "5vhi_F"
-      ]
-    }
-  },
-  "CNKSR2": {
-    "RAPTOR": {
-      "Q8WXI2": [
-        "CNKSR2"
-      ]
-    }
-  },
-  "EEF2": {
-    "SWISS": {
-      "P13639": [
-        "EEF2_A"
-      ]
-    },
-    "RAPTOR": {
-      "P13639": [
-        "EEF2"
-      ]
-    }
-  },
-  "USP39": {
-    "PDB_MULTI": {
-      "Q53GS9": [
-        "6ah0_W",
-        "3jcr_V"
-      ]
-    }
-  },
-  "HTR1B": {
-    "PDB_MULTI": {
-      "P28222": [
-        "6g79_S"
-      ]
-    }
-  },
-  "FBXW7": {
-    "PDB": {
-      "Q969H0": [
-        "2ovq_B"
-      ]
-    },
-    "SWISS": {
-      "Q969H0": [
-        "FBXW7_B"
-      ]
-    },
-    "RAPTOR": {
-      "Q969H0": [
-        "FBXW7"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q969H0": [
-        "5v4b_B",
-        "2ovq_B",
-        "2ovr_B",
-        "2ovp_B"
-      ]
-    }
-  },
-  "CASK": {
-    "RAPTOR": {
-      "O14936": [
-        "CASK"
-      ]
-    }
-  },
-  "RAMP1": {
-    "PDB_MULTI": {
-      "O60894": [
-        "6e3y_E"
-      ]
-    }
-  },
-  "WBP4": {
-    "PDB_MULTI": {
-      "O75554": [
-        "5o9z_Q"
-      ]
-    }
-  },
-  "NF1": {
-    "RAPTOR": {
-      "P21359": [
-        "NF1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P21359": [
-        "6ob3_B",
-        "6ob2_B"
-      ]
-    }
-  },
-  "SNRPD1": {
-    "PDB_MULTI": {
-      "P62314": [
-        "6ah0_g",
-        "6ah0_j",
-        "3jcr_p",
-        "6ah0_V",
-        "5o9z_n",
-        "5o9z_Z",
-        "5o9z_g"
-      ]
-    }
-  },
-  "ZMAT2": {
-    "PDB_MULTI": {
-      "Q96NC0": [
-        "5o9z_N"
-      ]
-    }
-  },
-  "H3F3A": {
-    "PDB": {
-      "P84243": [
-        "3wtp_E"
-      ]
-    },
-    "SWISS": {
-      "P84243": [
-        "H3F3A_A"
-      ]
-    },
-    "PDB_MULTI": {
-      "P84243": [
-        "6j4w_a",
-        "6j4y_a",
-        "5kdm_A",
-        "4h9n_A",
-        "6a5o_a",
-        "6a5u_e",
-        "5ja4_A",
-        "6a5t_a",
-        "4h9o_A",
-        "5bnv_D",
-        "6inq_e",
-        "6j4y_e",
-        "5bnv_A",
-        "6a5u_a",
-        "6j4x_a",
-        "4h9q_A",
-        "6a5l_e",
-        "6a5o_e",
-        "6j4w_e",
-        "5b33_E",
-        "6j50_a",
-        "3av2_A",
-        "5bnx_A",
-        "6a5p_e",
-        "6j51_a",
-        "4h9r_A",
-        "6inq_a",
-        "5x7x_A",
-        "4h9s_A",
-        "6j4z_e",
-        "6j4x_e",
-        "6a5r_e",
-        "6a5t_e",
-        "4hga_B",
-        "5b33_A",
-        "6j4z_a",
-        "6a5r_a",
-        "6ir9_e",
-        "6a5p_a",
-        "6j51_e",
-        "5x7x_E",
-        "4h9p_A",
-        "6a5l_a",
-        "3wtp_E",
-        "6j50_e",
-        "6ir9_a",
-        "5b32_E",
-        "3av2_E",
-        "5b32_A"
-      ]
-    }
-  },
-  "PSMB7": {
-    "PDB_MULTI": {
-      "Q99436": [
-        "5vfr_o",
-        "5t0h_O",
-        "5gjq_b",
-        "5vft_o",
-        "5ln3_2",
-        "5t0i_O",
-        "5t0j_O",
-        "5gjq_p",
-        "5t0g_O",
-        "5m32_H",
-        "5m32_V"
-      ]
-    }
-  },
-  "SEM1": {
-    "PDB_MULTI": {
-      "P60896": [
-        "5vhh_e",
-        "5gjq_Y",
-        "5m32_s",
-        "5t0g_e",
-        "5t0i_e",
-        "5vhi_e",
-        "5t0h_e",
-        "5vfr_e",
-        "5vhs_e",
-        "5t0j_e",
-        "5vhf_e",
-        "5vft_e",
-        "5ln3_Y"
-      ]
-    }
-  },
-  "PLXNB1": {
-    "PDB_MULTI": {
-      "O43157": [
-        "3sua_D",
-        "3su8_X"
-      ]
-    }
-  },
-  "GNAO1": {
-    "PDB": {
-      "P09471": [
-        "6oik_A"
-      ]
-    },
-    "SWISS": {
-      "P09471": [
-        "GNAO1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P09471": [
-        "GNAO1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P09471": [
-        "6g79_A",
-        "6oik_A"
-      ]
-    }
-  },
-  "ARHGEF28": {
-    "PDB_MULTI": {
-      "Q8N1W1": [
-        "6bc1_C"
-      ]
-    }
-  },
-  "NSD2": {
-    "RAPTOR": {
-      "O96028": [
-        "NSD2"
-      ]
-    }
-  },
-  "HECW2": {
-    "RAPTOR": {
-      "Q9P2P5": [
-        "HECW2"
-      ]
-    }
-  },
-  "RGS14": {
-    "PDB_MULTI": {
-      "O43566": [
-        "3qi2_C",
-        "3onw_C",
-        "2om2_B",
-        "2xns_D"
-      ]
-    }
-  },
-  "RAC1": {
-    "PDB": {
-      "P63000": [
-        "1hh4_A"
-      ]
-    },
-    "SWISS": {
-      "P63000": [
-        "RAC1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P63000": [
-        "RAC1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P63000": [
-        "3b13_B",
-        "2p2l_A",
-        "4gzl_A",
-        "5fi0_B",
-        "5n6o_A",
-        "5qqj_A",
-        "1ryh_A",
-        "5qqe_A",
-        "1i4d_D",
-        "1hh4_A",
-        "3sua_A",
-        "5qu9_A",
-        "4yon_B",
-        "2fju_A",
-        "5qqd_A",
-        "1foe_B",
-        "4gzm_A",
-        "5qqf_A",
-        "3th5_A",
-        "1i4l_D",
-        "2nz8_A",
-        "5qqh_A",
-        "3su8_A",
-        "3sbd_A",
-        "2p2l_B",
-        "5qqg_A",
-        "5qqi_A",
-        "1i4t_D",
-        "5qql_A",
-        "6bc1_A",
-        "3b13_D",
-        "1e96_A",
-        "5qqk_A",
-        "5qqn_A",
-        "2h7v_A",
-        "2yin_D",
-        "3bji_D",
-        "1ryf_A",
-        "5qqm_A",
-        "1he1_C",
-        "2p2l_C"
-      ]
-    }
-  },
-  "SNRNP200": {
-    "PDB_MULTI": {
-      "O75643": [
-        "3jcr_C",
-        "5o9z_C",
-        "6ah0_D"
+      "P52732": [
+        "KIF11"
       ]
     }
   },
@@ -1662,259 +137,425 @@
       ]
     }
   },
-  "PSMC6": {
+  "PSMB2": {
     "PDB_MULTI": {
-      "P62333": [
-        "5t0j_E",
-        "5vft_E",
-        "5vhf_E",
-        "5t0h_E",
-        "5vhm_E",
-        "5vhp_E",
-        "5vhq_E",
-        "5vho_E",
-        "5vfr_E",
-        "5vhs_E",
-        "5t0i_E",
-        "5vhi_E",
-        "5vhj_E",
-        "5gjq_L",
-        "5t0g_E",
-        "5m32_f",
-        "5vhn_E",
-        "5ln3_L",
-        "5vhh_E",
-        "5vhr_E"
+      "P49721": [
+        "5t0g_Q",
+        "5gjq_r",
+        "5t0j_Q",
+        "5vft_Q",
+        "5t0i_Q",
+        "5m32_J",
+        "5ln3_4",
+        "5m32_X",
+        "5vfr_q",
+        "5gjq_d",
+        "5t0h_Q"
       ]
     }
   },
-  "KRAS": {
+  "EBF3": {
+    "SWISS": {
+      "Q9H4W6": [
+        "EBF3_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q9H4W6": [
+        "EBF3"
+      ]
+    }
+  },
+  "PSMC2": {
+    "PDB_MULTI": {
+      "P35998": [
+        "5vhj_A",
+        "5vhs_A",
+        "5vhh_A",
+        "5vhr_A",
+        "5vhf_A",
+        "5ln3_H",
+        "5vfr_A",
+        "5t0i_A",
+        "5gjq_H",
+        "5vft_A",
+        "5vhi_A",
+        "5vhp_A",
+        "5vhq_A",
+        "5vho_A",
+        "5m32_c",
+        "5vhn_A",
+        "5t0j_A",
+        "5t0g_A",
+        "5vhm_A",
+        "5t0h_A"
+      ]
+    }
+  },
+  "SCN2A": {
     "PDB": {
-      "P01116": [
-        "6cc9_B"
+      "Q99250": [
+        "6j8e_A"
       ]
     },
+    "PDB_MULTI": {
+      "Q99250": [
+        "6j8e_A"
+      ]
+    }
+  },
+  "TCF7L2": {
+    "PDB_MULTI": {
+      "Q9NQB0": [
+        "1jdh_B",
+        "2gl7_B",
+        "1jpw_D"
+      ]
+    }
+  },
+  "GNB2": {
     "SWISS": {
-      "P01116": [
-        "KRAS_C"
+      "P62879": [
+        "GNB2_B"
       ]
     },
     "RAPTOR": {
-      "P01116": [
-        "KRAS"
+      "P62879": [
+        "GNB2"
       ]
-    },
+    }
+  },
+  "WBP4": {
     "PDB_MULTI": {
-      "P01116": [
-        "6f76_B",
-        "6bof_B",
-        "4q01_A",
-        "5vpy_A",
-        "4lv6_B",
-        "6f76_E",
-        "5whb_A",
-        "5oct_A",
-        "4lrw_A",
-        "5v9l_A",
-        "6gog_B",
-        "6gqw_A",
-        "6ob2_A",
-        "6e6f_A",
-        "4lrw_B",
-        "6gog_F",
-        "4lyh_A",
-        "5oco_A",
-        "4lv6_A",
-        "6p8x_A",
-        "4luc_A",
-        "6f76_D",
-        "5vp7_A",
-        "4tq9_A",
-        "5v6v_B",
-        "5uk9_A",
-        "5ufq_B",
-        "6epl_R",
-        "6f76_A",
-        "6p8w_A",
-        "6p8y_A",
-        "6gj5_A",
-        "6fa1_F",
-        "4m22_A",
-        "5us4_A",
-        "5oct_F",
-        "6f76_F",
-        "4tqa_A",
-        "4pzy_A",
-        "5oco_D",
-        "5oct_E",
-        "5vq8_A",
-        "4m1y_A",
-        "4m1t_A",
-        "4m1o_A",
-        "6cc9_B",
-        "6mqn_A",
-        "5whd_A",
-        "5vq2_A",
-        "6epp_R",
-        "5o2s_A",
-        "5vq6_A",
-        "5wha_A",
-        "5whe_A",
-        "6gog_E",
-        "5vq1_A",
-        "6gqt_A",
-        "6ob3_A",
-        "6mbt_A",
-        "5oct_C",
-        "6fa1_A",
-        "4lyf_A",
-        "5uqw_A",
-        "6fa3_B",
-        "6gog_C",
-        "5kyk_A",
-        "6epm_R",
-        "4lyf_B",
-        "6p8z_A",
-        "6fa2_A",
-        "6gom_A",
-        "4lpk_A",
-        "6bof_A",
-        "6fa1_C",
-        "5tar_A",
-        "5usj_A",
-        "4lyh_C",
-        "5v9u_A",
-        "4m21_A",
-        "5v71_A",
-        "5tb5_A",
-        "6gog_A",
-        "6epn_R",
-        "6f76_C",
-        "6pgp_A",
-        "6gqx_A",
-        "4lyf_C",
-        "6mbu_A",
-        "6fa1_D",
-        "4m1s_A",
-        "5vq0_A",
-        "5oct_B",
-        "5w22_A",
-        "6epo_R",
-        "4lyh_B",
-        "6fa1_E",
-        "5mlb_A",
-        "5oct_D",
-        "6gqy_A",
-        "5vpz_A",
-        "5oco_B",
-        "4obe_A",
-        "6b0y_A",
-        "5wlb_A",
-        "5oco_C",
-        "5v6v_A",
-        "4luc_B",
-        "6gog_D",
-        "5vpi_A",
-        "5oco_E",
-        "5oco_F",
-        "6fa1_B",
-        "6pgo_A",
-        "4pzy_B",
-        "6ccx_B",
-        "6fa4_B",
-        "6p0z_A",
-        "6b0v_A",
-        "3gft_A",
-        "6cu6_A",
-        "6cch_B",
-        "4m1w_A"
+      "O75554": [
+        "5o9z_Q"
       ]
     }
   },
-  "TLK2": {
-    "RAPTOR": {
-      "Q86UE8": [
-        "TLK2"
-      ]
-    }
-  },
-  "PSMA6": {
+  "RICTOR": {
     "PDB_MULTI": {
-      "P60900": [
-        "5gjq_h",
-        "5gjq_B",
-        "5m32_U",
-        "5t0j_G",
-        "5t0i_G",
-        "5vfr_G",
-        "5t0g_G",
-        "5m32_G",
-        "5t0h_G",
-        "5vft_g",
-        "5ln3_A"
+      "Q6R327": [
+        "5zcs_F",
+        "5zcs_E"
       ]
     }
   },
-  "CUL4B": {
+  "TAB1": {
+    "PDB_MULTI": {
+      "Q15750": [
+        "4ay5_I",
+        "4ay6_E"
+      ]
+    }
+  },
+  "PPP2R5D": {
+    "SWISS": {
+      "Q14738": [
+        "PPP2R5D_B"
+      ]
+    }
+  },
+  "DDX23": {
     "PDB": {
-      "Q13620": [
-        "4a0l_E"
+      "Q9BUQ8": [
+        "3jcr_F",
+        "4nho_A",
+        "6ah0_X"
       ]
     },
     "SWISS": {
-      "Q13620": [
-        "CUL4B_C"
+      "Q9BUQ8": [
+        "DDX23_A"
       ]
     },
     "RAPTOR": {
-      "Q13620": [
-        "CUL4B"
+      "Q9BUQ8": [
+        "DDX23"
       ]
     },
     "PDB_MULTI": {
-      "Q13620": [
-        "4a0l_E",
-        "4a0c_E"
+      "Q9BUQ8": [
+        "3jcr_F",
+        "6ah0_X"
       ]
     }
   },
-  "WDR26": {
-    "RAPTOR": {
-      "Q9H7D7": [
-        "WDR26"
+  "PSMA2": {
+    "PDB_MULTI": {
+      "P25787": [
+        "5t0j_H",
+        "5m32_O",
+        "5t0g_H",
+        "5ln3_B",
+        "5gjq_C",
+        "5gjq_i",
+        "5m32_A",
+        "5t0i_H",
+        "5vft_h",
+        "5t0h_H",
+        "5vfr_h"
       ]
     }
   },
-  "CUL3": {
+  "ATP1A3": {
     "SWISS": {
-      "Q13618": [
-        "CUL3_A"
+      "P13637": [
+        "ATP1A3_A"
       ]
     },
     "RAPTOR": {
-      "Q13618": [
-        "CUL3"
+      "P13637": [
+        "ATP1A3"
       ]
     }
   },
-  "PLCB2": {
-    "PDB_MULTI": {
-      "Q00722": [
-        "2fju_B"
+  "OGT": {
+    "PDB": {
+      "O15294": [
+        "4xif_A",
+        "5npr_A",
+        "6ma3_A",
+        "5nps_A",
+        "6ma1_A",
+        "4gz3_A",
+        "6e37_A",
+        "6ma2_A",
+        "3pe3_A",
+        "5bnw_A",
+        "4gz6_A",
+        "4gyw_C",
+        "3tax_A",
+        "4xi9_A",
+        "5c1d_A",
+        "5vif_A",
+        "4n3c_A",
+        "4n3b_A",
+        "6q4m_A",
+        "4gz5_A",
+        "6ibo_A",
+        "4gyy_A",
+        "5lvv_A",
+        "5hgv_A",
+        "4ay5_A",
+        "4n3a_A",
+        "4ay6_A",
+        "3pe4_A",
+        "6ma5_A",
+        "4cdr_D",
+        "6ma4_A",
+        "5vie_C",
+        "4n39_A",
+        "5lwv_A"
       ]
-    }
-  },
-  "ARHGDIA": {
-    "PDB_MULTI": {
-      "P52565": [
-        "1hh4_D"
+    },
+    "SWISS": {
+      "O15294": [
+        "OGT_A"
       ]
-    }
-  },
-  "KCNQ3": {
+    },
     "RAPTOR": {
-      "O43525": [
-        "KCNQ3"
+      "O15294": [
+        "OGT"
+      ]
+    },
+    "PDB_MULTI": {
+      "O15294": [
+        "4xif_A",
+        "6ma3_A",
+        "6ma1_A",
+        "5vie_A",
+        "4gz3_A",
+        "6e37_A",
+        "6ma2_A",
+        "3pe3_A",
+        "5bnw_A",
+        "4gz6_A",
+        "4gyw_C",
+        "3tax_A",
+        "4xi9_A",
+        "3pe3_C",
+        "5c1d_A",
+        "5vif_A",
+        "4n3c_A",
+        "4n3b_A",
+        "4gz5_A",
+        "4gyy_A",
+        "5hgv_A",
+        "4ay5_A",
+        "4n3a_A",
+        "4ay6_A",
+        "3pe4_A",
+        "6ma5_A",
+        "4cdr_D",
+        "6ma4_A",
+        "5vie_C",
+        "4n39_A",
+        "5lwv_A",
+        "3pe3_B"
+      ]
+    }
+  },
+  "GRK2": {
+    "PDB_MULTI": {
+      "P25098": [
+        "5ukl_A",
+        "5he1_A",
+        "5ukk_A",
+        "4pnk_A"
+      ]
+    }
+  },
+  "SNRNP200": {
+    "PDB_MULTI": {
+      "O75643": [
+        "3jcr_C",
+        "6ah0_D",
+        "5o9z_C"
+      ]
+    }
+  },
+  "MCM2": {
+    "PDB_MULTI": {
+      "P49736": [
+        "5bnv_C",
+        "5ja4_C",
+        "5bnx_C",
+        "5bnv_F"
+      ]
+    }
+  },
+  "PSMB3": {
+    "PDB_MULTI": {
+      "P49720": [
+        "5m32_I",
+        "5vfr_p",
+        "5t0g_P",
+        "5t0h_P",
+        "5t0j_P",
+        "5m32_W",
+        "5vft_P",
+        "5gjq_q",
+        "5ln3_3",
+        "5gjq_c",
+        "5t0i_P"
+      ]
+    }
+  },
+  "CALCRL": {
+    "PDB_MULTI": {
+      "Q16602": [
+        "6e3y_R"
+      ]
+    }
+  },
+  "SNRPE": {
+    "PDB_MULTI": {
+      "P62304": [
+        "5o9z_U",
+        "5o9z_j",
+        "6ah0_R",
+        "6ah0_c",
+        "3jcr_s",
+        "6ah0_l",
+        "5o9z_c"
+      ]
+    }
+  },
+  "PPP2R1A": {
+    "PDB": {
+      "P30153": [
+        "3k7v_A",
+        "2pkg_A",
+        "2nym_A",
+        "4i5l_A",
+        "1b3u_A",
+        "2nyl_A",
+        "2npp_D",
+        "5w0w_A",
+        "2ie3_A",
+        "2ie4_A",
+        "4i5n_A",
+        "6iur_A",
+        "3dw8_A",
+        "3k7w_A"
+      ]
+    },
+    "SWISS": {
+      "P30153": [
+        "PPP2R1A_A"
+      ]
+    },
+    "RAPTOR": {
+      "P30153": [
+        "PPP2R1A"
+      ]
+    },
+    "PDB_MULTI": {
+      "P30153": [
+        "3k7v_A",
+        "4lac_A",
+        "2pkg_A",
+        "2nym_A",
+        "4i5l_A",
+        "1b3u_A",
+        "2nyl_A",
+        "2npp_D",
+        "5w0w_A",
+        "2ie3_A",
+        "2ie4_A",
+        "4i5n_A",
+        "6iur_A",
+        "6iur_B",
+        "3dw8_A",
+        "3k7w_A",
+        "3c5w_A"
+      ]
+    }
+  },
+  "EIF5A": {
+    "PDB": {
+      "P63241": [
+        "3cpf_A",
+        "5dlq_F"
+      ]
+    },
+    "SWISS": {
+      "P63241": [
+        "EIF5A_C"
+      ]
+    },
+    "RAPTOR": {
+      "P63241": [
+        "EIF5A"
+      ]
+    },
+    "PDB_MULTI": {
+      "P63241": [
+        "3cpf_A",
+        "5dlq_F"
+      ]
+    }
+  },
+  "PDHB": {
+    "PDB_MULTI": {
+      "P11177": [
+        "6cer_D",
+        "2ozl_B",
+        "6cfo_B",
+        "2ozl_D",
+        "3exe_D",
+        "3exh_B",
+        "3exg_D",
+        "1ni4_D",
+        "6cer_B",
+        "1ni4_B",
+        "3exf_D",
+        "3exf_B",
+        "3exg_B",
+        "3exh_D",
+        "6cfo_D",
+        "3exe_B",
+        "3exi_B"
       ]
     }
   },
@@ -1922,549 +563,8 @@
     "PDB_MULTI": {
       "Q9Y333": [
         "5o9z_o",
-        "3jcr_2",
-        "6ah0_q"
-      ]
-    }
-  },
-  "LCMT1": {
-    "PDB_MULTI": {
-      "Q9UIC8": [
-        "3p71_T"
-      ]
-    }
-  },
-  "PSMD4": {
-    "PDB_MULTI": {
-      "P55036": [
-        "5t0i_b",
-        "5t0j_b",
-        "5t0h_b",
-        "5t0g_b",
-        "5vfr_b",
-        "5vhi_b",
-        "5vhf_b",
-        "5vft_b",
-        "5vhs_b",
-        "5ln3_W",
-        "5gjq_W",
-        "5m32_p",
-        "5vhh_b"
-      ]
-    }
-  },
-  "KALRN": {
-    "PDB_MULTI": {
-      "O60229": [
-        "5qql_B",
-        "5qqd_B",
-        "5qqg_B",
-        "5qqk_B",
-        "5qqi_B",
-        "5qqn_B",
-        "5qu9_B",
-        "5qqj_B",
-        "5qqm_B",
-        "5qqe_B",
-        "5qqh_B",
-        "5qqf_B"
-      ]
-    }
-  },
-  "DNMT3A": {
-    "RAPTOR": {
-      "Q9Y6K1": [
-        "DNMT3A"
-      ]
-    }
-  },
-  "PSMD8": {
-    "PDB_MULTI": {
-      "P48556": [
-        "5vhh_d",
-        "5t0g_d",
-        "5t0i_d",
-        "5vhf_d",
-        "5vfr_d",
-        "5gjq_T",
-        "5ln3_T",
-        "5vft_d",
-        "5t0j_d",
-        "5vhi_d",
-        "5m32_r",
-        "5vhs_d",
-        "5t0h_d"
-      ]
-    }
-  },
-  "STRN3": {
-    "PDB_MULTI": {
-      "Q13033": [
-        "6iur_D",
-        "6iur_C"
-      ]
-    }
-  },
-  "PACS1": {
-    "RAPTOR": {
-      "Q6VY07": [
-        "PACS1"
-      ]
-    }
-  },
-  "UBB": {
-    "PDB_MULTI": {
-      "P0CG47": [
-        "5gjq_y",
-        "5jtv_B"
-      ]
-    }
-  },
-  "SNRPD2": {
-    "PDB_MULTI": {
-      "P62316": [
-        "5o9z_h",
-        "6ah0_a",
-        "5o9z_a",
-        "3jcr_q",
-        "5o9z_S",
-        "6ah0_P",
-        "6ah0_k"
-      ]
-    }
-  },
-  "PRPF4": {
-    "PDB_MULTI": {
-      "O43172": [
-        "6ah0_K",
-        "3jcr_L",
-        "5o9z_F"
-      ]
-    }
-  },
-  "EFTUD2": {
-    "PDB": {
-      "Q15029": [
-        "5mqf_B"
-      ]
-    },
-    "SWISS": {
-      "Q15029": [
-        "EFTUD2_I"
-      ]
-    },
-    "RAPTOR": {
-      "Q15029": [
-        "EFTUD2"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q15029": [
-        "5o9z_B",
-        "6ah0_C",
-        "3jcr_B"
-      ]
-    }
-  },
-  "PSMD14": {
-    "PDB_MULTI": {
-      "O00487": [
-        "5t0j_c",
-        "5t0i_c",
-        "5gjq_V",
-        "5vhh_c",
-        "5vft_c",
-        "5ln3_V",
-        "5vhs_c",
-        "5vhi_c",
-        "5t0h_c",
-        "5t0g_c",
-        "5vfr_c",
-        "5vhf_c",
-        "5m32_q"
-      ]
-    }
-  },
-  "PSMA7": {
-    "PDB_MULTI": {
-      "O14818": [
-        "5gjq_E",
-        "5gjq_k",
-        "5vfr_j",
-        "5ln3_D",
-        "5t0i_J",
-        "5t0g_J",
-        "5vft_j",
-        "5t0j_J",
-        "5m32_C",
-        "5t0h_J",
-        "5m32_Q"
-      ]
-    }
-  },
-  "SF3B2": {
-    "PDB_MULTI": {
-      "Q13435": [
-        "6ah0_2"
-      ]
-    }
-  },
-  "SNU13": {
-    "PDB_MULTI": {
-      "P55769": [
-        "3jcr_I",
-        "6ah0_M",
-        "5o9z_O"
-      ]
-    }
-  },
-  "PSMC2": {
-    "PDB_MULTI": {
-      "P35998": [
-        "5t0g_A",
-        "5vhf_A",
-        "5t0i_A",
-        "5vhs_A",
-        "5vhi_A",
-        "5vhp_A",
-        "5ln3_H",
-        "5gjq_H",
-        "5vhr_A",
-        "5vho_A",
-        "5vfr_A",
-        "5vhj_A",
-        "5vhh_A",
-        "5vhn_A",
-        "5vft_A",
-        "5t0j_A",
-        "5m32_c",
-        "5vhq_A",
-        "5t0h_A",
-        "5vhm_A"
-      ]
-    }
-  },
-  "SF3B1": {
-    "PDB_MULTI": {
-      "O75533": [
-        "6ah0_1",
-        "5o9z_v"
-      ]
-    }
-  },
-  "SF3A2": {
-    "PDB_MULTI": {
-      "Q15428": [
-        "6ah0_v"
-      ]
-    }
-  },
-  "CHRM1": {
-    "PDB_MULTI": {
-      "P11229": [
-        "6oij_R"
-      ]
-    }
-  },
-  "PTPN11": {
-    "PDB": {
-      "Q06124": [
-        "5xzr_A"
-      ]
-    },
-    "SWISS": {
-      "Q06124": [
-        "PTPN11_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q06124": [
-        "PTPN11"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q06124": [
-        "6atd_A",
-        "5i6v_A",
-        "4gwf_A",
-        "6mda_A",
-        "6ihz_B",
-        "6crg_A",
-        "4nwg_A",
-        "6bmu_A",
-        "6bmw_A",
-        "2shp_A",
-        "5ibm_A",
-        "5ehr_A",
-        "6cmp_A",
-        "6bmx_A",
-        "6bmr_A",
-        "5ibs_A",
-        "6bmv_A",
-        "6mdd_A",
-        "4nwf_A",
-        "6bmy_A",
-        "6mdc_A",
-        "6ihz_A",
-        "6cmq_A",
-        "6crf_A",
-        "6md7_A",
-        "5ehp_A",
-        "6mdb_A",
-        "4ohl_A",
-        "6bn5_A",
-        "6md9_A"
-      ]
-    }
-  },
-  "SMO": {
-    "PDB_MULTI": {
-      "Q99835": [
-        "6ot0_R"
-      ]
-    }
-  },
-  "SATB2": {
-    "RAPTOR": {
-      "Q9UPW6": [
-        "SATB2"
-      ]
-    }
-  },
-  "SYNCRIP": {
-    "RAPTOR": {
-      "O60506": [
-        "SYNCRIP"
-      ]
-    }
-  },
-  "PPP3R1": {
-    "PDB_MULTI": {
-      "P63098": [
-        "6nuc_B",
-        "2p6b_B",
-        "1mf8_B",
-        "2p6b_D",
-        "1aui_B",
-        "4f0z_B",
-        "6nuf_B",
-        "6nuu_B",
-        "5sve_B",
-        "3ll8_B",
-        "1m63_F",
-        "1m63_B"
-      ]
-    }
-  },
-  "CNR1": {
-    "PDB_MULTI": {
-      "P21554": [
-        "6n4b_R"
-      ]
-    }
-  },
-  "PSMB2": {
-    "PDB_MULTI": {
-      "P49721": [
-        "5vft_Q",
-        "5m32_J",
-        "5t0j_Q",
-        "5t0h_Q",
-        "5t0i_Q",
-        "5m32_X",
-        "5ln3_4",
-        "5t0g_Q",
-        "5gjq_r",
-        "5gjq_d",
-        "5vfr_q"
-      ]
-    }
-  },
-  "SF3A3": {
-    "PDB_MULTI": {
-      "Q12874": [
-        "6ah0_w"
-      ]
-    }
-  },
-  "DDX3X": {
-    "PDB": {
-      "O00571": [
-        "4pxa_A"
-      ]
-    },
-    "SWISS": {
-      "O00571": [
-        "DDX3X_A"
-      ]
-    },
-    "RAPTOR": {
-      "O00571": [
-        "DDX3X"
-      ]
-    },
-    "PDB_MULTI": {
-      "O00571": [
-        "6o5f_A",
-        "5e7i_B",
-        "6o5f_B"
-      ]
-    }
-  },
-  "SMC1A": {
-    "RAPTOR": {
-      "Q14683": [
-        "SMC1A"
-      ]
-    }
-  },
-  "RBL2": {
-    "PDB_MULTI": {
-      "Q08999": [
-        "4xi9_E",
-        "5c1d_C"
-      ]
-    }
-  },
-  "PSMD7": {
-    "PDB_MULTI": {
-      "P51665": [
-        "5gjq_U",
-        "5vft_Z",
-        "5t0i_Z",
-        "5vhh_Z",
-        "5vhi_Z",
-        "5vhs_Z",
-        "5ln3_U",
-        "5t0j_Z",
-        "5vfr_Z",
-        "5vhf_Z",
-        "5m32_n",
-        "5t0h_Z",
-        "5t0g_Z"
-      ]
-    }
-  },
-  "CALCA": {
-    "PDB_MULTI": {
-      "P06881": [
-        "6e3y_P"
-      ]
-    }
-  },
-  "ARHGAP35": {
-    "RAPTOR": {
-      "Q9NRY4": [
-        "ARHGAP35"
-      ]
-    }
-  },
-  "NAA15": {
-    "PDB": {
-      "Q9BXJ9": [
-        "6c95_A"
-      ]
-    },
-    "SWISS": {
-      "Q9BXJ9": [
-        "NAA15_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q9BXJ9": [
-        "NAA15"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q9BXJ9": [
-        "6c95_A",
-        "6c9m_A"
-      ]
-    }
-  },
-  "CDK8": {
-    "PDB": {
-      "P49336": [
-        "5xs2_A"
-      ]
-    },
-    "SWISS": {
-      "P49336": [
-        "CDK8_A"
-      ]
-    },
-    "RAPTOR": {
-      "P49336": [
-        "CDK8"
-      ]
-    },
-    "PDB_MULTI": {
-      "P49336": [
-        "4f6s_A",
-        "4f70_A",
-        "5hbe_A",
-        "4g6l_A",
-        "4crl_A",
-        "5idn_A",
-        "4f7l_A",
-        "5icp_A",
-        "5hvy_A",
-        "5hbj_A",
-        "4f6w_A",
-        "4f6u_A",
-        "5bnj_A",
-        "4f7s_A",
-        "5fgk_A",
-        "4f7n_A",
-        "3rgf_A",
-        "5xqx_A",
-        "4f7j_A",
-        "5i5z_A",
-        "5cei_A",
-        "5hnb_A",
-        "5idp_A",
-        "5hbh_A",
-        "5xs2_A"
-      ]
-    }
-  },
-  "PTEN": {
-    "PDB": {
-      "P60484": [
-        "5bug_A"
-      ]
-    },
-    "SWISS": {
-      "P60484": [
-        "PTEN_A"
-      ]
-    },
-    "RAPTOR": {
-      "P60484": [
-        "PTEN"
-      ]
-    },
-    "PDB_MULTI": {
-      "P60484": [
-        "5bug_A",
-        "5bzz_A",
-        "5bzx_A"
-      ]
-    }
-  },
-  "H2AZ1": {
-    "PDB_MULTI": {
-      "P0C0S5": [
-        "5b33_C",
-        "5b32_G",
-        "5b33_G"
-      ]
-    }
-  },
-  "GRIN2B": {
-    "SWISS": {
-      "Q13224": [
-        "GRIN2B_C"
+        "6ah0_q",
+        "3jcr_2"
       ]
     }
   },
@@ -2475,42 +575,146 @@
       ]
     }
   },
-  "RGS1": {
-    "PDB_MULTI": {
-      "Q08116": [
-        "2gtp_D"
+  "CACNA1G": {
+    "RAPTOR": {
+      "O43497": [
+        "CACNA1G"
       ]
     }
   },
-  "PPP2R2A": {
+  "PPME1": {
     "PDB_MULTI": {
-      "P63151": [
-        "3dw8_B"
+      "Q9Y570": [
+        "3c5w_P"
       ]
     }
   },
-  "PSMA1": {
-    "PDB_MULTI": {
-      "P25786": [
-        "5t0j_L",
-        "5m32_S",
-        "5t0g_L",
-        "5m32_E",
-        "5t0i_L",
-        "5ln3_F",
-        "5vft_l",
-        "5gjq_G",
-        "5vfr_l",
-        "5gjq_m",
-        "5t0h_L"
+  "ARHGAP35": {
+    "RAPTOR": {
+      "Q9NRY4": [
+        "ARHGAP35"
       ]
     }
   },
-  "SNRPA1": {
+  "CSNK2B": {
+    "PDB": {
+      "P67870": [
+        "1jwh_D",
+        "4nh1_C",
+        "3eed_A",
+        "4dgl_B",
+        "4md8_A",
+        "1qf8_A",
+        "4md7_A",
+        "4md9_A"
+      ]
+    },
+    "SWISS": {
+      "P67870": [
+        "CSNK2B_A"
+      ]
+    },
+    "RAPTOR": {
+      "P67870": [
+        "CSNK2B"
+      ]
+    },
     "PDB_MULTI": {
-      "P09661": [
-        "6ah0_o",
-        "5o9z_z"
+      "P67870": [
+        "4md7_B",
+        "1jwh_C",
+        "1jwh_D",
+        "4nh1_C",
+        "3eed_A",
+        "4nh1_D",
+        "4md8_B",
+        "4dgl_B",
+        "4md9_B",
+        "4md8_A",
+        "1qf8_A",
+        "3eed_B",
+        "6q38_C",
+        "4md7_A",
+        "4md9_A",
+        "4dgl_A",
+        "1qf8_B"
+      ]
+    }
+  },
+  "GNG2": {
+    "PDB_MULTI": {
+      "P59768": [
+        "6g79_G"
+      ]
+    }
+  },
+  "SYNCRIP": {
+    "RAPTOR": {
+      "O60506": [
+        "SYNCRIP"
+      ]
+    }
+  },
+  "SNRPD3": {
+    "PDB_MULTI": {
+      "P62318": [
+        "5o9z_l",
+        "6ah0_T",
+        "6ah0_e",
+        "5o9z_W",
+        "6ah0_h",
+        "5o9z_e",
+        "3jcr_r"
+      ]
+    }
+  },
+  "SF3B3": {
+    "PDB_MULTI": {
+      "Q15393": [
+        "5o9z_w",
+        "6ah0_3"
+      ]
+    }
+  },
+  "PPP2R5C": {
+    "PDB_MULTI": {
+      "Q13362": [
+        "2nym_B",
+        "2iae_B",
+        "3fga_B",
+        "2nyl_B",
+        "2npp_E"
+      ]
+    }
+  },
+  "PSMB5": {
+    "PDB_MULTI": {
+      "P28074": [
+        "5gjq_s",
+        "5ln3_5",
+        "5t0g_R",
+        "5t0i_R",
+        "5gjq_e",
+        "5vfr_r",
+        "5m32_Y",
+        "5m32_K",
+        "5t0h_R",
+        "5t0j_R",
+        "5vft_R"
+      ]
+    }
+  },
+  "SPTAN1": {
+    "RAPTOR": {
+      "Q13813": [
+        "SPTAN1"
+      ]
+    }
+  },
+  "TRIP12": {
+    "RAPTOR": {
+      "Q14669": [
+        "TRIP12"
       ]
     }
   },
@@ -2537,87 +741,2160 @@
       ]
     }
   },
-  "CENPA": {
+  "SF3A3": {
     "PDB_MULTI": {
-      "P49450": [
-        "3wtp_A"
+      "Q12874": [
+        "6ah0_w"
       ]
     }
   },
-  "HYPK": {
+  "SF3B2": {
     "PDB_MULTI": {
-      "Q9NX55": [
-        "6c95_D"
+      "Q13435": [
+        "6ah0_2"
+      ]
+    }
+  },
+  "SMO": {
+    "PDB_MULTI": {
+      "Q99835": [
+        "6ot0_R"
+      ]
+    }
+  },
+  "VAV1": {
+    "PDB_MULTI": {
+      "P15498": [
+        "3bji_A"
+      ]
+    }
+  },
+  "KIF1A": {
+    "RAPTOR": {
+      "Q12756": [
+        "KIF1A"
+      ]
+    }
+  },
+  "GNA11": {
+    "PDB_MULTI": {
+      "P29992": [
+        "6oij_A"
+      ]
+    }
+  },
+  "CTNNBIP1": {
+    "PDB_MULTI": {
+      "Q9NSA3": [
+        "1t08_B"
+      ]
+    }
+  },
+  "SYNGAP1": {
+    "RAPTOR": {
+      "Q96PV0": [
+        "SYNGAP1"
+      ]
+    }
+  },
+  "CTNNB1": {
+    "PDB": {
+      "P35222": [
+        "2gl7_A",
+        "1g3j_A",
+        "1t08_A",
+        "1qz7_A",
+        "1jdh_A",
+        "4djs_A",
+        "2z6h_A",
+        "1luj_A",
+        "1th1_A",
+        "1jpw_A",
+        "3tx7_A"
+      ]
+    },
+    "SWISS": {
+      "P35222": [
+        "CTNNB1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P35222": [
+        "CTNNB1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P35222": [
+        "2gl7_A",
+        "1g3j_A",
+        "1t08_A",
+        "1jdh_A",
+        "1th1_A",
+        "1jpw_A",
+        "3tx7_A"
+      ]
+    }
+  },
+  "VCP": {
+    "PDB": {
+      "P55072": [
+        "5ifw_B",
+        "5kiw_B",
+        "3hu2_A",
+        "4kln_A",
+        "3hu1_A",
+        "5ftl_A",
+        "5kiy_A",
+        "5c18_C",
+        "5dyi_A",
+        "4ko8_A",
+        "5ftk_A",
+        "3hu3_A",
+        "6hd0_A",
+        "5ftm_A",
+        "4kod_B",
+        "5c1b_A",
+        "5ftj_A",
+        "5c19_A",
+        "6mck_A",
+        "5dyg_A",
+        "5ifs_B",
+        "5ftn_A"
+      ]
+    },
+    "SWISS": {
+      "P55072": [
+        "VCP_A"
+      ]
+    },
+    "RAPTOR": {
+      "P55072": [
+        "VCP"
+      ]
+    },
+    "PDB_MULTI": {
+      "P55072": [
+        "5ifw_B",
+        "5ftk_D",
+        "3hu2_C",
+        "6mck_C",
+        "6mck_F",
+        "4kln_D",
+        "5c18_C",
+        "5ftm_B",
+        "4ko8_A",
+        "3hu3_A",
+        "5c1b_C",
+        "3hu2_F",
+        "5ftj_F",
+        "5c18_A",
+        "5ftl_C",
+        "5c19_E",
+        "4kod_A",
+        "5ftj_A",
+        "6mck_I",
+        "5ftj_C",
+        "5c19_D",
+        "6mck_A",
+        "5ftn_D",
+        "6mck_D",
+        "4kln_E",
+        "6hd0_V",
+        "5ftj_E",
+        "4kod_C",
+        "3hu1_C",
+        "3hu1_F",
+        "4kod_E",
+        "5kiy_A",
+        "5c1b_E",
+        "5ftn_B",
+        "5ftk_F",
+        "6mck_K",
+        "5c19_F",
+        "5dyi_A",
+        "6hd0_T",
+        "6hd0_U",
+        "3hu2_E",
+        "6hd0_A",
+        "4ko8_B",
+        "5ftm_A",
+        "5ftk_B",
+        "5ftn_E",
+        "4kod_F",
+        "5ftl_E",
+        "5c19_A",
+        "3hu3_B",
+        "5ftj_B",
+        "5ftl_D",
+        "5kiw_B",
+        "5ftk_C",
+        "5dyi_E",
+        "3hu1_B",
+        "5ftn_F",
+        "6mck_J",
+        "6mck_G",
+        "5ftm_D",
+        "6mck_H",
+        "6mck_B",
+        "5ifs_D",
+        "4kln_F",
+        "5c1b_F",
+        "5dyi_B",
+        "5ftm_C",
+        "5dyi_F",
+        "4kod_B",
+        "5c18_F",
+        "5ftl_F",
+        "6mck_E",
+        "6mck_L",
+        "3hu1_D",
+        "5ftn_A",
+        "3hu1_E",
+        "6hd0_C",
+        "4kod_D",
+        "3hu2_A",
+        "4kln_A",
+        "4kln_C",
+        "3hu1_A",
+        "5ftl_B",
+        "3hu2_D",
+        "5ftm_E",
+        "5ftl_A",
+        "5dyi_C",
+        "5kiw_A",
+        "5c18_B",
+        "4kln_B",
+        "5c1b_B",
+        "5ftk_A",
+        "3hu2_B",
+        "6hd0_B",
+        "5c18_E",
+        "5dyi_D",
+        "5c1b_D",
+        "5c1b_A",
+        "5ftj_D",
+        "5ftk_E",
+        "5ftm_F",
+        "5c18_D",
+        "5ftn_C",
+        "5ifs_B",
+        "5c19_B",
+        "5c19_C"
+      ]
+    }
+  },
+  "SATB2": {
+    "RAPTOR": {
+      "Q9UPW6": [
+        "SATB2"
+      ]
+    }
+  },
+  "PACS2": {
+    "RAPTOR": {
+      "Q86VP3": [
+        "PACS2"
+      ]
+    }
+  },
+  "ARHGEF9": {
+    "SWISS": {
+      "O43307": [
+        "ARHGEF9_A"
+      ]
+    },
+    "RAPTOR": {
+      "O43307": [
+        "ARHGEF9"
+      ]
+    }
+  },
+  "PSMC6": {
+    "PDB_MULTI": {
+      "P62333": [
+        "5vhh_E",
+        "5vhi_E",
+        "5vhs_E",
+        "5t0g_E",
+        "5vhj_E",
+        "5gjq_L",
+        "5vhr_E",
+        "5t0j_E",
+        "5t0i_E",
+        "5vhq_E",
+        "5vhm_E",
+        "5vfr_E",
+        "5m32_f",
+        "5vho_E",
+        "5vhf_E",
+        "5vhp_E",
+        "5ln3_L",
+        "5t0h_E",
+        "5vft_E",
+        "5vhn_E"
+      ]
+    }
+  },
+  "SEM1": {
+    "PDB_MULTI": {
+      "P60896": [
+        "5m32_s",
+        "5vhs_e",
+        "5t0j_e",
+        "5vhi_e",
+        "5t0g_e",
+        "5vhf_e",
+        "5t0i_e",
+        "5t0h_e",
+        "5gjq_Y",
+        "5ln3_Y",
+        "5vft_e",
+        "5vfr_e",
+        "5vhh_e"
+      ]
+    }
+  },
+  "DLG4": {
+    "RAPTOR": {
+      "P78352": [
+        "DLG4"
+      ]
+    }
+  },
+  "DPYSL5": {
+    "PDB": {
+      "Q9BPU6": [
+        "4b90_A",
+        "4b92_A",
+        "4b91_B"
+      ]
+    },
+    "SWISS": {
+      "Q9BPU6": [
+        "DPYSL5_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q9BPU6": [
+        "DPYSL5"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q9BPU6": [
+        "4b90_A",
+        "4b92_A",
+        "4b91_A",
+        "4b92_B",
+        "4b90_B",
+        "4b91_B"
+      ]
+    }
+  },
+  "DDB1": {
+    "PDB_MULTI": {
+      "Q16531": [
+        "4a0l_A"
+      ]
+    }
+  },
+  "MFAP1": {
+    "PDB_MULTI": {
+      "P55081": [
+        "5o9z_K"
+      ]
+    }
+  },
+  "AP1B1": {
+    "PDB_MULTI": {
+      "Q10567": [
+        "6d83_B",
+        "6dff_B",
+        "6cri_B",
+        "6cri_J",
+        "4hmy_B",
+        "6cm9_B",
+        "6cri_I",
+        "6d84_B",
+        "6d84_F"
+      ]
+    }
+  },
+  "EEF2": {
+    "SWISS": {
+      "P13639": [
+        "EEF2_A"
+      ]
+    },
+    "RAPTOR": {
+      "P13639": [
+        "EEF2"
+      ]
+    }
+  },
+  "PURA": {
+    "RAPTOR": {
+      "Q00577": [
+        "PURA"
+      ]
+    }
+  },
+  "CHD8": {
+    "RAPTOR": {
+      "Q9HCK8": [
+        "CHD8"
+      ]
+    }
+  },
+  "PIK3CA": {
+    "PDB": {
+      "P42336": [
+        "5xgh_A",
+        "5sxf_A",
+        "4tuu_A",
+        "4l2y_A",
+        "4tv3_A",
+        "4l23_A",
+        "5itd_A",
+        "5sxa_A",
+        "5ukj_A",
+        "4ovu_A",
+        "4waf_A",
+        "5ul1_A",
+        "5sx9_A",
+        "5sxd_A",
+        "6oac_A",
+        "6gvf_A",
+        "3hhm_A",
+        "4l1b_A",
+        "5sw8_A",
+        "5swr_A",
+        "5sx8_A",
+        "3zim_A",
+        "5fi4_A",
+        "2rd0_A",
+        "5swp_A",
+        "5sxb_A",
+        "5sxe_A",
+        "6pys_A",
+        "5swg_A",
+        "4ovv_A",
+        "5xgj_A",
+        "4jps_A",
+        "5sxi_A",
+        "3hiz_A",
+        "5xgi_A",
+        "5uk8_A",
+        "5swt_A",
+        "6gvi_A",
+        "5swo_A",
+        "5dxh_A",
+        "5dxt_A",
+        "5sxj_A",
+        "6gvh_A",
+        "4zop_A",
+        "5sxc_A",
+        "5ubr_A",
+        "6nct_A",
+        "4ykn_A",
+        "6gvg_A",
+        "5sxk_A"
+      ]
+    },
+    "SWISS": {
+      "P42336": [
+        "PIK3CA_A"
+      ]
+    },
+    "PDB_MULTI": {
+      "P42336": [
+        "5xgh_A",
+        "5sxf_A",
+        "4l2y_A",
+        "5sxa_A",
+        "4l23_A",
+        "5itd_A",
+        "5ukj_A",
+        "4ovu_A",
+        "4waf_A",
+        "5ul1_A",
+        "5sx9_A",
+        "5sxd_A",
+        "3hhm_A",
+        "4l1b_A",
+        "5sw8_A",
+        "5swr_A",
+        "5sx8_A",
+        "5fi4_A",
+        "2rd0_A",
+        "5swp_A",
+        "5sxb_A",
+        "5sxe_A",
+        "5swg_A",
+        "4ovv_A",
+        "5xgj_A",
+        "4jps_A",
+        "5sxi_A",
+        "3hiz_A",
+        "5xgi_A",
+        "5uk8_A",
+        "5swt_A",
+        "5swo_A",
+        "5dxh_A",
+        "5sxj_A",
+        "4zop_A",
+        "5sxc_A",
+        "6nct_A",
+        "4ykn_A",
+        "5sxk_A"
+      ]
+    }
+  },
+  "HCFC1": {
+    "PDB_MULTI": {
+      "P51610": [
+        "4n3c_B",
+        "6ma4_B",
+        "6ma3_B",
+        "4n39_B",
+        "4n3a_B",
+        "6ma5_B",
+        "6ma2_B",
+        "6ma1_B",
+        "5lwv_A",
+        "4n3b_B"
+      ]
+    }
+  },
+  "CUL4B": {
+    "PDB": {
+      "Q13620": [
+        "4a0l_E",
+        "4a0c_E"
+      ]
+    },
+    "SWISS": {
+      "Q13620": [
+        "CUL4B_C"
+      ]
+    },
+    "RAPTOR": {
+      "Q13620": [
+        "CUL4B"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q13620": [
+        "4a0l_E",
+        "4a0c_E"
+      ]
+    }
+  },
+  "USP9X": {
+    "RAPTOR": {
+      "Q93008": [
+        "USP9X"
+      ]
+    }
+  },
+  "NAA15": {
+    "PDB": {
+      "Q9BXJ9": [
+        "6c9m_A",
+        "6c95_A"
+      ]
+    },
+    "SWISS": {
+      "Q9BXJ9": [
+        "NAA15_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q9BXJ9": [
+        "NAA15"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q9BXJ9": [
+        "6c9m_A",
+        "6c95_A"
+      ]
+    }
+  },
+  "GABRG2": {
+    "PDB_MULTI": {
+      "P18507": [
+        "6hup_C",
+        "6d6t_E",
+        "6huo_C",
+        "6huk_C",
+        "6huj_C",
+        "6d6u_E",
+        "6i53_C",
+        "6hug_C"
+      ]
+    }
+  },
+  "SNRPB2": {
+    "PDB_MULTI": {
+      "P08579": [
+        "5o9z_1",
+        "6ah0_p"
+      ]
+    }
+  },
+  "USP7": {
+    "PDB": {
+      "Q93009": [
+        "5fwi_C",
+        "5jtv_A",
+        "5j7t_A"
+      ]
+    },
+    "SWISS": {
+      "Q93009": [
+        "USP7_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q93009": [
+        "USP7"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q93009": [
+        "5jtv_A"
+      ]
+    }
+  },
+  "UBB": {
+    "PDB_MULTI": {
+      "P0CG47": [
+        "5jtv_B",
+        "5gjq_y"
+      ]
+    }
+  },
+  "ZEB2": {
+    "RAPTOR": {
+      "O60315": [
+        "ZEB2"
+      ]
+    }
+  },
+  "SELENOS": {
+    "PDB_MULTI": {
+      "Q9BQE4": [
+        "5kiw_D",
+        "5kiw_C",
+        "5kiy_B"
+      ]
+    }
+  },
+  "PDE6D": {
+    "PDB_MULTI": {
+      "O43924": [
+        "5tb5_B",
+        "5tar_B"
+      ]
+    }
+  },
+  "SATB1": {
+    "RAPTOR": {
+      "Q01826": [
+        "SATB1"
+      ]
+    }
+  },
+  "PDHA1": {
+    "PDB": {
+      "P08559": [
+        "2ozl_A",
+        "3exh_C",
+        "6cfo_A",
+        "3exe_A",
+        "6cer_A",
+        "1ni4_A",
+        "3exi_A",
+        "3exf_A",
+        "3exg_A"
+      ]
+    },
+    "SWISS": {
+      "P08559": [
+        "PDHA1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P08559": [
+        "PDHA1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P08559": [
+        "2ozl_A",
+        "3exh_C",
+        "6cfo_A",
+        "3exe_A",
+        "1ni4_C",
+        "3exh_A",
+        "2ozl_C",
+        "3exe_C",
+        "6cer_A",
+        "1ni4_A",
+        "3exf_C",
+        "3exi_A",
+        "6cer_C",
+        "6cfo_C",
+        "3exf_A",
+        "3exg_A",
+        "3exg_C"
+      ]
+    }
+  },
+  "NCF2": {
+    "PDB_MULTI": {
+      "P19878": [
+        "1e96_B"
+      ]
+    }
+  },
+  "SNRPD2": {
+    "PDB_MULTI": {
+      "P62316": [
+        "5o9z_S",
+        "6ah0_k",
+        "3jcr_q",
+        "5o9z_a",
+        "5o9z_h",
+        "6ah0_a",
+        "6ah0_P"
+      ]
+    }
+  },
+  "ADORA2A": {
+    "PDB_MULTI": {
+      "P29274": [
+        "6gdg_A"
+      ]
+    }
+  },
+  "RAN": {
+    "PDB_MULTI": {
+      "P62826": [
+        "5dlq_C"
+      ]
+    }
+  },
+  "SF3A1": {
+    "PDB_MULTI": {
+      "Q15459": [
+        "6ah0_u"
+      ]
+    }
+  },
+  "NR5A2": {
+    "PDB_MULTI": {
+      "O00482": [
+        "3tx7_B"
+      ]
+    }
+  },
+  "PSMD10": {
+    "PDB_MULTI": {
+      "O75832": [
+        "5vhr_G",
+        "5vhm_G",
+        "5vhi_G",
+        "5vhh_G",
+        "5vhn_G",
+        "5vhj_G",
+        "5vhq_G",
+        "5vhf_G",
+        "5vhp_G",
+        "5vho_G"
+      ]
+    }
+  },
+  "SNRPA1": {
+    "PDB_MULTI": {
+      "P09661": [
+        "6ah0_o",
+        "5o9z_z"
+      ]
+    }
+  },
+  "PSMA3": {
+    "PDB_MULTI": {
+      "P25788": [
+        "5t0i_M",
+        "5t0g_M",
+        "5vfr_m",
+        "5vft_m",
+        "5t0j_M",
+        "5ln3_G",
+        "5m32_T",
+        "5t0h_M",
+        "5gjq_n",
+        "5m32_F",
+        "5gjq_X"
+      ]
+    }
+  },
+  "NSD2": {
+    "RAPTOR": {
+      "O96028": [
+        "NSD2"
+      ]
+    }
+  },
+  "PSMD8": {
+    "PDB_MULTI": {
+      "P48556": [
+        "5ln3_T",
+        "5vhi_d",
+        "5t0j_d",
+        "5t0i_d",
+        "5vft_d",
+        "5gjq_T",
+        "5vhf_d",
+        "5m32_r",
+        "5t0h_d",
+        "5vfr_d",
+        "5vhs_d",
+        "5vhh_d",
+        "5t0g_d"
+      ]
+    }
+  },
+  "PRPF31": {
+    "PDB_MULTI": {
+      "Q8WWY3": [
+        "6ah0_L",
+        "3jcr_J",
+        "5o9z_H"
       ]
     }
   },
   "DAXX": {
     "PDB_MULTI": {
       "Q9UER7": [
-        "4h9n_C",
         "4h9o_C",
         "4h9p_C",
-        "4h9s_F",
+        "4h9n_C",
+        "5kdm_C",
+        "4hga_A",
         "4h9q_C",
         "4h9r_C",
-        "4hga_A",
-        "5kdm_C"
+        "4h9s_F"
       ]
     }
   },
-  "SLC9A1": {
+  "SMU1": {
     "PDB_MULTI": {
-      "P19634": [
-        "6nuc_C",
-        "6nuf_C",
-        "6nuu_C"
+      "Q2TAY7": [
+        "5o9z_L"
       ]
     }
   },
-  "U2AF2": {
+  "KCNQ3": {
     "RAPTOR": {
-      "P26368": [
-        "U2AF2"
+      "O43525": [
+        "KCNQ3"
       ]
     }
   },
-  "CAMK2B": {
+  "UPF1": {
+    "PDB": {
+      "Q92900": [
+        "2wjv_A",
+        "2wjy_A",
+        "2xzo_A",
+        "6ej5_A",
+        "2gk6_A",
+        "2gjk_A",
+        "2xzp_A",
+        "2gk7_A"
+      ]
+    },
+    "SWISS": {
+      "Q92900": [
+        "UPF1_A"
+      ]
+    },
     "RAPTOR": {
-      "Q13554": [
-        "CAMK2B"
+      "Q92900": [
+        "UPF1"
       ]
-    }
-  },
-  "ATP6V0A1": {
-    "RAPTOR": {
-      "Q93050": [
-        "ATP6V0A1"
-      ]
-    }
-  },
-  "PSMD3": {
+    },
     "PDB_MULTI": {
-      "O43242": [
-        "5vhi_V",
-        "5t0j_V",
-        "5t0g_V",
-        "5t0h_V",
-        "5vft_V",
-        "5vhh_V",
-        "5vhs_V",
-        "5vfr_V",
-        "5ln3_S",
-        "5t0i_V",
-        "5vhf_V",
-        "5gjq_S",
-        "5m32_j"
+      "Q92900": [
+        "2wjv_A",
+        "2gk6_A"
+      ]
+    }
+  },
+  "UBTF": {
+    "RAPTOR": {
+      "P17480": [
+        "UBTF"
+      ]
+    }
+  },
+  "LSM3": {
+    "PDB_MULTI": {
+      "P62310": [
+        "6ah0_r",
+        "5o9z_p",
+        "3jcr_3"
+      ]
+    }
+  },
+  "STAG2": {
+    "PDB": {
+      "Q8N3U4": [
+        "4pjw_A",
+        "4pju_A",
+        "4pk7_A"
+      ]
+    },
+    "SWISS": {
+      "Q8N3U4": [
+        "STAG2_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q8N3U4": [
+        "STAG2"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q8N3U4": [
+        "4pjw_A",
+        "4pju_A",
+        "4pk7_A"
+      ]
+    }
+  },
+  "SMARCB1": {
+    "RAPTOR": {
+      "Q12824": [
+        "SMARCB1"
+      ]
+    }
+  },
+  "RAB11FIP1": {
+    "PDB_MULTI": {
+      "Q6WKZ4": [
+        "4d0g_C"
+      ]
+    }
+  },
+  "HDAC8": {
+    "PDB": {
+      "Q9BY41": [
+        "5dc7_A",
+        "1vkg_A",
+        "3f0r_A",
+        "4qa5_A",
+        "6hsk_A",
+        "4qa0_A",
+        "3f07_A",
+        "2v5w_A",
+        "3f06_A",
+        "3sff_A",
+        "3mz3_A",
+        "1t69_A",
+        "5bwz_A",
+        "3rqd_A",
+        "4qa7_A",
+        "5d1c_A",
+        "5d1d_A",
+        "5dc5_A",
+        "3mz7_A",
+        "3ezt_A",
+        "4rn2_A",
+        "3mz6_A",
+        "5tht_A",
+        "3ew8_A",
+        "5ths_A",
+        "5vi6_A",
+        "4qa3_A",
+        "5fcw_A",
+        "5d1b_A",
+        "3ewf_A",
+        "4rn1_A",
+        "5thu_A",
+        "5thv_A",
+        "1t64_A",
+        "4qa1_A",
+        "5dc8_A",
+        "4qa6_A",
+        "4qa2_A",
+        "4rn0_A",
+        "3mz4_A",
+        "1t67_A",
+        "2v5x_A",
+        "3sfh_A",
+        "5dc6_A",
+        "1w22_A",
+        "4qa4_A",
+        "3ezp_A"
+      ]
+    },
+    "SWISS": {
+      "Q9BY41": [
+        "HDAC8_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q9BY41": [
+        "HDAC8"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q9BY41": [
+        "5dc7_A",
+        "3ewf_B",
+        "1vkg_A",
+        "3f0r_A",
+        "4qa5_A",
+        "6hsk_A",
+        "4qa0_A",
+        "3f07_A",
+        "2v5w_A",
+        "3f06_A",
+        "3mz3_A",
+        "5bwz_A",
+        "3rqd_A",
+        "5d1c_A",
+        "5dc5_A",
+        "5d1d_A",
+        "3ezt_A",
+        "1vkg_B",
+        "4rn2_A",
+        "5tht_A",
+        "5ths_A",
+        "3ewf_D",
+        "4qa3_A",
+        "3ewf_C",
+        "5fcw_A",
+        "5d1b_A",
+        "3ewf_A",
+        "4rn1_A",
+        "5thu_A",
+        "5thv_A",
+        "1t64_A",
+        "4qa0_B",
+        "4qa1_A",
+        "5dc8_A",
+        "4qa6_A",
+        "4qa2_A",
+        "4rn0_A",
+        "3mz4_A",
+        "2v5x_A",
+        "5dc6_A",
+        "1w22_A",
+        "3ezp_A"
+      ]
+    }
+  },
+  "PRPF8": {
+    "PDB": {
+      "Q6P2Q9": [
+        "6ff7_A",
+        "6icz_A",
+        "5z58_A",
+        "3jcr_A",
+        "5mqf_A",
+        "6ff4_A",
+        "6id0_A",
+        "6id1_A",
+        "5o9z_A",
+        "6ah0_A"
+      ]
+    },
+    "SWISS": {
+      "Q6P2Q9": [
+        "PRPF8_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q6P2Q9": [
+        "PRPF8"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q6P2Q9": [
+        "5o9z_A",
+        "3jcr_A",
+        "6ah0_A"
+      ]
+    }
+  },
+  "USP14": {
+    "PDB_MULTI": {
+      "P54578": [
+        "5gjq_x"
+      ]
+    }
+  },
+  "GABRA5": {
+    "PDB_MULTI": {
+      "P31644": [
+        "6a96_A"
+      ]
+    }
+  },
+  "TONSL": {
+    "PDB_MULTI": {
+      "Q96HA7": [
+        "5ja4_D"
+      ]
+    }
+  },
+  "APOA1": {
+    "PDB_MULTI": {
+      "P02647": [
+        "6ccx_A",
+        "6cch_C",
+        "6ccx_C",
+        "6cch_A",
+        "6cc9_A",
+        "6cc9_C"
+      ]
+    }
+  },
+  "ARFGAP1": {
+    "PDB_MULTI": {
+      "Q8N6T3": [
+        "3o47_A"
+      ]
+    }
+  },
+  "CASK": {
+    "RAPTOR": {
+      "O14936": [
+        "CASK"
+      ]
+    }
+  },
+  "ASPSCR1": {
+    "PDB_MULTI": {
+      "Q9BZE9": [
+        "5ifs_A",
+        "5ifs_C",
+        "5ifw_A"
+      ]
+    }
+  },
+  "DDX3X": {
+    "PDB": {
+      "O00571": [
+        "6o5f_A",
+        "2i4i_A",
+        "5e7i_B",
+        "5e7m_A",
+        "4pxa_A",
+        "5e7j_A",
+        "6cz5_A"
+      ]
+    },
+    "SWISS": {
+      "O00571": [
+        "DDX3X_A"
+      ]
+    },
+    "RAPTOR": {
+      "O00571": [
+        "DDX3X"
+      ]
+    },
+    "PDB_MULTI": {
+      "O00571": [
+        "5e7i_B",
+        "6o5f_A",
+        "6o5f_B"
+      ]
+    }
+  },
+  "HNRNPK": {
+    "RAPTOR": {
+      "P61978": [
+        "HNRNPK"
+      ]
+    }
+  },
+  "HDAC2": {
+    "PDB": {
+      "Q92769": [
+        "4lxz_A",
+        "5iwg_A",
+        "4ly1_A",
+        "6g3o_A",
+        "3max_A",
+        "5ix0_A"
+      ]
+    },
+    "SWISS": {
+      "Q92769": [
+        "HDAC2_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q92769": [
+        "HDAC2"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q92769": [
+        "4lxz_A",
+        "5iwg_A",
+        "4ly1_A",
+        "6g3o_A",
+        "3max_A",
+        "5ix0_A"
+      ]
+    }
+  },
+  "RAD21": {
+    "PDB_MULTI": {
+      "O60216": [
+        "4pk7_B",
+        "4pju_B",
+        "4pjw_B"
+      ]
+    }
+  },
+  "CTBP1": {
+    "PDB": {
+      "Q13363": [
+        "4u6s_A",
+        "6cdf_A",
+        "4lce_A",
+        "4u6q_A",
+        "6cdr_A",
+        "1mx3_A"
+      ]
+    },
+    "SWISS": {
+      "Q13363": [
+        "CTBP1_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q13363": [
+        "CTBP1"
+      ]
+    }
+  },
+  "PSPC1": {
+    "PDB_MULTI": {
+      "Q8WXF1": [
+        "3sde_A"
+      ]
+    }
+  },
+  "FBN1": {
+    "RAPTOR": {
+      "P35555": [
+        "FBN1"
+      ]
+    }
+  },
+  "SF3A2": {
+    "PDB_MULTI": {
+      "Q15428": [
+        "6ah0_v"
+      ]
+    }
+  },
+  "PPP2R2A": {
+    "PDB_MULTI": {
+      "P63151": [
+        "3dw8_B"
+      ]
+    }
+  },
+  "GABRB2": {
+    "PDB": {
+      "P47870": [
+        "6d6t_A",
+        "6d6u_A"
+      ]
+    },
+    "SWISS": {
+      "P47870": [
+        "GABRB2_C"
+      ]
+    },
+    "RAPTOR": {
+      "P47870": [
+        "GABRB2"
+      ]
+    },
+    "PDB_MULTI": {
+      "P47870": [
+        "6d6t_A",
+        "6d6u_C",
+        "6d6u_A",
+        "6d6t_C"
+      ]
+    }
+  },
+  "PPP3R1": {
+    "PDB_MULTI": {
+      "P63098": [
+        "5sve_B",
+        "1mf8_B",
+        "2p6b_D",
+        "6nuc_B",
+        "4f0z_B",
+        "6nuu_B",
+        "1m63_F",
+        "1m63_B",
+        "1aui_B",
+        "2p6b_B",
+        "3ll8_B",
+        "6nuf_B"
+      ]
+    }
+  },
+  "CALCA": {
+    "PDB_MULTI": {
+      "P06881": [
+        "6e3y_P"
+      ]
+    }
+  },
+  "COL4A3BP": {
+    "RAPTOR": {
+      "Q9Y5P4": [
+        "COL4A3BP"
+      ]
+    }
+  },
+  "WDR26": {
+    "RAPTOR": {
+      "Q9H7D7": [
+        "WDR26"
+      ]
+    }
+  },
+  "PSMD2": {
+    "PDB_MULTI": {
+      "Q13200": [
+        "5gjq_Z",
+        "5vhp_f",
+        "5t0j_f",
+        "5t0h_f",
+        "5vhr_f",
+        "5vhm_f",
+        "5vhn_f",
+        "5vhi_f",
+        "5vhs_f",
+        "5vho_f",
+        "5ln3_Z",
+        "5vhf_f",
+        "5t0i_f",
+        "5vfr_f",
+        "5vft_f",
+        "5vhq_f",
+        "5t0g_f",
+        "5vhh_f",
+        "5vhj_f"
+      ]
+    }
+  },
+  "PTEN": {
+    "PDB": {
+      "P60484": [
+        "5bzz_A",
+        "1d5r_A",
+        "5bzx_A",
+        "5bug_A"
+      ]
+    },
+    "SWISS": {
+      "P60484": [
+        "PTEN_A"
+      ]
+    },
+    "RAPTOR": {
+      "P60484": [
+        "PTEN"
+      ]
+    },
+    "PDB_MULTI": {
+      "P60484": [
+        "5bzz_A",
+        "5bzx_A",
+        "5bug_A"
+      ]
+    }
+  },
+  "FBXW7": {
+    "PDB": {
+      "Q969H0": [
+        "2ovp_B",
+        "2ovr_B",
+        "2ovq_B",
+        "5v4b_B"
+      ]
+    },
+    "SWISS": {
+      "Q969H0": [
+        "FBXW7_B"
+      ]
+    },
+    "RAPTOR": {
+      "Q969H0": [
+        "FBXW7"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q969H0": [
+        "2ovp_B",
+        "2ovr_B",
+        "2ovq_B",
+        "5v4b_B"
+      ]
+    }
+  },
+  "GABRB3": {
+    "PDB": {
+      "P28472": [
+        "6huk_B",
+        "6huj_B",
+        "6a96_B",
+        "6i53_B",
+        "6hug_B",
+        "4cof_A",
+        "6hup_B",
+        "6huo_B"
+      ]
+    },
+    "RAPTOR": {
+      "P28472": [
+        "GABRB3"
+      ]
+    },
+    "PDB_MULTI": {
+      "P28472": [
+        "6huj_B",
+        "6a96_C",
+        "6huo_E",
+        "6i53_E",
+        "6a96_E",
+        "4cof_D",
+        "4cof_B",
+        "6hup_E",
+        "6hup_B",
+        "4cof_C",
+        "6huk_B",
+        "6huj_E",
+        "6a96_D",
+        "6hug_B",
+        "6huo_B",
+        "6hug_E",
+        "4cof_E",
+        "6huk_E",
+        "6a96_B",
+        "4cof_A",
+        "6i53_B"
+      ]
+    }
+  },
+  "PPP2R3B": {
+    "PDB_MULTI": {
+      "Q9Y5P8": [
+        "4i5l_B",
+        "4i5n_B"
+      ]
+    }
+  },
+  "ZMAT2": {
+    "PDB_MULTI": {
+      "Q96NC0": [
+        "5o9z_N"
+      ]
+    }
+  },
+  "RAMP1": {
+    "PDB_MULTI": {
+      "O60894": [
+        "6e3y_E"
+      ]
+    }
+  },
+  "HNRNPD": {
+    "RAPTOR": {
+      "Q14103": [
+        "HNRNPD"
+      ]
+    }
+  },
+  "LSM7": {
+    "PDB_MULTI": {
+      "Q9UK45": [
+        "6ah0_y",
+        "5o9z_t",
+        "3jcr_7"
+      ]
+    }
+  },
+  "ATP6V1A": {
+    "SWISS": {
+      "P38606": [
+        "ATP6V1A_C"
+      ]
+    },
+    "RAPTOR": {
+      "P38606": [
+        "ATP6V1A"
+      ]
+    }
+  },
+  "SNRPB": {
+    "PDB_MULTI": {
+      "P14678": [
+        "3jcr_O",
+        "5o9z_m",
+        "6ah0_U",
+        "5o9z_f",
+        "5o9z_X",
+        "6ah0_i",
+        "6ah0_f"
+      ]
+    }
+  },
+  "PSMA7": {
+    "PDB_MULTI": {
+      "O14818": [
+        "5t0g_J",
+        "5t0j_J",
+        "5t0h_J",
+        "5ln3_D",
+        "5gjq_E",
+        "5gjq_k",
+        "5vfr_j",
+        "5vft_j",
+        "5m32_C",
+        "5t0i_J",
+        "5m32_Q"
+      ]
+    }
+  },
+  "MTOR": {
+    "PDB": {
+      "P42345": [
+        "5h64_A",
+        "5zcs_A"
+      ]
+    },
+    "SWISS": {
+      "P42345": [
+        "MTOR_A"
+      ]
+    },
+    "RAPTOR": {
+      "P42345": [
+        "MTOR"
+      ]
+    },
+    "PDB_MULTI": {
+      "P42345": [
+        "5zcs_B",
+        "5h64_A",
+        "5zcs_A"
+      ]
+    }
+  },
+  "RAC1": {
+    "PDB": {
+      "P63000": [
+        "1i4l_D",
+        "3sbe_A",
+        "1g4u_R",
+        "5qu9_A",
+        "5o33_A",
+        "5qqe_A",
+        "5qqn_A",
+        "5qqg_A",
+        "2wkp_A",
+        "1mh1_A",
+        "6agp_A",
+        "5qqi_A",
+        "3th5_A",
+        "3ryt_C",
+        "1he1_C",
+        "1i4d_D",
+        "3sbd_A",
+        "1ryh_A",
+        "2wkr_A",
+        "5qqd_A",
+        "1hh4_A",
+        "4gzl_A",
+        "3bji_D",
+        "3b13_B",
+        "5qql_A",
+        "4gzm_A",
+        "2wkq_A",
+        "2h7v_A",
+        "5qqf_A",
+        "5fi0_B",
+        "5hzh_A",
+        "2yin_D",
+        "1ryf_A",
+        "5qqm_A",
+        "5qqk_A",
+        "1e96_A",
+        "5qqj_A",
+        "2fju_A",
+        "2p2l_C",
+        "3sua_A",
+        "5qqh_A",
+        "1i4t_D",
+        "1foe_B",
+        "4yon_B",
+        "6bc1_A",
+        "2nz8_A",
+        "5n6o_A",
+        "3su8_A"
+      ]
+    },
+    "SWISS": {
+      "P63000": [
+        "RAC1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P63000": [
+        "RAC1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P63000": [
+        "1i4l_D",
+        "5qu9_A",
+        "2p2l_A",
+        "5qqe_A",
+        "5qqn_A",
+        "2p2l_B",
+        "5qqg_A",
+        "5qqi_A",
+        "3th5_A",
+        "1he1_C",
+        "1i4d_D",
+        "3sbd_A",
+        "1ryh_A",
+        "5qqd_A",
+        "1hh4_A",
+        "4gzl_A",
+        "3bji_D",
+        "3b13_B",
+        "5qql_A",
+        "4gzm_A",
+        "2h7v_A",
+        "5qqf_A",
+        "5fi0_B",
+        "2yin_D",
+        "1ryf_A",
+        "5qqm_A",
+        "5qqk_A",
+        "1e96_A",
+        "5qqj_A",
+        "2fju_A",
+        "2p2l_C",
+        "3sua_A",
+        "5qqh_A",
+        "1i4t_D",
+        "1foe_B",
+        "4yon_B",
+        "6bc1_A",
+        "2nz8_A",
+        "5n6o_A",
+        "3b13_D",
+        "3su8_A"
+      ]
+    }
+  },
+  "PPM1D": {
+    "SWISS": {
+      "O15297": [
+        "PPM1D_A"
+      ]
+    },
+    "RAPTOR": {
+      "O15297": [
+        "PPM1D"
+      ]
+    }
+  },
+  "KCND3": {
+    "SWISS": {
+      "Q9UK17": [
+        "KCND3_B"
+      ]
+    },
+    "RAPTOR": {
+      "Q9UK17": [
+        "KCND3"
+      ]
+    }
+  },
+  "WDR37": {
+    "RAPTOR": {
+      "Q9Y2I8": [
+        "WDR37"
+      ]
+    }
+  },
+  "DISC1": {
+    "PDB_MULTI": {
+      "Q9NRI5": [
+        "5v4b_C"
+      ]
+    }
+  },
+  "KCNB1": {
+    "RAPTOR": {
+      "Q14721": [
+        "KCNB1"
+      ]
+    }
+  },
+  "NR4A2": {
+    "SWISS": {
+      "P43354": [
+        "NR4A2_A"
+      ]
+    },
+    "RAPTOR": {
+      "P43354": [
+        "NR4A2"
+      ]
+    }
+  },
+  "TRAF7": {
+    "RAPTOR": {
+      "Q6Q0C0": [
+        "TRAF7"
+      ]
+    }
+  },
+  "SCN2B": {
+    "PDB_MULTI": {
+      "O60939": [
+        "6j8e_C"
+      ]
+    }
+  },
+  "PPIA": {
+    "PDB_MULTI": {
+      "P62937": [
+        "1m63_C",
+        "1m63_G",
+        "1mf8_C"
+      ]
+    }
+  },
+  "KDM6A": {
+    "RAPTOR": {
+      "O15550": [
+        "KDM6A"
+      ]
+    }
+  },
+  "PRPF38A": {
+    "PDB_MULTI": {
+      "Q8NAV1": [
+        "5o9z_I"
+      ]
+    }
+  },
+  "PPP1CB": {
+    "SWISS": {
+      "P62140": [
+        "PPP1CB_A"
+      ]
+    },
+    "RAPTOR": {
+      "P62140": [
+        "PPP1CB"
+      ]
+    }
+  },
+  "PSMD4": {
+    "PDB_MULTI": {
+      "P55036": [
+        "5m32_p",
+        "5t0j_b",
+        "5vft_b",
+        "5vhf_b",
+        "5vhi_b",
+        "5vfr_b",
+        "5t0h_b",
+        "5t0i_b",
+        "5gjq_W",
+        "5ln3_W",
+        "5t0g_b",
+        "5vhh_b",
+        "5vhs_b"
+      ]
+    }
+  },
+  "SNU13": {
+    "PDB_MULTI": {
+      "P55769": [
+        "6ah0_M",
+        "5o9z_O",
+        "3jcr_I"
+      ]
+    }
+  },
+  "SNRPF": {
+    "PDB_MULTI": {
+      "P62306": [
+        "6ah0_Q",
+        "5o9z_i",
+        "5o9z_T",
+        "6ah0_b",
+        "3jcr_t",
+        "5o9z_b",
+        "6ah0_m"
+      ]
+    }
+  },
+  "KCNQ2": {
+    "RAPTOR": {
+      "O43526": [
+        "KCNQ2"
+      ]
+    }
+  },
+  "SLC2A1": {
+    "PDB": {
+      "P11166": [
+        "4pyp_A",
+        "5eqi_A",
+        "5eqg_A",
+        "5eqh_A"
+      ]
+    },
+    "RAPTOR": {
+      "P11166": [
+        "SLC2A1"
+      ]
+    }
+  },
+  "RHO": {
+    "PDB_MULTI": {
+      "P08100": [
+        "6cmo_R"
+      ]
+    }
+  },
+  "STAG1": {
+    "SWISS": {
+      "Q8WVM7": [
+        "STAG1_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q8WVM7": [
+        "STAG1"
+      ]
+    }
+  },
+  "EEF1A2": {
+    "SWISS": {
+      "Q05639": [
+        "EEF1A2_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q05639": [
+        "EEF1A2"
+      ]
+    }
+  },
+  "PHF6": {
+    "RAPTOR": {
+      "Q8IWS0": [
+        "PHF6"
+      ]
+    }
+  },
+  "ZNF148": {
+    "RAPTOR": {
+      "Q9UQR1": [
+        "ZNF148"
+      ]
+    }
+  },
+  "PSMA6": {
+    "PDB_MULTI": {
+      "P60900": [
+        "5m32_U",
+        "5vfr_G",
+        "5gjq_B",
+        "5t0j_G",
+        "5t0g_G",
+        "5ln3_A",
+        "5gjq_h",
+        "5t0h_G",
+        "5m32_G",
+        "5vft_g",
+        "5t0i_G"
+      ]
+    }
+  },
+  "RPTOR": {
+    "PDB_MULTI": {
+      "Q8N122": [
+        "5h64_B"
+      ]
+    }
+  },
+  "STXBP1": {
+    "SWISS": {
+      "P61764": [
+        "STXBP1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P61764": [
+        "STXBP1"
+      ]
+    }
+  },
+  "DOCK2": {
+    "PDB_MULTI": {
+      "Q92608": [
+        "3b13_C",
+        "2yin_B",
+        "3b13_A"
+      ]
+    }
+  },
+  "PCBP2": {
+    "SWISS": {
+      "Q15366": [
+        "PCBP2_B"
+      ]
+    },
+    "RAPTOR": {
+      "Q15366": [
+        "PCBP2"
+      ]
+    }
+  },
+  "ASF1B": {
+    "PDB_MULTI": {
+      "Q9NVP2": [
+        "5bnx_D"
+      ]
+    }
+  },
+  "UFD1": {
+    "PDB_MULTI": {
+      "Q92890": [
+        "5c1b_U",
+        "5c1b_V"
+      ]
+    }
+  },
+  "LCMT1": {
+    "PDB_MULTI": {
+      "Q9UIC8": [
+        "3p71_T"
+      ]
+    }
+  },
+  "AP2S1": {
+    "SWISS": {
+      "P53680": [
+        "AP2S1_F"
+      ]
+    },
+    "RAPTOR": {
+      "P53680": [
+        "AP2S1"
+      ]
+    }
+  },
+  "HK1": {
+    "PDB": {
+      "P19367": [
+        "4fpa_A",
+        "1qha_A",
+        "4foe_A",
+        "4fpb_A",
+        "1hkc_A",
+        "1hkb_A",
+        "4f9o_A",
+        "1dgk_N",
+        "1cza_N",
+        "4foi_A"
+      ]
+    },
+    "SWISS": {
+      "P19367": [
+        "HK1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P19367": [
+        "HK1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P19367": [
+        "4fpa_A",
+        "4fpb_B",
+        "1qha_A",
+        "4foi_A",
+        "4foe_A",
+        "4foi_B",
+        "1hkb_A",
+        "4fpa_B",
+        "4fpb_A",
+        "4f9o_A",
+        "4foe_B",
+        "1qha_B"
+      ]
+    }
+  },
+  "SHOC2": {
+    "SWISS": {
+      "Q9UQ13": [
+        "SHOC2_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q9UQ13": [
+        "SHOC2"
+      ]
+    }
+  },
+  "PCDH19": {
+    "SWISS": {
+      "Q8TAB3": [
+        "PCDH19_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q8TAB3": [
+        "PCDH19"
+      ]
+    }
+  },
+  "KCTD12": {
+    "PDB_MULTI": {
+      "Q96CX2": [
+        "6m8s_P",
+        "6m8s_M",
+        "6m8s_O",
+        "6m8s_B",
+        "6m8s_A"
+      ]
+    }
+  },
+  "PSMA4": {
+    "PDB_MULTI": {
+      "P25789": [
+        "5t0g_I",
+        "5m32_P",
+        "5t0h_I",
+        "5t0i_I",
+        "5gjq_j",
+        "5m32_B",
+        "5vfr_i",
+        "5ln3_C",
+        "5t0j_I",
+        "5gjq_D",
+        "5vft_i"
+      ]
+    }
+  },
+  "SART1": {
+    "PDB_MULTI": {
+      "O43290": [
+        "5o9z_P"
+      ]
+    }
+  },
+  "GRIN1": {
+    "PDB": {
+      "Q05586": [
+        "6ira_A",
+        "6irg_A",
+        "6irh_C",
+        "6irf_A"
+      ]
+    },
+    "SWISS": {
+      "Q05586": [
+        "GRIN1_B"
+      ]
+    },
+    "RAPTOR": {
+      "Q05586": [
+        "GRIN1"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q05586": [
+        "6ira_A",
+        "6irf_C",
+        "6ira_C",
+        "6irg_C",
+        "6irh_C",
+        "6irg_A",
+        "6irf_A",
+        "6irh_A"
+      ]
+    }
+  },
+  "PSMD11": {
+    "PDB_MULTI": {
+      "O00231": [
+        "5m32_l",
+        "5t0g_X",
+        "5t0j_X",
+        "5gjq_Q",
+        "5vhf_X",
+        "5vft_X",
+        "5vfr_X",
+        "5ln3_Q",
+        "5t0i_X",
+        "5vhh_X",
+        "5vhi_X",
+        "5vhs_X",
+        "5t0h_X"
+      ]
+    }
+  },
+  "GLP1R": {
+    "PDB_MULTI": {
+      "P43220": [
+        "6b3j_R"
+      ]
+    }
+  },
+  "IK": {
+    "PDB_MULTI": {
+      "Q13123": [
+        "5o9z_R"
       ]
     }
   },
   "RAB14": {
     "PDB": {
       "P61106": [
-        "1z0f_A"
+        "1z0f_A",
+        "4drz_A",
+        "4d0g_A"
       ]
     },
     "SWISS": {
@@ -2636,201 +2913,493 @@
       ]
     }
   },
-  "CNOT3": {
+  "CAMK2B": {
     "RAPTOR": {
-      "O75175": [
-        "CNOT3"
+      "Q13554": [
+        "CAMK2B"
       ]
     }
   },
-  "CTNNBIP1": {
-    "PDB_MULTI": {
-      "Q9NSA3": [
-        "1t08_B"
-      ]
-    }
-  },
-  "KRT7": {
-    "PDB_MULTI": {
-      "P08729": [
-        "4xif_E"
-      ]
-    }
-  },
-  "TCF7L2": {
-    "PDB_MULTI": {
-      "Q9NQB0": [
-        "1jpw_D",
-        "2gl7_B",
-        "1jdh_B"
-      ]
-    }
-  },
-  "DNM1": {
+  "EFTUD2": {
     "PDB": {
-      "Q05193": [
-        "6dlu_P"
+      "Q15029": [
+        "6ff7_B",
+        "5mqf_B",
+        "3jcr_B",
+        "6id0_C",
+        "6id1_C",
+        "6ff4_B",
+        "5o9z_B",
+        "6icz_C",
+        "6ah0_C",
+        "5z58_C"
       ]
     },
     "SWISS": {
-      "Q05193": [
-        "DNM1_A"
+      "Q15029": [
+        "EFTUD2_I"
       ]
     },
     "RAPTOR": {
-      "Q05193": [
-        "DNM1"
+      "Q15029": [
+        "EFTUD2"
       ]
     },
     "PDB_MULTI": {
-      "Q05193": [
-        "6dlv_c",
-        "6dlu_P",
-        "6dlv_f",
-        "6dlv_g",
-        "6dlu_B",
-        "6dlv_b"
+      "Q15029": [
+        "3jcr_B",
+        "5o9z_B",
+        "6ah0_C"
       ]
     }
   },
-  "VCP": {
+  "PRPF3": {
+    "PDB_MULTI": {
+      "O43395": [
+        "6ah0_J",
+        "3jcr_K",
+        "5o9z_E"
+      ]
+    }
+  },
+  "HYPK": {
+    "PDB_MULTI": {
+      "Q9NX55": [
+        "6c95_D"
+      ]
+    }
+  },
+  "ZMYND11": {
+    "RAPTOR": {
+      "Q15326": [
+        "ZMYND11"
+      ]
+    }
+  },
+  "KCNK3": {
+    "SWISS": {
+      "O14649": [
+        "KCNK3_A"
+      ]
+    },
+    "RAPTOR": {
+      "O14649": [
+        "KCNK3"
+      ]
+    }
+  },
+  "TRIO": {
+    "PDB_MULTI": {
+      "O75962": [
+        "2nz8_B"
+      ]
+    }
+  },
+  "ARFIP2": {
+    "PDB_MULTI": {
+      "P53365": [
+        "1i4d_B",
+        "1i4l_A",
+        "1i4d_A",
+        "1i4t_A",
+        "1i4t_B",
+        "1i4l_B"
+      ]
+    }
+  },
+  "CLTC": {
+    "RAPTOR": {
+      "Q00610": [
+        "CLTC"
+      ]
+    }
+  },
+  "RIT1": {
     "PDB": {
-      "P55072": [
-        "5ftn_A"
+      "Q92963": [
+        "4klz_A"
       ]
     },
     "SWISS": {
-      "P55072": [
-        "VCP_A"
+      "Q92963": [
+        "RIT1_A"
       ]
     },
     "RAPTOR": {
-      "P55072": [
-        "VCP"
-      ]
-    },
-    "PDB_MULTI": {
-      "P55072": [
-        "3hu3_A",
-        "5ftm_C",
-        "5c19_C",
-        "6mck_L",
-        "4kod_C",
-        "4kln_E",
-        "5c1b_F",
-        "5ftn_C",
-        "3hu2_B",
-        "5kiw_B",
-        "5c1b_E",
-        "5ftm_D",
-        "5ftj_F",
-        "5ftm_F",
-        "5ftn_A",
-        "5ftm_E",
-        "5ftj_E",
-        "5c18_C",
-        "3hu2_D",
-        "3hu1_C",
-        "4ko8_B",
-        "5dyi_D",
-        "3hu1_D",
-        "5ftj_C",
-        "4kod_A",
-        "5ftn_B",
-        "6mck_J",
-        "4kod_E",
-        "5c18_E",
-        "5dyi_E",
-        "5c18_D",
-        "5c19_E",
-        "3hu2_E",
-        "5kiy_A",
-        "6mck_E",
-        "4kln_F",
-        "5c1b_C",
-        "5ftk_A",
-        "6mck_B",
-        "5ftn_D",
-        "5ftk_E",
-        "5ftl_B",
-        "3hu1_A",
-        "6mck_D",
-        "5ftn_E",
-        "4kod_D",
-        "5dyi_C",
-        "3hu2_A",
-        "5ftk_B",
-        "6mck_A",
-        "3hu2_F",
-        "5c19_B",
-        "5ftl_C",
-        "5ftl_E",
-        "5c18_A",
-        "5ftm_B",
-        "5ifs_B",
-        "6hd0_V",
-        "5c19_D",
-        "3hu2_C",
-        "3hu3_B",
-        "6mck_F",
-        "4kln_B",
-        "5ftk_D",
-        "6hd0_T",
-        "5ifw_B",
-        "6hd0_U",
-        "5ftm_A",
-        "6mck_C",
-        "5c19_A",
-        "5ftj_B",
-        "6mck_H",
-        "5ftj_A",
-        "5dyi_F",
-        "6mck_G",
-        "5c1b_A",
-        "6hd0_C",
-        "5c18_F",
-        "3hu1_E",
-        "5ftl_D",
-        "4kln_D",
-        "5ftj_D",
-        "6hd0_A",
-        "6mck_I",
-        "5dyi_B",
-        "4kln_C",
-        "5c1b_D",
-        "6hd0_B",
-        "5ftl_A",
-        "4kod_B",
-        "4kod_F",
-        "5ftn_F",
-        "5c19_F",
-        "3hu1_B",
-        "3hu1_F",
-        "5ftk_F",
-        "5kiw_A",
-        "4kln_A",
-        "5c18_B",
-        "4ko8_A",
-        "5ftk_C",
-        "6mck_K",
-        "5ftl_F",
-        "5c1b_B",
-        "5dyi_A",
-        "5ifs_D"
+      "Q92963": [
+        "RIT1"
       ]
     }
   },
-  "ZEB2": {
+  "DYNC1H1": {
+    "PDB": {
+      "Q14204": [
+        "5nug_A"
+      ]
+    },
+    "SWISS": {
+      "Q14204": [
+        "DYNC1H1_A"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q14204": [
+        "5nug_A"
+      ]
+    }
+  },
+  "ADCY5": {
     "RAPTOR": {
-      "O60315": [
-        "ZEB2"
+      "O95622": [
+        "ADCY5"
+      ]
+    }
+  },
+  "CNKSR2": {
+    "RAPTOR": {
+      "Q8WXI2": [
+        "CNKSR2"
+      ]
+    }
+  },
+  "CAND1": {
+    "PDB_MULTI": {
+      "Q86VP6": [
+        "4a0c_A"
+      ]
+    }
+  },
+  "NTSR1": {
+    "PDB_MULTI": {
+      "P30989": [
+        "6osa_R",
+        "6os9_R"
+      ]
+    }
+  },
+  "PSMA1": {
+    "PDB_MULTI": {
+      "P25786": [
+        "5t0i_L",
+        "5m32_E",
+        "5gjq_G",
+        "5vft_l",
+        "5ln3_F",
+        "5m32_S",
+        "5gjq_m",
+        "5t0g_L",
+        "5vfr_l",
+        "5t0j_L",
+        "5t0h_L"
+      ]
+    }
+  },
+  "H3F3A": {
+    "PDB": {
+      "P84243": [
+        "4h9n_A",
+        "6j4y_a",
+        "6j4w_a",
+        "6inq_a",
+        "6a5t_a",
+        "5ja4_A",
+        "6a5r_a",
+        "3av2_E",
+        "6j51_a",
+        "6a5u_a",
+        "6j4z_a",
+        "6j50_a",
+        "5bnx_A",
+        "5kdm_A",
+        "5b33_E",
+        "5bnv_D",
+        "5x7x_E",
+        "6a5l_a",
+        "4h9o_A",
+        "6a5o_a",
+        "6j4x_a",
+        "4h9p_A",
+        "4h9q_A",
+        "4hga_B",
+        "4h9r_A",
+        "6a5p_a",
+        "6ir9_a",
+        "5b32_E",
+        "3wtp_E",
+        "4h9s_A"
+      ]
+    },
+    "SWISS": {
+      "P84243": [
+        "H3F3A_A"
+      ]
+    },
+    "PDB_MULTI": {
+      "P84243": [
+        "6inq_e",
+        "4h9n_A",
+        "6j4x_e",
+        "6j4y_a",
+        "6j4w_a",
+        "6inq_a",
+        "6a5t_a",
+        "6ir9_e",
+        "5ja4_A",
+        "6a5r_a",
+        "6a5l_e",
+        "3av2_E",
+        "5bnv_A",
+        "6a5o_e",
+        "6a5r_e",
+        "6a5u_a",
+        "6j4z_a",
+        "5b32_A",
+        "6j51_a",
+        "6a5t_e",
+        "6j50_e",
+        "6j50_a",
+        "5bnx_A",
+        "6a5p_e",
+        "6j51_e",
+        "5kdm_A",
+        "5b33_E",
+        "5x7x_A",
+        "6a5u_e",
+        "5bnv_D",
+        "6j4z_e",
+        "5x7x_E",
+        "6a5l_a",
+        "3av2_A",
+        "6j4y_e",
+        "4h9o_A",
+        "5b33_A",
+        "6a5o_a",
+        "6j4x_a",
+        "4h9p_A",
+        "4h9q_A",
+        "4hga_B",
+        "4h9r_A",
+        "6a5p_a",
+        "6ir9_a",
+        "5b32_E",
+        "3wtp_E",
+        "4h9s_A",
+        "6j4w_e"
+      ]
+    }
+  },
+  "PIK3R1": {
+    "RAPTOR": {
+      "P27986": [
+        "PIK3R1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P27986": [
+        "5xgj_B",
+        "2rd0_B",
+        "5swg_B",
+        "4l23_B",
+        "4waf_B",
+        "4jps_B",
+        "5xgh_B",
+        "4ovv_B",
+        "5sxa_B",
+        "5ul1_B",
+        "6nct_B",
+        "5swp_B",
+        "5sx8_B",
+        "5sxb_B",
+        "5sxc_B",
+        "5sxj_B",
+        "5sxk_B",
+        "4l2y_B",
+        "5ukj_B",
+        "4zop_B",
+        "3hiz_B",
+        "5sx9_B",
+        "5swo_B",
+        "5itd_B",
+        "4l1b_B",
+        "5sxd_B",
+        "5sxe_B",
+        "5sxf_B",
+        "3hhm_B",
+        "5sxi_B",
+        "5swr_B",
+        "4ovu_B",
+        "5xgi_B",
+        "5sw8_B",
+        "5uk8_B",
+        "4ykn_A",
+        "5swt_B",
+        "5fi4_B"
+      ]
+    }
+  },
+  "PSMB6": {
+    "PDB_MULTI": {
+      "P28072": [
+        "5t0j_N",
+        "5m32_b",
+        "5t0i_N",
+        "5ln3_1",
+        "5gjq_o",
+        "5gjq_a",
+        "5m32_N",
+        "5vft_n",
+        "5t0g_N",
+        "5t0h_N",
+        "5vfr_n"
+      ]
+    }
+  },
+  "CALCR": {
+    "PDB_MULTI": {
+      "P30988": [
+        "6niy_R",
+        "5uz7_R"
+      ]
+    }
+  },
+  "SNRPG": {
+    "PDB_MULTI": {
+      "P62308": [
+        "6ah0_n",
+        "3jcr_u",
+        "5o9z_k",
+        "6ah0_S",
+        "5o9z_V",
+        "5o9z_d",
+        "6ah0_d"
+      ]
+    }
+  },
+  "TLK2": {
+    "RAPTOR": {
+      "Q86UE8": [
+        "TLK2"
+      ]
+    }
+  },
+  "HTR1B": {
+    "PDB_MULTI": {
+      "P28222": [
+        "6g79_S"
+      ]
+    }
+  },
+  "CHD2": {
+    "RAPTOR": {
+      "O14647": [
+        "CHD2"
+      ]
+    }
+  },
+  "SGO1": {
+    "PDB_MULTI": {
+      "Q5FBB7": [
+        "3fga_D"
+      ]
+    }
+  },
+  "PSMB4": {
+    "PDB_MULTI": {
+      "P28070": [
+        "5gjq_u",
+        "5vfr_t",
+        "5t0j_T",
+        "5gjq_g",
+        "5vft_T",
+        "5t0h_T",
+        "5m32_a",
+        "5t0i_T",
+        "5t0g_T",
+        "5m32_M",
+        "5ln3_7"
+      ]
+    }
+  },
+  "SF3B4": {
+    "PDB_MULTI": {
+      "Q15427": [
+        "6ah0_4"
+      ]
+    }
+  },
+  "SOS1": {
+    "PDB_MULTI": {
+      "Q07889": [
+        "6epp_S",
+        "6epo_S",
+        "6epl_S",
+        "6epn_S",
+        "6epm_S"
+      ]
+    }
+  },
+  "PPP2CA": {
+    "PDB": {
+      "P67775": [
+        "2nym_C",
+        "3c5w_C",
+        "2ie3_C",
+        "2npp_F",
+        "2iae_C",
+        "5w0w_C",
+        "3p71_C",
+        "3dw8_C",
+        "3k7v_C",
+        "2ie4_C",
+        "4i5l_C",
+        "4lac_C",
+        "4i5n_C",
+        "3fga_C",
+        "2nyl_C",
+        "3k7w_C"
+      ]
+    },
+    "SWISS": {
+      "P67775": [
+        "PPP2CA_C"
+      ]
+    },
+    "RAPTOR": {
+      "P67775": [
+        "PPP2CA"
+      ]
+    },
+    "PDB_MULTI": {
+      "P67775": [
+        "2nym_C",
+        "3c5w_C",
+        "2ie3_C",
+        "2npp_F",
+        "2iae_C",
+        "5w0w_C",
+        "3p71_C",
+        "3dw8_C",
+        "3k7v_C",
+        "2ie4_C",
+        "4i5l_C",
+        "4lac_C",
+        "4i5n_C",
+        "3fga_C",
+        "2nyl_C",
+        "3k7w_C"
       ]
     }
   },
   "GABRA1": {
     "PDB": {
       "P14867": [
-        "6i53_A"
+        "6i53_A",
+        "6hup_A",
+        "6huj_A",
+        "6d6u_D",
+        "6huk_A",
+        "6d6t_D",
+        "6huo_A"
       ]
     },
     "SWISS": {
@@ -2845,82 +3414,515 @@
     },
     "PDB_MULTI": {
       "P14867": [
-        "6hup_A",
-        "6d6u_B",
+        "6i53_D",
         "6i53_A",
+        "6huk_D",
+        "6d6u_B",
         "6huj_A",
         "6huo_D",
+        "6hup_A",
+        "6d6u_D",
+        "6hup_D",
         "6huj_D",
         "6huk_A",
-        "6d6u_D",
-        "6d6t_D",
-        "6d6t_B",
-        "6hup_D",
         "6huo_A",
-        "6i53_D",
-        "6huk_D"
+        "6d6t_B",
+        "6d6t_D"
       ]
     }
   },
-  "DDX23": {
+  "CACNA1A": {
+    "RAPTOR": {
+      "O00555": [
+        "CACNA1A"
+      ]
+    }
+  },
+  "NR2F1": {
+    "SWISS": {
+      "P10589": [
+        "NR2F1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P10589": [
+        "NR2F1"
+      ]
+    }
+  },
+  "SMAD4": {
+    "RAPTOR": {
+      "Q13485": [
+        "SMAD4"
+      ]
+    }
+  },
+  "SPOP": {
     "PDB": {
-      "Q9BUQ8": [
-        "4nho_A"
+      "O43791": [
+        "3hqi_A",
+        "3hu6_A"
       ]
     },
     "SWISS": {
-      "Q9BUQ8": [
-        "DDX23_A"
+      "O43791": [
+        "SPOP_A"
       ]
     },
     "RAPTOR": {
-      "Q9BUQ8": [
-        "DDX23"
+      "O43791": [
+        "SPOP"
       ]
     },
     "PDB_MULTI": {
-      "Q9BUQ8": [
-        "6ah0_X",
-        "3jcr_F"
+      "O43791": [
+        "3hqi_A",
+        "3hqi_B",
+        "3hu6_A",
+        "3hu6_B"
       ]
     }
   },
-  "SLC2A1": {
+  "DYRK1A": {
+    "RAPTOR": {
+      "Q13627": [
+        "DYRK1A"
+      ]
+    }
+  },
+  "PSMB7": {
+    "PDB_MULTI": {
+      "Q99436": [
+        "5t0i_O",
+        "5m32_H",
+        "5t0j_O",
+        "5vft_o",
+        "5ln3_2",
+        "5gjq_p",
+        "5vfr_o",
+        "5gjq_b",
+        "5m32_V",
+        "5t0g_O",
+        "5t0h_O"
+      ]
+    }
+  },
+  "USP39": {
+    "PDB_MULTI": {
+      "Q53GS9": [
+        "3jcr_V",
+        "6ah0_W"
+      ]
+    }
+  },
+  "RGS16": {
+    "PDB_MULTI": {
+      "O15492": [
+        "2ik8_B"
+      ]
+    }
+  },
+  "ADORA1": {
+    "PDB_MULTI": {
+      "P30542": [
+        "6d9h_R"
+      ]
+    }
+  },
+  "KRAS": {
     "PDB": {
-      "P11166": [
-        "5eqg_A",
-        "4pyp_A"
+      "P01116": [
+        "4tq9_A",
+        "6e6f_A",
+        "4m1y_A",
+        "4epv_A",
+        "5yy1_A",
+        "5uk9_A",
+        "6gqx_A",
+        "6mbt_A",
+        "5o2s_A",
+        "5vpz_A",
+        "5kyk_A",
+        "4m21_A",
+        "6n2k_A",
+        "5tar_A",
+        "6epn_R",
+        "6bp1_A",
+        "6h47_A",
+        "6b0y_A",
+        "5v6v_A",
+        "5vq6_A",
+        "6ark_A",
+        "5whe_A",
+        "5wlb_A",
+        "4pzz_A",
+        "4lpk_A",
+        "5vq2_A",
+        "6gom_A",
+        "6epm_R",
+        "5v9u_A",
+        "5vbm_A",
+        "4m1s_A",
+        "5wha_A",
+        "5usj_A",
+        "6gqy_A",
+        "4epw_A",
+        "6epo_R",
+        "6fa3_B",
+        "4dsu_A",
+        "4ept_A",
+        "5ufq_B",
+        "4dst_A",
+        "6gog_B",
+        "4lyf_A",
+        "6ob3_A",
+        "5yxz_A",
+        "6fa4_B",
+        "5o2t_A",
+        "5vp7_A",
+        "4tqa_A",
+        "4m22_A",
+        "6ase_A",
+        "6p8y_A",
+        "5uqw_A",
+        "6b0v_A",
+        "6gj8_A",
+        "6epp_R",
+        "4epy_A",
+        "6pgp_A",
+        "5xco_A",
+        "4nmm_A",
+        "6ccx_B",
+        "5oco_B",
+        "4dsn_A",
+        "4l8g_A",
+        "4wa7_A",
+        "4lrw_A",
+        "6gj5_A",
+        "4lv6_A",
+        "5whd_A",
+        "4lyh_A",
+        "4luc_B",
+        "4m1o_A",
+        "6gof_A",
+        "6mbu_A",
+        "5vpi_A",
+        "6gj6_A",
+        "4pzy_A",
+        "6gj7_A",
+        "6n2j_A",
+        "5v9o_A",
+        "5mlb_A",
+        "6goe_A",
+        "6fa1_E",
+        "4q02_A",
+        "6m9w_A",
+        "6god_A",
+        "4obe_A",
+        "6cu6_A",
+        "5f2e_A",
+        "4lyj_A",
+        "5v71_A",
+        "6gqt_A",
+        "4ql3_A",
+        "6cch_B",
+        "4q03_A",
+        "6gqw_A",
+        "5us4_A",
+        "5wpm_A",
+        "6p8x_A",
+        "6e6g_A",
+        "6p0z_A",
+        "5v9l_A",
+        "6oim_A",
+        "5oct_A",
+        "6mqg_A",
+        "4epx_A",
+        "6bof_B",
+        "4ldj_A",
+        "5ocg_A",
+        "5whb_A",
+        "5v6s_A",
+        "5vq0_A",
+        "4dso_A",
+        "6asa_A",
+        "6p8w_A",
+        "4m1t_A",
+        "4epr_A",
+        "6mqn_A",
+        "6p8z_A",
+        "4q01_A",
+        "5vq8_A",
+        "4m1w_A",
+        "6mbq_A",
+        "5vq1_A",
+        "6f76_A",
+        "5ufe_A",
+        "5mla_A",
+        "6pgo_A",
+        "6cc9_B",
+        "5w22_A",
+        "3gft_A",
+        "6fa2_A",
+        "6h46_A",
+        "5vpy_A",
+        "6ob2_A",
+        "6epl_R",
+        "5tb5_A"
+      ]
+    },
+    "SWISS": {
+      "P01116": [
+        "KRAS_C"
       ]
     },
     "RAPTOR": {
-      "P11166": [
-        "SLC2A1"
+      "P01116": [
+        "KRAS"
+      ]
+    },
+    "PDB_MULTI": {
+      "P01116": [
+        "4tq9_A",
+        "6e6f_A",
+        "6f76_F",
+        "4m1y_A",
+        "5oco_F",
+        "4lyf_C",
+        "5uk9_A",
+        "6gqx_A",
+        "4lv6_B",
+        "6mbt_A",
+        "5o2s_A",
+        "5vpz_A",
+        "5kyk_A",
+        "4m21_A",
+        "5oct_C",
+        "5tar_A",
+        "6epn_R",
+        "6b0y_A",
+        "6f76_B",
+        "5v6v_A",
+        "6f76_E",
+        "5vq6_A",
+        "6fa1_B",
+        "5whe_A",
+        "5wlb_A",
+        "5vq2_A",
+        "4lpk_A",
+        "5oct_D",
+        "6gog_D",
+        "6gom_A",
+        "6epm_R",
+        "5v9u_A",
+        "4m1s_A",
+        "5wha_A",
+        "5usj_A",
+        "6gqy_A",
+        "6epo_R",
+        "6fa3_B",
+        "5ufq_B",
+        "6gog_B",
+        "4lyf_A",
+        "6ob3_A",
+        "6fa4_B",
+        "6gog_C",
+        "5vp7_A",
+        "4tqa_A",
+        "4m22_A",
+        "6p8y_A",
+        "5uqw_A",
+        "6b0v_A",
+        "6epp_R",
+        "5oct_F",
+        "6ccx_B",
+        "6pgp_A",
+        "5oco_B",
+        "4pzy_B",
+        "4lrw_A",
+        "6f76_C",
+        "4lyf_B",
+        "4lv6_A",
+        "6gj5_A",
+        "5whd_A",
+        "6fa1_D",
+        "4lyh_A",
+        "4luc_B",
+        "4m1o_A",
+        "6mbu_A",
+        "5vpi_A",
+        "4pzy_A",
+        "5oco_D",
+        "5mlb_A",
+        "6fa1_C",
+        "6fa1_E",
+        "6f76_D",
+        "4obe_A",
+        "6cu6_A",
+        "6fa1_F",
+        "6bof_A",
+        "5v71_A",
+        "6gqt_A",
+        "5oct_B",
+        "6cch_B",
+        "6gqw_A",
+        "4lrw_B",
+        "5oco_C",
+        "5us4_A",
+        "6p8x_A",
+        "5oco_E",
+        "6p0z_A",
+        "5v9l_A",
+        "5oct_A",
+        "6bof_B",
+        "5whb_A",
+        "5oct_E",
+        "5vq0_A",
+        "6fa1_A",
+        "6p8w_A",
+        "4m1t_A",
+        "6mqn_A",
+        "6p8z_A",
+        "4q01_A",
+        "5vq8_A",
+        "4m1w_A",
+        "5oco_A",
+        "6gog_A",
+        "6gog_F",
+        "5vq1_A",
+        "6f76_A",
+        "6pgo_A",
+        "6gog_E",
+        "6cc9_B",
+        "5w22_A",
+        "3gft_A",
+        "6fa2_A",
+        "5vpy_A",
+        "6ob2_A",
+        "4lyh_C",
+        "4luc_A",
+        "4lyh_B",
+        "6epl_R",
+        "5v6v_B",
+        "5tb5_A"
       ]
     }
   },
-  "SNRPB": {
+  "PREX1": {
     "PDB_MULTI": {
-      "P14678": [
-        "5o9z_m",
-        "5o9z_X",
-        "6ah0_U",
-        "6ah0_f",
-        "6ah0_i",
-        "3jcr_O",
-        "5o9z_f"
+      "Q8TCU6": [
+        "5fi0_A",
+        "4yon_A"
       ]
     }
   },
-  "ARFGAP1": {
+  "TAOK1": {
+    "RAPTOR": {
+      "Q7L7X3": [
+        "TAOK1"
+      ]
+    }
+  },
+  "PHF12": {
+    "RAPTOR": {
+      "Q96QT6": [
+        "PHF12"
+      ]
+    }
+  },
+  "ARF1": {
+    "PDB": {
+      "P84077": [
+        "4hmy_C",
+        "1u81_A",
+        "1hur_A",
+        "6cri_C",
+        "6d83_C",
+        "6dff_C",
+        "1re0_A",
+        "6cm9_C",
+        "3o47_A",
+        "6d84_C",
+        "6fae_B"
+      ]
+    },
+    "SWISS": {
+      "P84077": [
+        "ARF1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P84077": [
+        "ARF1"
+      ]
+    },
     "PDB_MULTI": {
-      "Q8N6T3": [
-        "3o47_A"
+      "P84077": [
+        "6cri_K",
+        "1hur_A",
+        "6d83_C",
+        "6d84_H",
+        "6dff_C",
+        "6fae_B",
+        "6d84_N",
+        "6d83_H",
+        "6cri_L",
+        "6cm9_C",
+        "3o47_A",
+        "6cri_U",
+        "4hmy_C",
+        "1hur_B",
+        "6cm9_H",
+        "6d84_C",
+        "6d84_I",
+        "6dff_H",
+        "6cri_C",
+        "6cri_V",
+        "6cri_H"
+      ]
+    }
+  },
+  "PSMD1": {
+    "PDB_MULTI": {
+      "Q99460": [
+        "5vhf_U",
+        "5t0j_U",
+        "5vfr_U",
+        "5vhs_U",
+        "5gjq_N",
+        "5t0h_U",
+        "5t0g_U",
+        "5vhh_U",
+        "5ln3_N",
+        "5m32_i",
+        "5t0i_U",
+        "5vhi_U",
+        "5vft_U"
+      ]
+    }
+  },
+  "TAF1": {
+    "RAPTOR": {
+      "P21675": [
+        "TAF1"
+      ]
+    }
+  },
+  "LSM8": {
+    "PDB_MULTI": {
+      "O95777": [
+        "3jcr_8",
+        "5o9z_u",
+        "6ah0_z"
       ]
     }
   },
   "AGO1": {
     "PDB": {
       "Q9UL18": [
+        "4kxt_A",
+        "5w6v_A",
+        "4kre_A",
         "4krf_A"
       ]
     },
@@ -2940,485 +3942,6 @@
       ]
     }
   },
-  "SART1": {
-    "PDB_MULTI": {
-      "O43290": [
-        "5o9z_P"
-      ]
-    }
-  },
-  "TRAF7": {
-    "RAPTOR": {
-      "Q6Q0C0": [
-        "TRAF7"
-      ]
-    }
-  },
-  "KIF1A": {
-    "RAPTOR": {
-      "Q12756": [
-        "KIF1A"
-      ]
-    }
-  },
-  "SMU1": {
-    "PDB_MULTI": {
-      "Q2TAY7": [
-        "5o9z_L"
-      ]
-    }
-  },
-  "PIK3CA": {
-    "PDB": {
-      "P42336": [
-        "5swp_A"
-      ]
-    },
-    "SWISS": {
-      "P42336": [
-        "PIK3CA_A"
-      ]
-    },
-    "PDB_MULTI": {
-      "P42336": [
-        "5sxb_A",
-        "4jps_A",
-        "5sw8_A",
-        "5xgi_A",
-        "5fi4_A",
-        "5ul1_A",
-        "3hiz_A",
-        "5sxj_A",
-        "5sx8_A",
-        "2rd0_A",
-        "5sxf_A",
-        "4ovv_A",
-        "5sxc_A",
-        "5xgh_A",
-        "4zop_A",
-        "5sxi_A",
-        "5sxk_A",
-        "5ukj_A",
-        "4ykn_A",
-        "4l1b_A",
-        "5dxh_A",
-        "5sxa_A",
-        "4ovu_A",
-        "5xgj_A",
-        "4l23_A",
-        "5itd_A",
-        "6nct_A",
-        "4l2y_A",
-        "3hhm_A",
-        "5swo_A",
-        "5sxd_A",
-        "5swt_A",
-        "4waf_A",
-        "5uk8_A",
-        "5sx9_A",
-        "5swr_A",
-        "5swp_A",
-        "5swg_A",
-        "5sxe_A"
-      ]
-    }
-  },
-  "RGS16": {
-    "PDB_MULTI": {
-      "O15492": [
-        "2ik8_B"
-      ]
-    }
-  },
-  "PIK3R1": {
-    "RAPTOR": {
-      "P27986": [
-        "PIK3R1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P27986": [
-        "3hhm_B",
-        "5itd_B",
-        "5xgj_B",
-        "5xgh_B",
-        "5ukj_B",
-        "5uk8_B",
-        "5fi4_B",
-        "5swg_B",
-        "5sxf_B",
-        "5swo_B",
-        "5xgi_B",
-        "4ovu_B",
-        "4ovv_B",
-        "4l23_B",
-        "4jps_B",
-        "6nct_B",
-        "4ykn_A",
-        "2rd0_B",
-        "5sx8_B",
-        "4waf_B",
-        "5sxj_B",
-        "5sxe_B",
-        "5sxi_B",
-        "3hiz_B",
-        "5sxd_B",
-        "4l2y_B",
-        "5ul1_B",
-        "5sxb_B",
-        "5swr_B",
-        "5sxk_B",
-        "4zop_B",
-        "5sxc_B",
-        "5swt_B",
-        "4l1b_B",
-        "5sw8_B",
-        "5swp_B",
-        "5sxa_B",
-        "5sx9_B"
-      ]
-    }
-  },
-  "PPP2R5C": {
-    "PDB_MULTI": {
-      "Q13362": [
-        "3fga_B",
-        "2nym_B",
-        "2iae_B",
-        "2npp_E",
-        "2nyl_B"
-      ]
-    }
-  },
-  "PSMB6": {
-    "PDB_MULTI": {
-      "P28072": [
-        "5t0i_N",
-        "5vft_n",
-        "5gjq_a",
-        "5t0h_N",
-        "5m32_b",
-        "5t0g_N",
-        "5vfr_n",
-        "5ln3_1",
-        "5gjq_o",
-        "5t0j_N",
-        "5m32_N"
-      ]
-    }
-  },
-  "PPME1": {
-    "PDB_MULTI": {
-      "Q9Y570": [
-        "3c5w_P"
-      ]
-    }
-  },
-  "BRAF": {
-    "RAPTOR": {
-      "P15056": [
-        "BRAF"
-      ]
-    },
-    "PDB_MULTI": {
-      "P15056": [
-        "6q0t_A",
-        "6q0t_B",
-        "6pp9_A",
-        "6q0j_A",
-        "4mne_B",
-        "6nyb_A",
-        "4mne_C",
-        "6q0j_B"
-      ]
-    }
-  },
-  "SPOP": {
-    "PDB": {
-      "O43791": [
-        "3hqi_A"
-      ]
-    },
-    "SWISS": {
-      "O43791": [
-        "SPOP_A"
-      ]
-    },
-    "RAPTOR": {
-      "O43791": [
-        "SPOP"
-      ]
-    },
-    "PDB_MULTI": {
-      "O43791": [
-        "3hqi_B",
-        "3hqi_A",
-        "3hu6_B",
-        "3hu6_A"
-      ]
-    }
-  },
-  "TAOK1": {
-    "RAPTOR": {
-      "Q7L7X3": [
-        "TAOK1"
-      ]
-    }
-  },
-  "NR5A2": {
-    "PDB_MULTI": {
-      "O00482": [
-        "3tx7_B"
-      ]
-    }
-  },
-  "PSMD2": {
-    "PDB_MULTI": {
-      "Q13200": [
-        "5vhh_f",
-        "5gjq_Z",
-        "5vhf_f",
-        "5vhi_f",
-        "5vft_f",
-        "5t0i_f",
-        "5vho_f",
-        "5t0g_f",
-        "5vhn_f",
-        "5vhq_f",
-        "5vhp_f",
-        "5t0j_f",
-        "5vhj_f",
-        "5vfr_f",
-        "5vhm_f",
-        "5t0h_f",
-        "5vhs_f",
-        "5ln3_Z",
-        "5vhr_f"
-      ]
-    }
-  },
-  "PCBP2": {
-    "SWISS": {
-      "Q15366": [
-        "PCBP2_B"
-      ]
-    },
-    "RAPTOR": {
-      "Q15366": [
-        "PCBP2"
-      ]
-    }
-  },
-  "SF3B5": {
-    "PDB_MULTI": {
-      "Q9BWJ5": [
-        "5o9z_x",
-        "6ah0_7"
-      ]
-    }
-  },
-  "SHOC2": {
-    "SWISS": {
-      "Q9UQ13": [
-        "SHOC2_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q9UQ13": [
-        "SHOC2"
-      ]
-    }
-  },
-  "PHF12": {
-    "RAPTOR": {
-      "Q96QT6": [
-        "PHF12"
-      ]
-    }
-  },
-  "HK1": {
-    "PDB": {
-      "P19367": [
-        "1qha_A"
-      ]
-    },
-    "SWISS": {
-      "P19367": [
-        "HK1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P19367": [
-        "HK1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P19367": [
-        "4fpb_B",
-        "1qha_A",
-        "1qha_B",
-        "4f9o_A",
-        "4fpa_A",
-        "4fpb_A",
-        "4foe_B",
-        "4foi_A",
-        "4foi_B",
-        "1hkb_A",
-        "4foe_A",
-        "4fpa_B"
-      ]
-    }
-  },
-  "SRSF1": {
-    "SWISS": {
-      "Q07955": [
-        "SRSF1_B"
-      ]
-    },
-    "RAPTOR": {
-      "Q07955": [
-        "SRSF1"
-      ]
-    }
-  },
-  "HNRNPK": {
-    "RAPTOR": {
-      "P61978": [
-        "HNRNPK"
-      ]
-    }
-  },
-  "SMARCB1": {
-    "RAPTOR": {
-      "Q12824": [
-        "SMARCB1"
-      ]
-    }
-  },
-  "NAA10": {
-    "PDB": {
-      "P41227": [
-        "6c95_B"
-      ]
-    },
-    "SWISS": {
-      "P41227": [
-        "NAA10_B"
-      ]
-    },
-    "RAPTOR": {
-      "P41227": [
-        "NAA10"
-      ]
-    },
-    "PDB_MULTI": {
-      "P41227": [
-        "6c95_B",
-        "6c9m_B"
-      ]
-    }
-  },
-  "BRPF1": {
-    "RAPTOR": {
-      "P55201": [
-        "BRPF1"
-      ]
-    }
-  },
-  "GLP1R": {
-    "PDB_MULTI": {
-      "P43220": [
-        "6b3j_R"
-      ]
-    }
-  },
-  "RAB11FIP1": {
-    "PDB_MULTI": {
-      "Q6WKZ4": [
-        "4d0g_C"
-      ]
-    }
-  },
-  "RAD21": {
-    "PDB_MULTI": {
-      "O60216": [
-        "4pju_B",
-        "4pjw_B",
-        "4pk7_B"
-      ]
-    }
-  },
-  "PSMD6": {
-    "PDB_MULTI": {
-      "Q15008": [
-        "5vhs_Y",
-        "5t0g_Y",
-        "5t0h_Y",
-        "5t0i_Y",
-        "5vhh_Y",
-        "5gjq_R",
-        "5vhf_Y",
-        "5vft_Y",
-        "5m32_m",
-        "5vfr_Y",
-        "5ln3_R",
-        "5vhi_Y",
-        "5t0j_Y"
-      ]
-    }
-  },
-  "GABRB2": {
-    "PDB": {
-      "P47870": [
-        "6d6t_A"
-      ]
-    },
-    "SWISS": {
-      "P47870": [
-        "GABRB2_C"
-      ]
-    },
-    "RAPTOR": {
-      "P47870": [
-        "GABRB2"
-      ]
-    },
-    "PDB_MULTI": {
-      "P47870": [
-        "6d6u_C",
-        "6d6t_C",
-        "6d6t_A",
-        "6d6u_A"
-      ]
-    }
-  },
-  "DPYSL5": {
-    "PDB": {
-      "Q9BPU6": [
-        "4b90_A"
-      ]
-    },
-    "SWISS": {
-      "Q9BPU6": [
-        "DPYSL5_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q9BPU6": [
-        "DPYSL5"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q9BPU6": [
-        "4b92_A",
-        "4b91_A",
-        "4b91_B",
-        "4b90_A",
-        "4b90_B",
-        "4b92_B"
-      ]
-    }
-  },
   "BMPR2": {
     "RAPTOR": {
       "Q13873": [
@@ -3426,171 +3949,36 @@
       ]
     }
   },
-  "SNRPE": {
-    "PDB_MULTI": {
-      "P62304": [
-        "5o9z_j",
-        "6ah0_c",
-        "3jcr_s",
-        "6ah0_R",
-        "6ah0_l",
-        "5o9z_U",
-        "5o9z_c"
-      ]
-    }
-  },
-  "MTOR": {
-    "PDB": {
-      "P42345": [
-        "5zcs_A"
-      ]
-    },
+  "KCNH1": {
     "SWISS": {
-      "P42345": [
-        "MTOR_A"
+      "O95259": [
+        "KCNH1_A"
       ]
     },
     "RAPTOR": {
-      "P42345": [
-        "MTOR"
-      ]
-    },
-    "PDB_MULTI": {
-      "P42345": [
-        "5zcs_B",
-        "5zcs_A",
-        "5h64_A"
+      "O95259": [
+        "KCNH1"
       ]
     }
   },
-  "CHD2": {
+  "DNMT3A": {
     "RAPTOR": {
-      "O14647": [
-        "CHD2"
+      "Q9Y6K1": [
+        "DNMT3A"
       ]
     }
   },
-  "ARFIP2": {
-    "PDB_MULTI": {
-      "P53365": [
-        "1i4t_B",
-        "1i4l_B",
-        "1i4d_A",
-        "1i4d_B",
-        "1i4l_A",
-        "1i4t_A"
-      ]
-    }
-  },
-  "STAG2": {
-    "PDB": {
-      "Q8N3U4": [
-        "4pk7_A"
-      ]
-    },
-    "SWISS": {
-      "Q8N3U4": [
-        "STAG2_A"
-      ]
-    },
+  "ABL1": {
     "RAPTOR": {
-      "Q8N3U4": [
-        "STAG2"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q8N3U4": [
-        "4pju_A",
-        "4pk7_A",
-        "4pjw_A"
+      "P00519": [
+        "ABL1"
       ]
     }
   },
-  "TNRC6A": {
-    "PDB_MULTI": {
-      "Q8NDV7": [
-        "5w6v_B"
-      ]
-    }
-  },
-  "LSM7": {
-    "PDB_MULTI": {
-      "Q9UK45": [
-        "3jcr_7",
-        "6ah0_y",
-        "5o9z_t"
-      ]
-    }
-  },
-  "CCNC": {
-    "PDB_MULTI": {
-      "P24863": [
-        "4crl_B",
-        "5icp_B",
-        "4f6u_B",
-        "5hbj_B",
-        "4f6w_B",
-        "4f70_B",
-        "5cei_B",
-        "5xs2_B",
-        "5idn_B",
-        "5bnj_B",
-        "5hbe_B",
-        "4f7j_B",
-        "4f7l_B",
-        "4g6l_B",
-        "3rgf_B",
-        "5i5z_B",
-        "4f7s_B",
-        "5hnb_B",
-        "4f7n_B",
-        "5fgk_B",
-        "5hvy_B",
-        "4f6s_B",
-        "5xqx_B",
-        "5idp_B",
-        "5hbh_B"
-      ]
-    }
-  },
-  "CTNNB1": {
-    "PDB": {
-      "P35222": [
-        "2z6h_A"
-      ]
-    },
-    "SWISS": {
-      "P35222": [
-        "CTNNB1_A"
-      ]
-    },
+  "ARID2": {
     "RAPTOR": {
-      "P35222": [
-        "CTNNB1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P35222": [
-        "1t08_A",
-        "3tx7_A",
-        "1th1_A",
-        "1g3j_A",
-        "1jpw_A",
-        "1jdh_A",
-        "2gl7_A"
-      ]
-    }
-  },
-  "SNRPF": {
-    "PDB_MULTI": {
-      "P62306": [
-        "6ah0_m",
-        "6ah0_Q",
-        "3jcr_t",
-        "5o9z_b",
-        "5o9z_i",
-        "6ah0_b",
-        "5o9z_T"
+      "Q68CP9": [
+        "ARID2"
       ]
     }
   },
@@ -3617,274 +4005,546 @@
       ]
     }
   },
-  "SYNGAP1": {
-    "RAPTOR": {
-      "Q96PV0": [
-        "SYNGAP1"
-      ]
-    }
-  },
-  "TP53": {
+  "RGS14": {
     "PDB_MULTI": {
-      "P04637": [
-        "2v5w_I"
+      "O43566": [
+        "3onw_C",
+        "2xns_D",
+        "2om2_B",
+        "3qi2_C"
       ]
     }
   },
-  "EEF1A2": {
-    "SWISS": {
-      "Q05639": [
-        "EEF1A2_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q05639": [
-        "EEF1A2"
-      ]
-    }
-  },
-  "ADNP": {
-    "RAPTOR": {
-      "Q9H2P0": [
-        "ADNP"
-      ]
-    }
-  },
-  "KCNH1": {
-    "SWISS": {
-      "O95259": [
-        "KCNH1_A"
-      ]
-    },
-    "RAPTOR": {
-      "O95259": [
-        "KCNH1"
-      ]
-    }
-  },
-  "IQSEC2": {
+  "PRPF6": {
     "PDB_MULTI": {
-      "Q5JU85": [
-        "6fae_A"
+      "O94906": [
+        "3jcr_G",
+        "6ah0_N",
+        "5o9z_G"
       ]
     }
   },
-  "PPP2CA": {
+  "CSNK2A1": {
     "PDB": {
-      "P67775": [
-        "2npp_F"
+      "P68400": [
+        "5cqw_A",
+        "5orj_A",
+        "5csp_A",
+        "4md7_E",
+        "5h8b_A",
+        "5oyf_A",
+        "6ehu_A",
+        "5osl_A",
+        "5m44_A",
+        "5mo5_A",
+        "5oue_A",
+        "5zn4_A",
+        "3q04_A",
+        "5mow_A",
+        "5h8e_A",
+        "5os7_B",
+        "5cvf_A",
+        "5otz_A",
+        "1pjk_A",
+        "5oni_A",
+        "5moh_A",
+        "4nh1_B",
+        "5n9n_A",
+        "5cu2_A",
+        "5otq_A",
+        "5oqu_A",
+        "5ork_A",
+        "3amy_A",
+        "5ctp_A",
+        "5osu_A",
+        "3q9z_A",
+        "5b0x_A",
+        "3h30_A",
+        "2zjw_A",
+        "3owk_A",
+        "5otr_A",
+        "5t1h_A",
+        "5n1v_A",
+        "3r0t_A",
+        "5zn1_A",
+        "5m4f_A",
+        "4uba_A",
+        "6gih_A",
+        "6hnw_A",
+        "5cx9_A",
+        "5ku8_A",
+        "6hot_A",
+        "5cu4_A",
+        "1jwh_A",
+        "6fvf_A",
+        "4kwp_A",
+        "5zn2_A",
+        "6eii_A",
+        "5cu0_A",
+        "5oti_A",
+        "3qa0_A",
+        "5csh_A",
+        "5otd_A",
+        "3owl_A",
+        "5m4c_A",
+        "3bqc_A",
+        "3nga_A",
+        "5mo7_A",
+        "5h8g_A",
+        "3u87_A",
+        "6hou_A",
+        "6hme_A",
+        "5cu6_A",
+        "5ot6_A",
+        "3at4_A",
+        "5oto_A",
+        "5mpj_A",
+        "5os8_A",
+        "3c13_A",
+        "5cvg_A",
+        "5oum_A",
+        "5mod_B",
+        "4md8_E",
+        "4grb_A",
+        "6ehk_A",
+        "5mo6_B",
+        "6jwa_A",
+        "3mb6_A",
+        "3wik_A",
+        "5mp8_A",
+        "5cqu_A",
+        "5csv_A",
+        "5otp_A",
+        "5mo8_A",
+        "3owj_A",
+        "5orh_A",
+        "5cu3_A",
+        "5cvh_A",
+        "6hny_A",
+        "3q9w_A",
+        "3war_A",
+        "3q9x_A",
+        "5osz_A",
+        "5zn3_A",
+        "3q9y_A",
+        "3w8l_A",
+        "3u4u_A",
+        "2pvr_A",
+        "5ots_A",
+        "4gub_A",
+        "5mov_A",
+        "4ib5_A",
+        "5nqc_A",
+        "3mb7_A",
+        "5moe_A",
+        "3juh_A",
+        "4md9_E",
+        "6hoq_A",
+        "6hbn_A",
+        "3rps_A",
+        "5owl_A",
+        "6gmd_A",
+        "3pe1_A",
+        "5oul_A",
+        "5mot_A",
+        "3nsz_A",
+        "5osr_A",
+        "5mmf_A",
+        "3u9c_A",
+        "5cs6_A",
+        "5ot5_A",
+        "5zn5_A",
+        "5kwh_A",
+        "3wil_A",
+        "4fbx_A",
+        "3pe2_A",
+        "6hor_A",
+        "6fvg_A",
+        "3wow_A",
+        "4ub7_A",
+        "1na7_A",
+        "5ouu_B",
+        "5osp_A",
+        "5oth_A",
+        "5zn0_A",
+        "6hop_A",
+        "6q4q_A",
+        "4dgl_C",
+        "4rll_A",
+        "5n9l_A",
+        "5otl_B",
+        "5owh_A",
+        "3fwq_A",
+        "6q38_A",
+        "5m4i_A",
+        "5n9k_A",
+        "5oty_A",
+        "5omy_A",
+        "3axw_A",
+        "6a1c_A",
+        "5clp_A",
+        "3at3_A",
+        "3at2_A",
+        "5ct0_A",
+        "5mmr_A"
       ]
     },
     "SWISS": {
-      "P67775": [
-        "PPP2CA_C"
+      "P68400": [
+        "CSNK2A1_B"
       ]
     },
     "RAPTOR": {
-      "P67775": [
-        "PPP2CA"
+      "P68400": [
+        "CSNK2A1"
       ]
     },
     "PDB_MULTI": {
-      "P67775": [
-        "2nyl_C",
-        "2iae_C",
-        "4lac_C",
-        "4i5n_C",
-        "3k7v_C",
-        "3fga_C",
-        "3dw8_C",
-        "3p71_C",
-        "4i5l_C",
-        "3k7w_C",
-        "2nym_C",
-        "2ie3_C",
-        "3c5w_C",
-        "2npp_F",
-        "5w0w_C",
-        "2ie4_C"
+      "P68400": [
+        "5oth_B",
+        "5vif_B",
+        "5cqw_A",
+        "5orj_A",
+        "4md7_E",
+        "5h8b_A",
+        "4md9_F",
+        "6ehu_A",
+        "5otp_B",
+        "5oue_A",
+        "5mo5_A",
+        "4md7_F",
+        "4gyy_B",
+        "5os7_B",
+        "5mow_A",
+        "5h8e_A",
+        "5oni_A",
+        "4nh1_B",
+        "5cu2_A",
+        "5oqu_A",
+        "1jwh_B",
+        "3pe4_B",
+        "5ork_A",
+        "5ouu_A",
+        "5ctp_A",
+        "3q9z_A",
+        "3h30_A",
+        "5otl_A",
+        "5t1h_A",
+        "5n1v_A",
+        "4uba_A",
+        "5oqu_B",
+        "3tax_B",
+        "5cx9_A",
+        "5ku8_A",
+        "1jwh_A",
+        "6eii_A",
+        "5cu0_A",
+        "5vie_B",
+        "3qa0_A",
+        "5csh_A",
+        "5otd_A",
+        "5vie_D",
+        "3nga_A",
+        "5mo7_A",
+        "3u87_A",
+        "6hme_A",
+        "4md8_F",
+        "5ot6_A",
+        "5oto_A",
+        "5mpj_A",
+        "5oum_B",
+        "5oum_A",
+        "5mod_B",
+        "5oto_B",
+        "4md8_E",
+        "4dgl_D",
+        "5mo6_B",
+        "5orj_B",
+        "5mp8_A",
+        "5otp_A",
+        "5mo8_A",
+        "5ork_B",
+        "5orh_A",
+        "5cu3_A",
+        "5cvh_A",
+        "3q9x_A",
+        "3w8l_A",
+        "5hgv_B",
+        "5cu3_B",
+        "4ib5_A",
+        "5otd_B",
+        "5moe_A",
+        "3juh_A",
+        "4md9_E",
+        "6hbn_A",
+        "4gz3_B",
+        "3rps_A",
+        "4nh1_A",
+        "5owl_A",
+        "6gmd_A",
+        "5mmf_A",
+        "3u9c_A",
+        "5cs6_A",
+        "5ot5_A",
+        "4gyw_D",
+        "5kwh_A",
+        "6e37_B",
+        "5ouu_B",
+        "5oth_A",
+        "5ot5_B",
+        "6q4q_A",
+        "4dgl_C",
+        "5otl_B",
+        "3fwq_A",
+        "6q38_A",
+        "5clp_A",
+        "5ct0_A",
+        "5mmr_A"
       ]
     }
   },
-  "HNRNPD": {
+  "KCNT1": {
+    "SWISS": {
+      "Q5JUK3": [
+        "KCNT1_A"
+      ]
+    },
     "RAPTOR": {
-      "Q14103": [
-        "HNRNPD"
+      "Q5JUK3": [
+        "KCNT1"
       ]
     }
   },
-  "TONSL": {
+  "SLC35A2": {
+    "RAPTOR": {
+      "P78381": [
+        "SLC35A2"
+      ]
+    }
+  },
+  "PLXNB1": {
     "PDB_MULTI": {
-      "Q96HA7": [
-        "5ja4_D"
+      "O43157": [
+        "3su8_X",
+        "3sua_D"
       ]
     }
   },
-  "PPP2R1A": {
+  "H2BC11": {
+    "PDB_MULTI": {
+      "P06899": [
+        "6a5l_d",
+        "6a5u_d",
+        "6j4w_h",
+        "6a5o_d",
+        "6a5u_h",
+        "6j4z_h",
+        "6j50_d",
+        "6j50_h",
+        "6j4x_h",
+        "5b32_H",
+        "6a5t_h",
+        "6a5l_h",
+        "6j4y_d",
+        "3wtp_H",
+        "6j4y_h",
+        "3av2_H",
+        "3av2_D",
+        "6ir9_h",
+        "6a5p_h",
+        "3wtp_D",
+        "6j4x_d",
+        "6a5r_d",
+        "6j4z_d",
+        "6a5p_d",
+        "6j51_d",
+        "5b33_H",
+        "6inq_d",
+        "6j51_h",
+        "5x7x_D",
+        "5b32_D",
+        "6j4w_d",
+        "6a5o_h",
+        "6ir9_d",
+        "6a5r_h",
+        "6inq_h",
+        "5b33_D",
+        "5x7x_H",
+        "6a5t_d"
+      ]
+    }
+  },
+  "CHRM1": {
+    "PDB_MULTI": {
+      "P11229": [
+        "6oij_R"
+      ]
+    }
+  },
+  "WDR45": {
     "PDB": {
-      "P30153": [
-        "1b3u_A"
+      "Q5MNZ6": [
+        "6iyy_A"
       ]
     },
     "SWISS": {
-      "P30153": [
-        "PPP2R1A_A"
+      "Q5MNZ6": [
+        "WDR45_A"
       ]
     },
     "RAPTOR": {
-      "P30153": [
-        "PPP2R1A"
-      ]
-    },
-    "PDB_MULTI": {
-      "P30153": [
-        "2ie3_A",
-        "3dw8_A",
-        "3k7v_A",
-        "3k7w_A",
-        "6iur_A",
-        "1b3u_A",
-        "6iur_B",
-        "2pkg_A",
-        "2ie4_A",
-        "5w0w_A",
-        "4i5l_A",
-        "3c5w_A",
-        "4i5n_A",
-        "4lac_A",
-        "2nym_A",
-        "2nyl_A",
-        "2npp_D"
+      "Q5MNZ6": [
+        "WDR45"
       ]
     }
   },
-  "PRPF38A": {
+  "UPF2": {
     "PDB_MULTI": {
-      "Q8NAV1": [
-        "5o9z_I"
+      "Q9HAU5": [
+        "2wjv_D"
       ]
     }
   },
-  "PHF5A": {
+  "ARHGDIA": {
     "PDB_MULTI": {
-      "Q7RTV0": [
-        "5o9z_y",
-        "6ah0_6"
+      "P52565": [
+        "1hh4_D"
       ]
     }
   },
-  "PDHA1": {
+  "GNAI1": {
     "PDB": {
-      "P08559": [
-        "3exe_A"
+      "P63096": [
+        "2xns_B",
+        "3qi2_A",
+        "1y3a_A",
+        "2ik8_A",
+        "6osa_A",
+        "6crk_A",
+        "3umr_A",
+        "2om2_A",
+        "6ot0_A",
+        "2g83_A",
+        "5js7_A",
+        "3qe0_A",
+        "4g5q_A",
+        "2gtp_A",
+        "1kjy_A",
+        "6cmo_A",
+        "5js8_A",
+        "6n4b_A",
+        "6os9_A",
+        "5tdh_A",
+        "3onw_A",
+        "6ddf_A",
+        "3ums_A",
+        "6dde_A"
       ]
     },
     "SWISS": {
-      "P08559": [
-        "PDHA1_A"
+      "P63096": [
+        "GNAI1_A"
       ]
     },
     "RAPTOR": {
-      "P08559": [
-        "PDHA1"
+      "P63096": [
+        "GNAI1"
       ]
     },
     "PDB_MULTI": {
-      "P08559": [
-        "3exg_A",
-        "6cfo_C",
-        "3exh_C",
-        "6cer_A",
-        "3exi_A",
-        "1ni4_A",
-        "3exh_A",
-        "6cfo_A",
-        "2ozl_C",
-        "3exf_C",
-        "1ni4_C",
-        "3exg_C",
-        "6cer_C",
-        "3exe_A",
-        "3exe_C",
-        "3exf_A",
-        "2ozl_A"
+      "P63096": [
+        "2xns_B",
+        "3qi2_A",
+        "1y3a_A",
+        "2ik8_A",
+        "6osa_A",
+        "6crk_A",
+        "2om2_A",
+        "6ot0_A",
+        "2g83_A",
+        "3qe0_A",
+        "4g5q_A",
+        "2gtp_A",
+        "1kjy_A",
+        "6cmo_A",
+        "6n4b_A",
+        "6os9_A",
+        "5tdh_A",
+        "3onw_A",
+        "6ddf_A",
+        "6dde_A"
       ]
     }
   },
-  "CSNK2A2": {
-    "PDB_MULTI": {
-      "P19784": [
-        "3u87_A"
-      ]
-    }
-  },
-  "COL4A3BP": {
-    "RAPTOR": {
-      "Q9Y5P4": [
-        "COL4A3BP"
-      ]
-    }
-  },
-  "RAN": {
-    "PDB_MULTI": {
-      "P62826": [
-        "5dlq_C"
-      ]
-    }
-  },
-  "SF3B4": {
-    "PDB_MULTI": {
-      "Q15427": [
-        "6ah0_4"
-      ]
-    }
-  },
-  "SNRPG": {
-    "PDB_MULTI": {
-      "P62308": [
-        "5o9z_V",
-        "5o9z_k",
-        "3jcr_u",
-        "6ah0_S",
-        "5o9z_d",
-        "6ah0_d",
-        "6ah0_n"
-      ]
-    }
-  },
-  "ZMYND11": {
-    "RAPTOR": {
-      "Q15326": [
-        "ZMYND11"
-      ]
-    }
-  },
-  "USP7": {
-    "PDB": {
-      "Q93009": [
-        "5j7t_A"
-      ]
-    },
+  "SRSF1": {
     "SWISS": {
-      "Q93009": [
-        "USP7_A"
+      "Q07955": [
+        "SRSF1_B"
       ]
     },
     "RAPTOR": {
-      "Q93009": [
-        "USP7"
+      "Q07955": [
+        "SRSF1"
       ]
-    },
+    }
+  },
+  "SMC3": {
+    "RAPTOR": {
+      "Q9UQE7": [
+        "SMC3"
+      ]
+    }
+  },
+  "PSMD6": {
     "PDB_MULTI": {
-      "Q93009": [
-        "5jtv_A"
+      "Q15008": [
+        "5m32_m",
+        "5vhh_Y",
+        "5ln3_R",
+        "5vhf_Y",
+        "5t0i_Y",
+        "5vhi_Y",
+        "5t0g_Y",
+        "5t0j_Y",
+        "5gjq_R",
+        "5t0h_Y",
+        "5vft_Y",
+        "5vhs_Y",
+        "5vfr_Y"
       ]
     }
   },
   "GNB1": {
     "PDB": {
       "P62873": [
-        "4kfm_B"
+        "6niy_B",
+        "4kfm_B",
+        "6e3y_B",
+        "6ddf_B",
+        "6oij_B",
+        "6g79_B",
+        "6dde_B",
+        "5ukk_B",
+        "5he0_B",
+        "5he2_B",
+        "6crk_B",
+        "5ukl_B",
+        "6eg8_A",
+        "5ukm_B",
+        "6os9_B",
+        "6ni3_B",
+        "4pnk_B",
+        "6d9h_B",
+        "5he3_B",
+        "6oik_B",
+        "6ot0_B",
+        "6m8s_G",
+        "5he1_B",
+        "6b3j_B",
+        "5uz7_B",
+        "6osa_B",
+        "6gdg_B",
+        "6n4b_B"
       ]
     },
     "SWISS": {
@@ -3899,40 +4559,146 @@
     },
     "PDB_MULTI": {
       "P62873": [
-        "6os9_B",
-        "6crk_B",
-        "6g79_B",
-        "6m8s_G",
-        "5he1_B",
-        "6ni3_B",
-        "6ot0_B",
+        "6niy_B",
         "6e3y_B",
         "6ddf_B",
-        "6m8s_H",
         "6oij_B",
-        "6osa_B",
-        "6b3j_B",
-        "6d9h_B",
-        "5ukl_B",
+        "6g79_B",
         "6dde_B",
-        "5uz7_B",
-        "6oik_B",
-        "6n4b_B",
-        "6gdg_B",
-        "6m8s_D",
-        "6eg8_A",
+        "6m8s_H",
         "5ukk_B",
-        "6m8s_C",
+        "6eg8_A",
+        "6crk_B",
+        "5ukl_B",
+        "6os9_B",
         "6m8s_K",
         "4pnk_B",
-        "6niy_B"
+        "6ni3_B",
+        "6d9h_B",
+        "6oik_B",
+        "6ot0_B",
+        "6m8s_D",
+        "6m8s_G",
+        "5he1_B",
+        "6b3j_B",
+        "5uz7_B",
+        "6osa_B",
+        "6m8s_C",
+        "6gdg_B",
+        "6n4b_B"
       ]
     }
   },
-  "PACS2": {
+  "RPS6KA3": {
+    "SWISS": {
+      "P51812": [
+        "RPS6KA3_A"
+      ]
+    },
     "RAPTOR": {
-      "Q86VP3": [
-        "PACS2"
+      "P51812": [
+        "RPS6KA3"
+      ]
+    }
+  },
+  "KIF5C": {
+    "RAPTOR": {
+      "O60282": [
+        "KIF5C"
+      ]
+    }
+  },
+  "H2AZ1": {
+    "PDB_MULTI": {
+      "P0C0S5": [
+        "5b33_C",
+        "5b33_G",
+        "5b32_G"
+      ]
+    }
+  },
+  "SF3B5": {
+    "PDB_MULTI": {
+      "Q9BWJ5": [
+        "5o9z_x",
+        "6ah0_7"
+      ]
+    }
+  },
+  "TXNL4A": {
+    "PDB_MULTI": {
+      "P83876": [
+        "3jcr_E",
+        "5o9z_J",
+        "6ah0_O"
+      ]
+    }
+  },
+  "PSMD12": {
+    "PDB_MULTI": {
+      "O00232": [
+        "5t0i_W",
+        "5vhf_W",
+        "5t0j_W",
+        "5vhi_W",
+        "5gjq_P",
+        "5vhh_W",
+        "5m32_k",
+        "5t0g_W",
+        "5vfr_W",
+        "5vft_W",
+        "5t0h_W",
+        "5ln3_P",
+        "5vhs_W"
+      ]
+    }
+  },
+  "CCNC": {
+    "PDB_MULTI": {
+      "P24863": [
+        "5hbe_B",
+        "4f7n_B",
+        "5hbh_B",
+        "4g6l_B",
+        "4f7l_B",
+        "5icp_B",
+        "4f7j_B",
+        "5bnj_B",
+        "3rgf_B",
+        "4f6u_B",
+        "5hnb_B",
+        "5i5z_B",
+        "5hbj_B",
+        "5idp_B",
+        "5hvy_B",
+        "5idn_B",
+        "5xqx_B",
+        "5fgk_B",
+        "4crl_B",
+        "4f70_B",
+        "4f6s_B",
+        "5xs2_B",
+        "4f6w_B",
+        "4f7s_B",
+        "5cei_B"
+      ]
+    }
+  },
+  "KALRN": {
+    "PDB_MULTI": {
+      "O60229": [
+        "5qqn_B",
+        "5qqf_B",
+        "5qqh_B",
+        "5qqg_B",
+        "5qqe_B",
+        "5qqi_B",
+        "5qql_B",
+        "5qqk_B",
+        "5qu9_B",
+        "5qqm_B",
+        "5qqj_B",
+        "5qqd_B"
       ]
     }
   },
@@ -3943,550 +4709,170 @@
       ]
     }
   },
-  "KCNQ2": {
-    "RAPTOR": {
-      "O43526": [
-        "KCNQ2"
+  "PSMC3": {
+    "PDB_MULTI": {
+      "P17980": [
+        "5vft_F",
+        "5vhn_F",
+        "5vhs_F",
+        "5vhp_F",
+        "5vfr_F",
+        "5t0h_F",
+        "5vhm_F",
+        "5t0j_F",
+        "5vhf_F",
+        "5gjq_M",
+        "5ln3_M",
+        "5t0i_F",
+        "5t0g_F",
+        "5vhj_F",
+        "5m32_g",
+        "5vhq_F",
+        "5vhi_F",
+        "5vhr_F",
+        "5vhh_F",
+        "5vho_F"
       ]
     }
   },
-  "HDAC8": {
-    "PDB": {
-      "Q9BY41": [
-        "3f07_A"
+  "APC": {
+    "PDB_MULTI": {
+      "P25054": [
+        "1th1_C",
+        "1t08_C"
       ]
-    },
+    }
+  },
+  "LMNB2": {
+    "PDB_MULTI": {
+      "Q03252": [
+        "5bnw_D"
+      ]
+    }
+  },
+  "SNRNP40": {
+    "PDB_MULTI": {
+      "Q96DI7": [
+        "5o9z_D",
+        "6ah0_E",
+        "3jcr_D"
+      ]
+    }
+  },
+  "PRPF4": {
+    "PDB_MULTI": {
+      "O43172": [
+        "3jcr_L",
+        "6ah0_K",
+        "5o9z_F"
+      ]
+    }
+  },
+  "GRIN2B": {
     "SWISS": {
-      "Q9BY41": [
-        "HDAC8_A"
+      "Q13224": [
+        "GRIN2B_C"
       ]
-    },
+    }
+  },
+  "LSM6": {
+    "PDB_MULTI": {
+      "P62312": [
+        "6ah0_x",
+        "5o9z_s",
+        "3jcr_6"
+      ]
+    }
+  },
+  "SNRPD1": {
+    "PDB_MULTI": {
+      "P62314": [
+        "5o9z_Z",
+        "3jcr_p",
+        "6ah0_g",
+        "6ah0_j",
+        "5o9z_n",
+        "5o9z_g",
+        "6ah0_V"
+      ]
+    }
+  },
+  "PSMD7": {
+    "PDB_MULTI": {
+      "P51665": [
+        "5t0g_Z",
+        "5vhi_Z",
+        "5t0j_Z",
+        "5vhs_Z",
+        "5t0i_Z",
+        "5t0h_Z",
+        "5vhf_Z",
+        "5vfr_Z",
+        "5gjq_U",
+        "5m32_n",
+        "5vft_Z",
+        "5vhh_Z",
+        "5ln3_U"
+      ]
+    }
+  },
+  "PHF5A": {
+    "PDB_MULTI": {
+      "Q7RTV0": [
+        "6ah0_6",
+        "5o9z_y"
+      ]
+    }
+  },
+  "PSMD14": {
+    "PDB_MULTI": {
+      "O00487": [
+        "5t0j_c",
+        "5vfr_c",
+        "5t0g_c",
+        "5ln3_V",
+        "5t0i_c",
+        "5t0h_c",
+        "5vhf_c",
+        "5vhh_c",
+        "5vhs_c",
+        "5m32_q",
+        "5vhi_c",
+        "5vft_c",
+        "5gjq_V"
+      ]
+    }
+  },
+  "SCN8A": {
     "RAPTOR": {
-      "Q9BY41": [
-        "HDAC8"
+      "Q9UQD0": [
+        "SCN8A"
       ]
-    },
+    }
+  },
+  "AKAP5": {
     "PDB_MULTI": {
-      "Q9BY41": [
-        "2v5x_A",
-        "5dc8_A",
-        "4rn0_A",
-        "5d1c_A",
-        "1vkg_A",
-        "3ewf_B",
-        "4qa5_A",
-        "3rqd_A",
-        "3ewf_D",
-        "4qa0_B",
-        "5d1d_A",
-        "3ewf_A",
-        "4qa0_A",
-        "5ths_A",
-        "1vkg_B",
-        "5dc6_A",
-        "5d1b_A",
-        "5tht_A",
-        "3mz3_A",
-        "5fcw_A",
-        "4qa2_A",
-        "4qa3_A",
-        "3ezp_A",
-        "5dc7_A",
-        "3f06_A",
-        "3f07_A",
-        "2v5w_A",
-        "4qa1_A",
-        "4rn2_A",
-        "5thu_A",
-        "3ezt_A",
-        "5dc5_A",
-        "4qa6_A",
-        "5bwz_A",
-        "5thv_A",
-        "1w22_A",
-        "3ewf_C",
-        "1t64_A",
-        "6hsk_A",
-        "3mz4_A",
-        "4rn1_A",
-        "3f0r_A"
+      "P24588": [
+        "3ll8_E"
       ]
     }
   },
-  "GNG2": {
+  "SLC9A1": {
     "PDB_MULTI": {
-      "P59768": [
-        "6g79_G"
-      ]
-    }
-  },
-  "DDB1": {
-    "PDB_MULTI": {
-      "Q16531": [
-        "4a0l_A"
-      ]
-    }
-  },
-  "SELENOS": {
-    "PDB_MULTI": {
-      "Q9BQE4": [
-        "5kiw_D",
-        "5kiy_B",
-        "5kiw_C"
-      ]
-    }
-  },
-  "ARF1": {
-    "PDB": {
-      "P84077": [
-        "1hur_A"
-      ]
-    },
-    "SWISS": {
-      "P84077": [
-        "ARF1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P84077": [
-        "ARF1"
-      ]
-    },
-    "PDB_MULTI": {
-      "P84077": [
-        "6d84_N",
-        "6dff_C",
-        "1hur_B",
-        "6d83_C",
-        "6cri_K",
-        "6d84_C",
-        "6cri_U",
-        "3o47_A",
-        "1hur_A",
-        "6d84_I",
-        "6cri_L",
-        "6cri_V",
-        "6fae_B",
-        "6dff_H",
-        "6cri_H",
-        "4hmy_C",
-        "6cm9_C",
-        "6cm9_H",
-        "6d83_H",
-        "6cri_C",
-        "6d84_H"
-      ]
-    }
-  },
-  "SATB1": {
-    "RAPTOR": {
-      "Q01826": [
-        "SATB1"
-      ]
-    }
-  },
-  "CSNK2B": {
-    "PDB": {
-      "P67870": [
-        "1jwh_D"
-      ]
-    },
-    "SWISS": {
-      "P67870": [
-        "CSNK2B_A"
-      ]
-    },
-    "RAPTOR": {
-      "P67870": [
-        "CSNK2B"
-      ]
-    },
-    "PDB_MULTI": {
-      "P67870": [
-        "3eed_A",
-        "1jwh_C",
-        "1qf8_B",
-        "4md9_A",
-        "6q38_C",
-        "1jwh_D",
-        "4md8_B",
-        "4md7_A",
-        "4md8_A",
-        "4md9_B",
-        "4nh1_C",
-        "4dgl_B",
-        "4nh1_D",
-        "4md7_B",
-        "1qf8_A",
-        "4dgl_A",
-        "3eed_B"
-      ]
-    }
-  },
-  "PSMD12": {
-    "PDB_MULTI": {
-      "O00232": [
-        "5vhi_W",
-        "5gjq_P",
-        "5ln3_P",
-        "5t0g_W",
-        "5t0j_W",
-        "5vhf_W",
-        "5vhh_W",
-        "5vft_W",
-        "5t0h_W",
-        "5vfr_W",
-        "5vhs_W",
-        "5t0i_W",
-        "5m32_k"
-      ]
-    }
-  },
-  "UFD1": {
-    "PDB_MULTI": {
-      "Q92890": [
-        "5c1b_U",
-        "5c1b_V"
-      ]
-    }
-  },
-  "DPF2": {
-    "RAPTOR": {
-      "Q92785": [
-        "DPF2"
-      ]
-    }
-  },
-  "FBN1": {
-    "RAPTOR": {
-      "P35555": [
-        "FBN1"
-      ]
-    }
-  },
-  "PSMD1": {
-    "PDB_MULTI": {
-      "Q99460": [
-        "5vhf_U",
-        "5ln3_N",
-        "5vft_U",
-        "5t0g_U",
-        "5vhs_U",
-        "5t0j_U",
-        "5m32_i",
-        "5vhh_U",
-        "5t0h_U",
-        "5gjq_N",
-        "5vhi_U",
-        "5vfr_U",
-        "5t0i_U"
-      ]
-    }
-  },
-  "MCM2": {
-    "PDB_MULTI": {
-      "P49736": [
-        "5bnv_C",
-        "5ja4_C",
-        "5bnx_C",
-        "5bnv_F"
-      ]
-    }
-  },
-  "MAP2K1": {
-    "PDB": {
-      "Q02750": [
-        "3w8q_A"
-      ]
-    },
-    "SWISS": {
-      "Q02750": [
-        "MAP2K1_B"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q02750": [
-        "3vvh_A",
-        "4mne_A",
-        "5yt3_A",
-        "6pp9_B",
-        "6q0j_C",
-        "4mne_D",
-        "5eym_A",
-        "6q0t_C",
-        "6q0j_D",
-        "5yt3_B",
-        "3sls_A",
-        "6nyb_B"
-      ]
-    }
-  },
-  "PTPA": {
-    "PDB_MULTI": {
-      "Q15257": [
-        "4lac_B"
-      ]
-    }
-  },
-  "PPP3CA": {
-    "PDB": {
-      "Q08209": [
-        "1aui_A"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q08209": [
-        "6nuf_A",
-        "1m63_E",
-        "1mf8_A",
-        "1m63_A",
-        "2p6b_A",
-        "4f0z_A",
-        "6nuc_A",
-        "6nuu_A",
-        "1aui_A",
-        "5c1v_A",
-        "2p6b_C",
-        "5sve_A",
-        "3ll8_A"
-      ]
-    }
-  },
-  "TRIO": {
-    "PDB_MULTI": {
-      "O75962": [
-        "2nz8_B"
-      ]
-    }
-  },
-  "PSMA2": {
-    "PDB_MULTI": {
-      "P25787": [
-        "5vfr_h",
-        "5t0i_H",
-        "5gjq_i",
-        "5t0j_H",
-        "5vft_h",
-        "5gjq_C",
-        "5t0g_H",
-        "5m32_A",
-        "5t0h_H",
-        "5ln3_B",
-        "5m32_O"
-      ]
-    }
-  },
-  "PSMB3": {
-    "PDB_MULTI": {
-      "P49720": [
-        "5t0j_P",
-        "5m32_I",
-        "5t0i_P",
-        "5t0g_P",
-        "5vfr_p",
-        "5gjq_q",
-        "5vft_P",
-        "5ln3_3",
-        "5m32_W",
-        "5t0h_P",
-        "5gjq_c"
-      ]
-    }
-  },
-  "PSPC1": {
-    "PDB_MULTI": {
-      "Q8WXF1": [
-        "3sde_A"
-      ]
-    }
-  },
-  "HDAC2": {
-    "PDB": {
-      "Q92769": [
-        "5ix0_A"
-      ]
-    },
-    "SWISS": {
-      "Q92769": [
-        "HDAC2_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q92769": [
-        "HDAC2"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q92769": [
-        "5iwg_A",
-        "5ix0_A",
-        "4ly1_A",
-        "6g3o_A",
-        "4lxz_A",
-        "3max_A"
-      ]
-    }
-  },
-  "RIT1": {
-    "PDB": {
-      "Q92963": [
-        "4klz_A"
-      ]
-    },
-    "SWISS": {
-      "Q92963": [
-        "RIT1_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q92963": [
-        "RIT1"
-      ]
-    }
-  },
-  "PSMD13": {
-    "PDB_MULTI": {
-      "Q9UNM6": [
-        "5vhf_a",
-        "5vfr_a",
-        "5vhi_a",
-        "5vft_a",
-        "5t0j_a",
-        "5gjq_O",
-        "5ln3_O",
-        "5m32_o",
-        "5t0i_a",
-        "5vhh_a",
-        "5vhs_a",
-        "5t0h_a",
-        "5t0g_a"
-      ]
-    }
-  },
-  "TAF1": {
-    "RAPTOR": {
-      "P21675": [
-        "TAF1"
-      ]
-    }
-  },
-  "SOS1": {
-    "PDB_MULTI": {
-      "Q07889": [
-        "6epl_S",
-        "6epp_S",
-        "6epo_S",
-        "6epm_S",
-        "6epn_S"
-      ]
-    }
-  },
-  "ZBTB18": {
-    "RAPTOR": {
-      "Q99592": [
-        "ZBTB18"
-      ]
-    }
-  },
-  "PSMB4": {
-    "PDB_MULTI": {
-      "P28070": [
-        "5t0h_T",
-        "5m32_M",
-        "5t0i_T",
-        "5vfr_t",
-        "5t0j_T",
-        "5t0g_T",
-        "5gjq_u",
-        "5vft_T",
-        "5m32_a",
-        "5gjq_g",
-        "5ln3_7"
-      ]
-    }
-  },
-  "GABRG2": {
-    "PDB_MULTI": {
-      "P18507": [
-        "6huj_C",
-        "6huo_C",
-        "6hup_C",
-        "6d6t_E",
-        "6d6u_E",
-        "6i53_C",
-        "6hug_C",
-        "6huk_C"
-      ]
-    }
-  },
-  "ABL1": {
-    "RAPTOR": {
-      "P00519": [
-        "ABL1"
-      ]
-    }
-  },
-  "PSMC1": {
-    "PDB_MULTI": {
-      "P62191": [
-        "5vho_B",
-        "5ln3_I",
-        "5vhn_B",
-        "5vhj_B",
-        "5vhr_B",
-        "5t0j_B",
-        "5m32_d",
-        "5vhi_B",
-        "5vfr_B",
-        "5vhq_B",
-        "5vhf_B",
-        "5t0i_B",
-        "5vhs_B",
-        "5vhp_B",
-        "5vhh_B",
-        "5t0h_B",
-        "5t0g_B",
-        "5vhm_B",
-        "5gjq_I",
-        "5vft_B"
-      ]
-    }
-  },
-  "NFATC1": {
-    "PDB_MULTI": {
-      "O95644": [
-        "5sve_C"
-      ]
-    }
-  },
-  "NONO": {
-    "PDB": {
-      "Q15233": [
-        "5ifm_B"
-      ]
-    },
-    "SWISS": {
-      "Q15233": [
-        "NONO_B"
-      ]
-    },
-    "RAPTOR": {
-      "Q15233": [
-        "NONO"
-      ]
-    },
-    "PDB_MULTI": {
-      "Q15233": [
-        "3sde_B",
-        "5ifm_B",
-        "5ifm_A"
+      "P19634": [
+        "6nuc_C",
+        "6nuu_C",
+        "6nuf_C"
       ]
     }
   },
   "GRIN2A": {
     "PDB": {
       "Q12879": [
-        "6irh_B"
+        "6irf_B",
+        "6irh_B",
+        "6ira_B",
+        "6irg_B"
       ]
     },
     "SWISS": {
@@ -4501,14 +4887,446 @@
     },
     "PDB_MULTI": {
       "Q12879": [
-        "6irh_B",
-        "6ira_D",
+        "6irf_B",
         "6irg_B",
         "6irg_D",
         "6irf_D",
+        "6irh_D",
         "6ira_B",
-        "6irf_B",
-        "6irh_D"
+        "6irh_B",
+        "6ira_D"
+      ]
+    }
+  },
+  "SMARCA4": {
+    "RAPTOR": {
+      "P51532": [
+        "SMARCA4"
+      ]
+    }
+  },
+  "BST2": {
+    "PDB_MULTI": {
+      "Q10589": [
+        "6cri_d",
+        "6cri_T",
+        "6cri_c",
+        "6d84_T",
+        "6d83_T",
+        "6cm9_T",
+        "6dff_T",
+        "6d84_R"
+      ]
+    }
+  },
+  "MLST8": {
+    "PDB_MULTI": {
+      "Q9BVC4": [
+        "5h64_C",
+        "5zcs_D",
+        "5zcs_C"
+      ]
+    }
+  },
+  "BCL9": {
+    "PDB_MULTI": {
+      "O00512": [
+        "2gl7_C"
+      ]
+    }
+  },
+  "SKP1": {
+    "PDB_MULTI": {
+      "P63208": [
+        "2ovq_A",
+        "2ovp_A",
+        "5v4b_A",
+        "2ovr_A"
+      ]
+    }
+  },
+  "PSMA5": {
+    "PDB_MULTI": {
+      "P28066": [
+        "5t0h_K",
+        "5t0j_K",
+        "5vfr_k",
+        "5m32_R",
+        "5ln3_E",
+        "5vft_k",
+        "5m32_D",
+        "5gjq_l",
+        "5t0g_K",
+        "5gjq_F",
+        "5t0i_K"
+      ]
+    }
+  },
+  "BICD2": {
+    "RAPTOR": {
+      "Q8TD16": [
+        "BICD2"
+      ]
+    }
+  },
+  "DPF2": {
+    "RAPTOR": {
+      "Q92785": [
+        "DPF2"
+      ]
+    }
+  },
+  "SF3B6": {
+    "PDB_MULTI": {
+      "Q9Y3B4": [
+        "6ah0_5"
+      ]
+    }
+  },
+  "HECW2": {
+    "RAPTOR": {
+      "Q9P2P5": [
+        "HECW2"
+      ]
+    }
+  },
+  "PSMC4": {
+    "PDB_MULTI": {
+      "P43686": [
+        "5vho_D",
+        "5vhj_D",
+        "5t0g_D",
+        "5vhr_D",
+        "5t0i_D",
+        "5vhh_D",
+        "5t0j_D",
+        "5gjq_K",
+        "5ln3_K",
+        "5vfr_D",
+        "5vhn_D",
+        "5vhp_D",
+        "5vhi_D",
+        "5vhs_D",
+        "5vhm_D",
+        "5vhf_D",
+        "5vft_D",
+        "5m32_e",
+        "5t0h_D",
+        "5vhq_D"
+      ]
+    }
+  },
+  "NONO": {
+    "PDB": {
+      "Q15233": [
+        "5ifm_B",
+        "3sde_B"
+      ]
+    },
+    "SWISS": {
+      "Q15233": [
+        "NONO_B"
+      ]
+    },
+    "RAPTOR": {
+      "Q15233": [
+        "NONO"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q15233": [
+        "5ifm_B",
+        "5ifm_A",
+        "3sde_B"
+      ]
+    }
+  },
+  "PPP3CA": {
+    "PDB": {
+      "Q08209": [
+        "1aui_A",
+        "6nuc_A",
+        "5c1v_A",
+        "4f0z_A",
+        "6nuu_A",
+        "6nuf_A",
+        "3ll8_A",
+        "2p6b_A",
+        "5sve_A",
+        "1mf8_A",
+        "1m63_A"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q08209": [
+        "1aui_A",
+        "1m63_E",
+        "6nuc_A",
+        "5c1v_A",
+        "4f0z_A",
+        "6nuu_A",
+        "6nuf_A",
+        "3ll8_A",
+        "2p6b_A",
+        "2p6b_C",
+        "1mf8_A",
+        "5sve_A",
+        "1m63_A"
+      ]
+    }
+  },
+  "CDK8": {
+    "PDB": {
+      "P49336": [
+        "3rgf_A",
+        "5hbj_A",
+        "4g6l_A",
+        "4f6u_A",
+        "4f70_A",
+        "5i5z_A",
+        "5xs2_A",
+        "5idn_A",
+        "4f6w_A",
+        "5cei_A",
+        "4crl_A",
+        "5xqx_A",
+        "5hvy_A",
+        "5hbh_A",
+        "4f7j_A",
+        "5icp_A",
+        "4f7n_A",
+        "5fgk_A",
+        "4f7l_A",
+        "5bnj_A",
+        "5hbe_A",
+        "4f7s_A",
+        "5hnb_A",
+        "5idp_A",
+        "4f6s_A"
+      ]
+    },
+    "SWISS": {
+      "P49336": [
+        "CDK8_A"
+      ]
+    },
+    "RAPTOR": {
+      "P49336": [
+        "CDK8"
+      ]
+    },
+    "PDB_MULTI": {
+      "P49336": [
+        "3rgf_A",
+        "5hbj_A",
+        "4g6l_A",
+        "4f6u_A",
+        "4f70_A",
+        "5i5z_A",
+        "5xs2_A",
+        "5idn_A",
+        "4f6w_A",
+        "5cei_A",
+        "4crl_A",
+        "5xqx_A",
+        "5hvy_A",
+        "5hbh_A",
+        "4f7j_A",
+        "5icp_A",
+        "4f7n_A",
+        "5fgk_A",
+        "4f7l_A",
+        "5bnj_A",
+        "5hbe_A",
+        "4f7s_A",
+        "5hnb_A",
+        "5idp_A",
+        "4f6s_A"
+      ]
+    }
+  },
+  "PSMC5": {
+    "PDB": {
+      "P62195": [
+        "5vhp_C",
+        "5t0j_C",
+        "5ln3_J",
+        "5vhs_C",
+        "5vfr_C",
+        "5t0g_C",
+        "5vhm_C",
+        "5vhf_C",
+        "5vhi_C",
+        "5vho_C",
+        "5vhr_C",
+        "5vhn_C",
+        "5vhj_C",
+        "5vhq_C",
+        "5vft_C",
+        "5t0h_C",
+        "5m32_h",
+        "5t0i_C",
+        "5vhh_C",
+        "5gjq_J"
+      ]
+    },
+    "SWISS": {
+      "P62195": [
+        "PSMC5_5"
+      ]
+    },
+    "RAPTOR": {
+      "P62195": [
+        "PSMC5"
+      ]
+    },
+    "PDB_MULTI": {
+      "P62195": [
+        "5vhp_C",
+        "5t0j_C",
+        "5ln3_J",
+        "5vhs_C",
+        "5vfr_C",
+        "5t0g_C",
+        "5vhm_C",
+        "5vhf_C",
+        "5vhi_C",
+        "5vho_C",
+        "5vhr_C",
+        "5vhn_C",
+        "5vhj_C",
+        "5vhq_C",
+        "5vft_C",
+        "5t0h_C",
+        "5m32_h",
+        "5t0i_C",
+        "5vhh_C",
+        "5gjq_J"
+      ]
+    }
+  },
+  "BRAF": {
+    "RAPTOR": {
+      "P15056": [
+        "BRAF"
+      ]
+    },
+    "PDB_MULTI": {
+      "P15056": [
+        "4mne_B",
+        "6q0j_B",
+        "6pp9_A",
+        "6q0t_B",
+        "6q0t_A",
+        "6q0j_A",
+        "6nyb_A",
+        "4mne_C"
+      ]
+    }
+  },
+  "NF1": {
+    "RAPTOR": {
+      "P21359": [
+        "NF1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P21359": [
+        "6ob3_B",
+        "6ob2_B"
+      ]
+    }
+  },
+  "LSM4": {
+    "PDB_MULTI": {
+      "Q9Y4Z0": [
+        "3jcr_4",
+        "6ah0_s",
+        "5o9z_q"
+      ]
+    }
+  },
+  "CENPA": {
+    "PDB_MULTI": {
+      "P49450": [
+        "3wtp_A"
+      ]
+    }
+  },
+  "CHD4": {
+    "RAPTOR": {
+      "Q14839": [
+        "CHD4"
+      ]
+    }
+  },
+  "GNAI2": {
+    "PDB_MULTI": {
+      "P04899": [
+        "6d9h_A"
+      ]
+    }
+  },
+  "CUL3": {
+    "SWISS": {
+      "Q13618": [
+        "CUL3_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q13618": [
+        "CUL3"
+      ]
+    }
+  },
+  "ATP6V0A1": {
+    "RAPTOR": {
+      "Q93050": [
+        "ATP6V0A1"
+      ]
+    }
+  },
+  "DNM1": {
+    "PDB": {
+      "Q05193": [
+        "6dlu_P",
+        "3snh_A",
+        "6dlv_c"
+      ]
+    },
+    "SWISS": {
+      "Q05193": [
+        "DNM1_A"
+      ]
+    },
+    "RAPTOR": {
+      "Q05193": [
+        "DNM1"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q05193": [
+        "6dlv_b",
+        "6dlv_f",
+        "6dlu_B",
+        "6dlu_P",
+        "6dlv_c",
+        "6dlv_g"
+      ]
+    }
+  },
+  "TNRC6A": {
+    "PDB_MULTI": {
+      "Q8NDV7": [
+        "5w6v_B"
+      ]
+    }
+  },
+  "SF3B1": {
+    "PDB_MULTI": {
+      "O75533": [
+        "6ah0_1",
+        "5o9z_v"
       ]
     }
   },
@@ -4525,370 +5343,422 @@
     },
     "PDB_MULTI": {
       "P21579": [
-        "2r83_A",
-        "2r83_B"
-      ]
-    }
-  },
-  "PCDH19": {
-    "SWISS": {
-      "Q8TAB3": [
-        "PCDH19_A"
-      ]
-    },
-    "RAPTOR": {
-      "Q8TAB3": [
-        "PCDH19"
-      ]
-    }
-  },
-  "ATP6V1A": {
-    "SWISS": {
-      "P38606": [
-        "ATP6V1A_C"
-      ]
-    },
-    "RAPTOR": {
-      "P38606": [
-        "ATP6V1A"
-      ]
-    }
-  },
-  "PRPF6": {
-    "PDB_MULTI": {
-      "O94906": [
-        "6ah0_N",
-        "3jcr_G",
-        "5o9z_G"
-      ]
-    }
-  },
-  "PSMA4": {
-    "PDB_MULTI": {
-      "P25789": [
-        "5vft_i",
-        "5t0j_I",
-        "5gjq_D",
-        "5t0h_I",
-        "5m32_P",
-        "5t0g_I",
-        "5vfr_i",
-        "5m32_B",
-        "5gjq_j",
-        "5ln3_C",
-        "5t0i_I"
-      ]
-    }
-  },
-  "SCN2B": {
-    "PDB_MULTI": {
-      "O60939": [
-        "6j8e_C"
-      ]
-    }
-  },
-  "STXBP1": {
-    "SWISS": {
-      "P61764": [
-        "STXBP1_A"
-      ]
-    },
-    "RAPTOR": {
-      "P61764": [
-        "STXBP1"
-      ]
-    }
-  },
-  "ARHGEF9": {
-    "SWISS": {
-      "O43307": [
-        "ARHGEF9_A"
-      ]
-    },
-    "RAPTOR": {
-      "O43307": [
-        "ARHGEF9"
-      ]
-    }
-  },
-  "UBTF": {
-    "RAPTOR": {
-      "P17480": [
-        "UBTF"
-      ]
-    }
-  },
-  "PPM1D": {
-    "SWISS": {
-      "O15297": [
-        "PPM1D_A"
-      ]
-    },
-    "RAPTOR": {
-      "O15297": [
-        "PPM1D"
-      ]
-    }
-  },
-  "BICD2": {
-    "RAPTOR": {
-      "Q8TD16": [
-        "BICD2"
-      ]
-    }
-  },
-  "PDHB": {
-    "PDB_MULTI": {
-      "P11177": [
-        "6cfo_D",
-        "3exe_B",
-        "3exe_D",
-        "3exg_B",
-        "3exg_D",
-        "3exi_B",
-        "6cer_B",
-        "3exf_B",
-        "2ozl_B",
-        "6cfo_B",
-        "1ni4_D",
-        "3exf_D",
-        "3exh_D",
-        "3exh_B",
-        "1ni4_B",
-        "2ozl_D",
-        "6cer_D"
-      ]
-    }
-  },
-  "H2BC11": {
-    "PDB_MULTI": {
-      "P06899": [
-        "6j4w_d",
-        "6j4z_h",
-        "5b32_D",
-        "5x7x_D",
-        "6ir9_d",
-        "6j4y_d",
-        "6j4y_h",
-        "6a5u_d",
-        "6a5r_d",
-        "5x7x_H",
-        "6a5t_h",
-        "6j4z_d",
-        "6a5l_h",
-        "6a5l_d",
-        "6inq_d",
-        "5b33_H",
-        "6a5r_h",
-        "6ir9_h",
-        "3wtp_H",
-        "6a5t_d",
-        "5b32_H",
-        "6j51_d",
-        "6j4w_h",
-        "6j51_h",
-        "6j4x_d",
-        "6j50_h",
-        "6a5o_d",
-        "6j50_d",
-        "6a5p_d",
-        "6a5o_h",
-        "6j4x_h",
-        "3av2_H",
-        "3wtp_D",
-        "6inq_h",
-        "6a5u_h",
-        "6a5p_h",
-        "5b33_D",
-        "3av2_D"
-      ]
-    }
-  },
-  "CALCR": {
-    "PDB_MULTI": {
-      "P30988": [
-        "6niy_R",
-        "5uz7_R"
-      ]
-    }
-  },
-  "UPF2": {
-    "PDB_MULTI": {
-      "Q9HAU5": [
-        "2wjv_D"
-      ]
-    }
-  },
-  "PPP1CB": {
-    "SWISS": {
-      "P62140": [
-        "PPP1CB_A"
-      ]
-    },
-    "RAPTOR": {
-      "P62140": [
-        "PPP1CB"
-      ]
-    }
-  },
-  "APC": {
-    "PDB_MULTI": {
-      "P25054": [
-        "1th1_C",
-        "1t08_C"
-      ]
-    }
-  },
-  "IK": {
-    "PDB_MULTI": {
-      "Q13123": [
-        "5o9z_R"
+        "2r83_B",
+        "2r83_A"
       ]
     }
   },
   "LSM5": {
     "PDB_MULTI": {
       "Q9Y4Y9": [
+        "3jcr_5",
         "5o9z_r",
-        "6ah0_t",
-        "3jcr_5"
+        "6ah0_t"
       ]
     }
   },
-  "DLG4": {
-    "RAPTOR": {
-      "P78352": [
-        "DLG4"
-      ]
-    }
-  },
-  "KCTD12": {
+  "PLCB2": {
     "PDB_MULTI": {
-      "Q96CX2": [
-        "6m8s_P",
-        "6m8s_O",
-        "6m8s_A",
-        "6m8s_B",
-        "6m8s_M"
+      "Q00722": [
+        "2fju_B"
       ]
     }
   },
-  "NR2F1": {
+  "PACS1": {
+    "RAPTOR": {
+      "Q6VY07": [
+        "PACS1"
+      ]
+    }
+  },
+  "KCNA2": {
     "SWISS": {
-      "P10589": [
-        "NR2F1_A"
+      "P16389": [
+        "KCNA2_B"
       ]
     },
     "RAPTOR": {
-      "P10589": [
-        "NR2F1"
+      "P16389": [
+        "KCNA2"
       ]
     }
   },
-  "CHD8": {
+  "ADRB2": {
+    "PDB_MULTI": {
+      "P07550": [
+        "6ni3_R"
+      ]
+    }
+  },
+  "IQSEC2": {
+    "PDB_MULTI": {
+      "Q5JU85": [
+        "6fae_A"
+      ]
+    }
+  },
+  "PTPA": {
+    "PDB_MULTI": {
+      "Q15257": [
+        "4lac_B"
+      ]
+    }
+  },
+  "MAP2K1": {
+    "PDB": {
+      "Q02750": [
+        "3eqb_A",
+        "4mne_D",
+        "3eqd_A",
+        "3orn_A",
+        "4ark_A",
+        "5bx0_A",
+        "5eym_A",
+        "3pp1_A",
+        "4u80_A",
+        "3dy7_A",
+        "4an2_A",
+        "6pp9_B",
+        "3mbl_A",
+        "3zm4_A",
+        "1s9j_A",
+        "3os3_A",
+        "3w8q_A",
+        "3zly_A",
+        "3eqh_A",
+        "4anb_A",
+        "6q0j_C",
+        "2p55_A",
+        "3v01_A",
+        "3zlw_A",
+        "3dv3_A",
+        "3sls_A",
+        "4lmn_A",
+        "4u81_A",
+        "5hze_A",
+        "3zlx_A",
+        "3eqf_A",
+        "3vvh_A",
+        "3v04_A",
+        "4an3_A",
+        "3wig_A",
+        "3eqg_A",
+        "5yt3_B",
+        "4an9_A",
+        "3eqc_A",
+        "4u7z_A",
+        "3eqi_A",
+        "6nyb_B",
+        "3e8n_A",
+        "6q0t_C",
+        "3zls_A"
+      ]
+    },
+    "SWISS": {
+      "Q02750": [
+        "MAP2K1_B"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q02750": [
+        "3vvh_A",
+        "4mne_D",
+        "6q0j_C",
+        "6q0j_D",
+        "5yt3_B",
+        "5yt3_A",
+        "5eym_A",
+        "3sls_A",
+        "4mne_A",
+        "6nyb_B",
+        "6q0t_C",
+        "6pp9_B"
+      ]
+    }
+  },
+  "PTPN11": {
+    "PDB": {
+      "Q06124": [
+        "6md7_A",
+        "6bmv_A",
+        "4ohh_A",
+        "6mdd_A",
+        "4dgx_A",
+        "6bmr_A",
+        "5ehp_A",
+        "5ibm_A",
+        "6mdb_A",
+        "6mdc_A",
+        "4ohe_A",
+        "4h1o_A",
+        "6bmu_A",
+        "6cmp_A",
+        "6bmy_A",
+        "4nwf_A",
+        "5i6v_A",
+        "4ohl_A",
+        "6atd_A",
+        "6crg_A",
+        "6cmq_A",
+        "4nwg_A",
+        "4dgp_A",
+        "6cms_A",
+        "5ibs_A",
+        "5xzr_A",
+        "5ehr_A",
+        "4gwf_A",
+        "4h34_A",
+        "6ihz_B",
+        "6mda_A",
+        "4ohd_A",
+        "4ohi_A",
+        "6bmx_A",
+        "6bmw_A",
+        "6crf_A",
+        "6cmr_A",
+        "2shp_A",
+        "6md9_A",
+        "6bn5_A"
+      ]
+    },
+    "SWISS": {
+      "Q06124": [
+        "PTPN11_A"
+      ]
+    },
     "RAPTOR": {
-      "Q9HCK8": [
-        "CHD8"
+      "Q06124": [
+        "PTPN11"
+      ]
+    },
+    "PDB_MULTI": {
+      "Q06124": [
+        "6md7_A",
+        "6bmv_A",
+        "6mdd_A",
+        "6bmr_A",
+        "5ehp_A",
+        "5ibm_A",
+        "6mdb_A",
+        "6mdc_A",
+        "6bmu_A",
+        "6cmp_A",
+        "6bmy_A",
+        "4nwf_A",
+        "5i6v_A",
+        "4ohl_A",
+        "6atd_A",
+        "6crg_A",
+        "6cmq_A",
+        "4nwg_A",
+        "6ihz_A",
+        "5ibs_A",
+        "5ehr_A",
+        "4gwf_A",
+        "6ihz_B",
+        "6mda_A",
+        "6bmx_A",
+        "6bmw_A",
+        "6crf_A",
+        "2shp_A",
+        "6md9_A",
+        "6bn5_A"
       ]
     }
   },
-  "SMAD4": {
+  "ADNP": {
     "RAPTOR": {
-      "Q13485": [
-        "SMAD4"
+      "Q9H2P0": [
+        "ADNP"
       ]
     }
   },
-  "CHD4": {
+  "PSMB1": {
+    "PDB_MULTI": {
+      "P20618": [
+        "5t0h_S",
+        "5vfr_s",
+        "5t0g_S",
+        "5ln3_6",
+        "5t0j_S",
+        "5gjq_f",
+        "5m32_Z",
+        "5vft_S",
+        "5gjq_t",
+        "5t0i_S",
+        "5m32_L"
+      ]
+    }
+  },
+  "PSMD13": {
+    "PDB_MULTI": {
+      "Q9UNM6": [
+        "5t0h_a",
+        "5t0i_a",
+        "5m32_o",
+        "5vhs_a",
+        "5t0j_a",
+        "5vft_a",
+        "5vhf_a",
+        "5t0g_a",
+        "5vhi_a",
+        "5vhh_a",
+        "5gjq_O",
+        "5ln3_O",
+        "5vfr_a"
+      ]
+    }
+  },
+  "FBXO11": {
     "RAPTOR": {
-      "Q14839": [
-        "CHD4"
+      "Q86XK2": [
+        "FBXO11"
       ]
     }
   },
-  "DISC1": {
+  "KRT7": {
     "PDB_MULTI": {
-      "Q9NRI5": [
-        "5v4b_C"
+      "P08729": [
+        "4xif_E"
       ]
     }
   },
-  "HCFC1": {
+  "CNR1": {
     "PDB_MULTI": {
-      "P51610": [
-        "6ma1_B",
-        "4n3b_B",
-        "4n3a_B",
-        "6ma5_B",
-        "4n3c_B",
-        "6ma2_B",
-        "5lwv_A",
-        "6ma4_B",
-        "4n39_B",
-        "6ma3_B"
+      "P21554": [
+        "6n4b_R"
       ]
     }
   },
-  "PSMB5": {
+  "PSMD3": {
     "PDB_MULTI": {
-      "P28074": [
-        "5t0j_R",
-        "5vft_R",
-        "5t0h_R",
-        "5m32_Y",
-        "5vfr_r",
-        "5ln3_5",
-        "5t0g_R",
-        "5m32_K",
-        "5gjq_s",
-        "5gjq_e",
-        "5t0i_R"
+      "O43242": [
+        "5t0h_V",
+        "5vhh_V",
+        "5m32_j",
+        "5vhs_V",
+        "5gjq_S",
+        "5ln3_S",
+        "5vft_V",
+        "5t0g_V",
+        "5vfr_V",
+        "5vhf_V",
+        "5t0i_V",
+        "5vhi_V",
+        "5t0j_V"
       ]
     }
   },
-  "ASPSCR1": {
+  "TP53": {
     "PDB_MULTI": {
-      "Q9BZE9": [
-        "5ifs_A",
-        "5ifs_C",
-        "5ifw_A"
+      "P04637": [
+        "2v5w_I"
       ]
     }
   },
-  "KCNB1": {
+  "ARHGEF28": {
+    "PDB_MULTI": {
+      "Q8N1W1": [
+        "6bc1_C"
+      ]
+    }
+  },
+  "STRN3": {
+    "PDB_MULTI": {
+      "Q13033": [
+        "6iur_C",
+        "6iur_D"
+      ]
+    }
+  },
+  "RGS1": {
+    "PDB_MULTI": {
+      "Q08116": [
+        "2gtp_D"
+      ]
+    }
+  },
+  "NAA10": {
+    "PDB": {
+      "P41227": [
+        "6c95_B",
+        "6c9m_B"
+      ]
+    },
+    "SWISS": {
+      "P41227": [
+        "NAA10_B"
+      ]
+    },
     "RAPTOR": {
-      "Q14721": [
-        "KCNB1"
+      "P41227": [
+        "NAA10"
       ]
-    }
-  },
-  "GRK2": {
+    },
     "PDB_MULTI": {
-      "P25098": [
-        "5ukl_A",
-        "5he1_A",
-        "4pnk_A",
-        "5ukk_A"
+      "P41227": [
+        "6c95_B",
+        "6c9m_B"
       ]
     }
   },
-  "SNRPD3": {
-    "PDB_MULTI": {
-      "P62318": [
-        "6ah0_h",
-        "5o9z_W",
-        "3jcr_r",
-        "5o9z_l",
-        "6ah0_e",
-        "6ah0_T",
-        "5o9z_e"
-      ]
-    }
-  },
-  "CACNA1A": {
+  "U2AF2": {
     "RAPTOR": {
-      "O00555": [
-        "CACNA1A"
+      "P26368": [
+        "U2AF2"
+      ]
+    }
+  },
+  "NOTCH1": {
+    "RAPTOR": {
+      "P46531": [
+        "NOTCH1"
+      ]
+    }
+  },
+  "ZBTB18": {
+    "RAPTOR": {
+      "Q99592": [
+        "ZBTB18"
+      ]
+    }
+  },
+  "GNAO1": {
+    "PDB": {
+      "P09471": [
+        "6oik_A",
+        "6g79_A"
+      ]
+    },
+    "SWISS": {
+      "P09471": [
+        "GNAO1_A"
+      ]
+    },
+    "RAPTOR": {
+      "P09471": [
+        "GNAO1"
+      ]
+    },
+    "PDB_MULTI": {
+      "P09471": [
+        "6oik_A",
+        "6g79_A"
+      ]
+    }
+  },
+  "RBL2": {
+    "PDB_MULTI": {
+      "Q08999": [
+        "4xi9_E",
+        "5c1d_C"
+      ]
+    }
+  },
+  "CSNK2A2": {
+    "PDB_MULTI": {
+      "P19784": [
+        "3u87_A"
       ]
     }
   }
