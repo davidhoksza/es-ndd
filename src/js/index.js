@@ -198,7 +198,8 @@ $( document ).ready(function() {
     //     populateGeneList(data);
     //     $('#btnShow').on("click", () => btnShowOnClick(data))
     // });
-    console.log('data', esNddData);
+
+    $("#cntNDD").text(Object.keys(esNddData).length);
     populateGeneList(esNddData);
     $('#btnShow').on("click", () => btnShowOnClick(esNddData))
 });
