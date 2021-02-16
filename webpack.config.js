@@ -38,6 +38,7 @@ module.exports = {
           { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, 'dist/data/pdb-multi') },
           { from: path.resolve(__dirname, 'data/raptor'), to: path.resolve(__dirname, 'dist/data/raptor') },
           { from: path.resolve(__dirname, 'data/swissmodel'), to: path.resolve(__dirname, 'dist/data/swissmodel') },
+          { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, 'dist/img') },
         ],
       }),
   ],
@@ -49,7 +50,10 @@ module.exports = {
     },
     //   {
     //   test: /\.html$/i,
-    //   loader: 'html-loader',
+    //     use: {
+    //       loader: 'html-loader',
+    //     }
+    //
     // },
     //   {
     //   test: /.css$/,
@@ -70,7 +74,7 @@ module.exports = {
         }
       },
       {
-      test: /\.(woff(2)?|ttf|eot|jpg|svg)(\?v=\d+\.\d+\.\d+)?$/,
+      test: /\.(woff(2)?|ttf|eot|jpg|png|svg)(\?v=\d+\.\d+\.\d+)?$/,
       type: 'asset/resource',
     }]
   },
