@@ -46,11 +46,12 @@
             <option></option>
           </select>
         </div>
-        <div class="col">
-          <select id="sequenceSelection" class="form-control select2">
-            <option></option>
-          </select>
-        </div>
+<!--        <select id="sequenceSelection" class="form-control select2" style="display: none">-->
+<!--        <div class="col">-->
+<!--          <select id="sequenceSelection" class="form-control select2">-->
+<!--            <option></option>-->
+<!--          </select>-->
+<!--        </div>-->
         <div class="col">
           <select id="structureSelection" class="form-control select2">
             <option></option>
@@ -130,6 +131,12 @@
 <!--    </div>-->
 <!--  </footer>-->
 
+<!--The following is here because it was needed in the older version and is heavilly used in the JS part.
+ It was easier to hide it then to remove it completely also from the JS code. However, it is a
+  refactoring TODO -->
+  <select id="sequenceSelection" class="form-control select2" style="display:none;">
+    <option></option>
+  </select>
 
 </body>
 

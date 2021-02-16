@@ -185,10 +185,10 @@ $( document ).ready(function() {
         placeholder: "Select a method",
         allowClear: false
     });
-    sequenceSelection.select2({
-        placeholder: "Select a sequence",
-        allowClear: false
-    });
+    // sequenceSelection.select2({
+    //     placeholder: "Select a sequence",
+    //     allowClear: false
+    // });
     structureSelection.select2({
         placeholder: "Select a structure",
         allowClear: false
@@ -915,12 +915,12 @@ function populateGeneList(data) {
         });
         methodChange(firstMethodId);
 
-        let firstSequenceId;
-        Object.keys(data[gene][firstMethodId]).forEach((sequence, ix)   => {
-            const opt = sequenceSelection.append(new Option(sequence, sequence, ix === 0, ix === 0));
-            if (ix === 0) firstSequenceId = sequence;
-        });
-        sequenceChange(firstSequenceId);
+        // let firstSequenceId;
+        // Object.keys(data[gene][firstMethodId]).forEach((sequence, ix)   => {
+        //     const opt = sequenceSelection.append(new Option(sequence, sequence, ix === 0, ix === 0));
+        //     if (ix === 0) firstSequenceId = sequence;
+        // });
+        // sequenceChange(firstSequenceId);
     });
 
     Object.keys(data).sort().forEach((gene) => {
