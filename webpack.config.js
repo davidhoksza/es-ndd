@@ -24,11 +24,13 @@ module.exports = {
       }),
     new HtmlWebpackPlugin({
       template: 'src/contact.html',
-      filename: "contact.html"
+      filename: "contact.html",
+      inject: false
     }),
     new HtmlWebpackPlugin({
       template: './src/documentation.html',
-      filename: "documentation.html"
+      filename: "documentation.html",
+      inject: false
     }),
     new webpack.DefinePlugin({
         'process.env.NODE_DEBUG': JSON.stringify(process.env.NODE_DEBUG)
@@ -39,7 +41,7 @@ module.exports = {
           { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb`) },
           { from: path.resolve(__dirname, 'data/raptor'), to: path.resolve(__dirname, `${TARGET_DIR}/data/raptor`) },
           { from: path.resolve(__dirname, 'data/swissmodel'), to: path.resolve(__dirname, `${TARGET_DIR}/data/swissmodel`) },
-          { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, `${TARGET_DIR}/data/img`) },
+          { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, `${TARGET_DIR}/img`) },
         ],
       }),
   ],
