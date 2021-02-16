@@ -4,16 +4,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 
+const TARGET_DIR = process.env.TARGET_DIR ? process.env.TARGET_DIR : 'DIST';
+
 module.exports = {
   mode: process.env.MODE,
   entry: './src/js/index.js',
   devtool: 'source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: `./${TARGET_DIR}`,
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, TARGET_DIR),
   },
   plugins: [
       new CleanWebpackPlugin(),
@@ -33,11 +35,11 @@ module.exports = {
       }),
       new CopyPlugin({
         patterns: [
-          { from: path.resolve(__dirname, 'data/pdb'), to: path.resolve(__dirname, 'dist/data/pdb') },
-          { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, 'dist/data/pdb-multi') },
-          { from: path.resolve(__dirname, 'data/raptor'), to: path.resolve(__dirname, 'dist/data/raptor') },
-          { from: path.resolve(__dirname, 'data/swissmodel'), to: path.resolve(__dirname, 'dist/data/swissmodel') },
-          { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, 'dist/img') },
+          { from: path.resolve(__dirname, 'data/pdb'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb`) },
+          { from: path.resolve(__dirname, 'data/pdb-multi'), to: path.resolve(__dirname, `${TARGET_DIR}/data/pdb`) },
+          { from: path.resolve(__dirname, 'data/raptor'), to: path.resolve(__dirname, `${TARGET_DIR}/data/raptor`) },
+          { from: path.resolve(__dirname, 'data/swissmodel'), to: path.resolve(__dirname, `${TARGET_DIR}/data/swissmodel`) },
+          { from: path.resolve(__dirname, 'src/img'), to: path.resolve(__dirname, `${TARGET_DIR}/data/img`) },
         ],
       }),
   ],
