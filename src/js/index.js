@@ -396,7 +396,8 @@ function getFeatures(annotationsFileName, filters) {
                             begin: String(tab['Uniprot_position'][lastIx]),
                             end: String(tab['Uniprot_position'][ix - 1]),
                             color: colorScale(lastVal),
-                            description: `${annotationFields[key].label}: ${lastVal}`
+                            // description: `${annotationFields[key].label}: ${lastVal}`
+                            description: `${lastVal}`
                         });
                     }
 
@@ -413,7 +414,8 @@ function getFeatures(annotationsFileName, filters) {
                     begin: String(tab['Uniprot_position'][lastIx]),
                     end: String(tab['Uniprot_position'][tab[key].length - 1]),
                     color: colorScale(val),
-                    description: `${annotationFields[key].label}: ${val}`
+                    // description: `${annotationFields[key].label}: ${val}`
+                    description: `${val}`
                 });
             }
         });
