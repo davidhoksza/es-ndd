@@ -12,6 +12,7 @@ import 'simple-line-icons/css/simple-line-icons.css'
 import '../css/ndd.css'
 
 import esNddData from '../../data/v2/list.json'
+console.log('esNddData', esNddData);
 
 const METHOD = {
     PDB: {
