@@ -4,12 +4,14 @@ import chroma from 'chroma-js'
 // import 'select2'
 import MolArt from 'molart'
 
+window.chroma = chroma
+
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'simple-line-icons/css/simple-line-icons.css'
 // import 'select2/dist/css/select2.min.css'
 import '../css/ndd.css'
 
-import esNddData from '../../data/list.json'
+import esNddData from '../../data/v2/list.json'
 
 const METHOD = {
     PDB: {
@@ -19,70 +21,128 @@ const METHOD = {
     PDB_MULTI: {
         id: 'PDB_MULTI',
         label: 'Complex structure from Protein Data Bank'
-    },
-    SWISS:
-        {
-            id: 'SWISS',
-            label: 'Homology models from SWISS-PROT'
-        },
-    RAPTOR: {
-        id: "RAPTOR",
-        label: 'Predicted structures from RaptorX'
+    },    
+    ALPHAFOLD: {
+        id: "ALPHAFOLD",
+        label: 'Predicted structures from AlphaFold'
     }
 };
+
+const dataDir = 'data/'
 
 const containerId = 'molartContainer';
 
 const annotationFields = {
     HotSpot3D: {
-        name: "HotSpot3D",
+        name: "Essential3D",
         label: 'Essential sites',
         tooltip: 'Essential sites',
         category: "Structural based annotations"
         , categorical: true
         , derived: false
+        ,color: '#FF5135'
+        , variant : false
     },
     paraz3dscore: {
-        name: "paraz3dscore",
+        name: "pConservation3D",
         label: 'Paralog conserved sites',
         tooltip: 'Paralog conserved sites',
         category: "Structural based annotations"
         , categorical: false
         , derived: false
+        ,color: '#ED7D31'
+        , variant : false
     },
     mtr3dscore: {
-        name: "mtr3dscore",
+        name: "mIntolerance3D",
         label: 'Missense constraint sites',
         tooltip: 'Missense constraint sites',
         category: "Structural based annotations"
         , categorical: false
         , derived: false
+        ,color: '#9C45E1'
+        , variant : false
     },
     PER_3D: {
-        name: "PER_3D",
-        label: 'Variant enriched sites',
-        tooltip: 'Variant enriched sites',
+        name: "PVE3D",
+        label: 'pvEnriched3D',
+        tooltip: 'pvEnriched3D',
         category: "Structural based annotations"
+        ,color: '#E858EC'
         , categorical: true
-        , derived: true
-    },
-    gscount: {
-        name: "gscount",
-        label: 'Neutral variants',
-        tooltip: 'Neutral variants',
-        category: "Variants"
-        , categorical: false
         , derived: false
+        , variant : false
+    },
+    denovoDB: {
+        name: "denovoDB",
+        label: 'denovoDB',
+        tooltip: 'denovoDB',
+        category: "Variants"
+        , categorical: true
+        , derived: false
+        ,color: '#945200'
+        , variant : true
+    },
+    ASD: {
+        name: "ASD",
+        label: 'ASD (Satterstrom et al)',
+        tooltip: 'ASD (Satterstrom et al)',
+        category: "Variants"
+        , categorical: true
+        , derived: false
+        ,color: '#16FCFE'
+        , variant : true
+    },
+    DD: {
+        name: "DD",
+        label: 'DD (Kaplanis et al)',
+        tooltip: 'DD (Kaplanis et al)',
+        category: "Variants"
+        , categorical: true
+        , derived: false
+        ,color: '#FFFB00'
+        , variant : true
+    },    
+    DEE: {
+        name: "EPI25_DEE",
+        label: 'DEE (Epi25 Collaborative)',
+        tooltip: 'DEE (Epi25 Collaborative)',
+        category: "Variants"
+        , categorical: true
+        , derived: false
+        ,color: '#FF8AD8'
+        , variant : true
+    },
+    UKBiobank: {
+        name: "UKBiobank",
+        label: 'UKBiobank',
+        tooltip: 'UKBiobank',        
+        category: "Variants"
+        , categorical: true
+        , derived: false
+        ,color: '#5D9B48'
+        , variant : true
     },
     pscount: {
-        name: "pscount",
-        label: 'Pathogenic variants',
+        name: "ClinVar_HGMD_count",
+        label: 'ClinVar/HGMD (pathogenic)',
         tooltip: 'Pathogenic variants',
         category: "Variants"
         , categorical: false
         , derived: false
+        ,color: '#EC0175'
+        , variant : true
     },
-
+    gscount: {
+        name: "gnomAD_count",
+        label: 'gnomAD (population)',
+        tooltip: 'Neutral variants',
+        category: "Variants"
+        , categorical: false
+        , derived: false
+        ,color: '#0000DE'
+        , variant : true
+    },
 }
 
 const customConfig = generateCustomConfig();
@@ -204,6 +264,15 @@ $( document ).ready(function() {
     $('#btnShow').on("click", () => btnShowOnClick(esNddData))
 });
 
+function removeRows(tab, ixs) {
+
+    ixs.sort((a,b) => parseInt(b)-parseInt(a)); //no idea why it does not work without parseInt as the ixs should indeed be numbers
+    
+    ixs.forEach(ix => {
+        Object.values(tab).forEach(col => col.splice(ix, 1))
+    });
+}
+
 function parseTSV(data, filters) {
 
     const tab = {};
@@ -233,6 +302,15 @@ function parseTSV(data, filters) {
         }
     });
 
+    //in v2 there are duplicities caused by merging procedure upstream, so these need to be removed otherwise it messes with the following procedure
+    let seqIxs = tab['Uniprot_position'].map(d => parseInt(d));
+    assert(seqIxs.length > 0)
+    const dupIxs = [];
+    for (let i = 1; i < seqIxs.length; i++) {
+        if (seqIxs[i] == seqIxs[i-1]) dupIxs.push(i)
+    }
+    removeRows(tab, dupIxs);
+
     return tab;
 }
 
@@ -240,9 +318,9 @@ function parseTSV(data, filters) {
 function getSSMapping(params) {
     return $.get(params.mappingUri).then(data => {
         const tab = parseTSV(data, params.filters);
-        const seqIxs = tab['Uniprot_position'].map(d => parseInt(d));
-        const strIxs = tab['Position_in_structure'].map(d => parseInt(d));
-
+        let seqIxs = tab['Uniprot_position'].map(d => parseInt(d));
+        let strIxs = tab['Position_in_structure'].map(d => parseInt(d));
+        
         assert(seqIxs.length === strIxs.length, "Sequence and structure lengths should match");
 
         let ixLastBreak = 0;
@@ -300,10 +378,19 @@ function getSSMapping(params) {
 
 function filterAnnotations(tabOrig) {
     const tab = _.cloneDeep(tabOrig);
+    console.log('tab', tab);
 
-    [annotationFields.gscount.name, annotationFields.pscount.name].forEach(annotationName => {
-        tab[annotationName] = tab[annotationName].map(val => val === "0" ? undefined : val);
+    Object.values(annotationFields).filter(af => af.variant).map(af => af.name).forEach(annotationName => {
+        tab[annotationName] = tab[annotationName].map(val => {
+            if (val === "0" || val === "no") return undefined;
+            if (val === "yes") return 1;
+            return val;
+        })
     })
+
+    // [annotationFields.gscount.name, annotationFields.pscount.name].forEach(annotationName => {
+    //     tab[annotationName] = tab[annotationName].map(val => val === "0" ? undefined : val);
+    // })
 
     return tab;
 }
@@ -321,103 +408,131 @@ function createDerivedAnnotations(tabOrig) {
 
 function getFeatures(annotationsFileName, filters) {
 
-    function createColorScale(annotationName, vals, categorical){
+    function createColorScale(af, vals){
 
-        if (annotationName === 'PER_3D') {
-            return c => c ? "#FF0000": "#FFFFFF";
-        } else if (annotationName === annotationFields.pscount.name) {
-            return c => "#FF0000";
-        } else if (annotationName === annotationFields.gscount.name) {
-            return c => "#0000FF";
+        let colorScale;
+        let colors;
+        let distinctVals;
+        const scale = chroma.scale([chroma(af.color).brighten(3).hex(), af.color]);
+        if (af.categorical) {
+            distinctVals = Array.from(new Set(vals))
+            colors = scale.colors(distinctVals);                        
+            return val => colors[distinctVals.indexOf(val)];;
+
         } else {
-            let colorScale;
-            let colors;
-            let distinctVals;
-            if (categorical) {
-                distinctVals = Array.from(new Set(vals));
-                if (annotationName === annotationFields.HotSpot3D.name){
-                    colors = chroma.scale(['gray', 'red']).colors(2);
-                } else {
-                    colors = chroma.scale('RdYlBu').colors(distinctVals.length);
-                }
+            const valsFiltered = vals.filter(val => !(isNaN(parseInt(val))))
+            
+            if (valsFiltered.length === 0) return () => chroma("white").hex();
 
-            } else {
-                const valsFiltered = vals.filter(val => !(isNaN(parseInt(val))))
-                const min  = Math.min(...valsFiltered);
-                const max  = Math.max(...valsFiltered);
-                if (annotationName === annotationFields.paraz3dscore.name){
-                    colorScale = chroma.scale(['white', 'magenta']).domain([0,max]);
-                } else if (annotationName === annotationFields.mtr3dscore.name){
-                    colorScale = chroma.scale(['purple', 'white']).domain([0,max]);
-                } else {
-                    colorScale = chroma.scale(['#f00', '#0f0']).domain([min,max]);
-                }
-            }
+            const min  = Math.min(...valsFiltered);
+            const max  = Math.max(...valsFiltered);
 
-            return function (val) {
+            colorScale = scale.domain([min,max]);
 
-                if (categorical) {
-                    return colors[distinctVals.indexOf(val)];
-
-                } else {
-
-                    return isNaN(parseInt(val)) ? chroma("black").hex() : colorScale(val).hex() ;
-                }
-            }
-
+            return val => isNaN(parseInt(val)) ? chroma("white").hex() : colorScale(val).hex();
         }
+        
+
+        
+
+        // if (annotation.name === 'PVE3D') {
+        //     //return c => c ? "#FF0000": "#FFFFFF";
+        //     return c => annotation.color;
+        // } else if (annotationName === annotationFields.pscount.name) {
+        //     return c => "#FF0000";
+        // } else if (annotationName === annotationFields.gscount.name) {
+        //     return c => "#0000FF";
+        // } else {
+        //     let colorScale;
+        //     let colors;
+        //     let distinctVals;
+        //     if (af.categorical) {
+        //         distinctVals = Array.from(new Set(vals));
+        //         if (annotationName === annotationFields.HotSpot3D.name){
+        //             colors = chroma.scale(['gray', 'red']).colors(2);
+        //         } else {
+        //             colors = chroma.scale('RdYlBu').colors(distinctVals.length);
+        //         }
+
+        //     } else {
+        //         const valsFiltered = vals.filter(val => !(isNaN(parseInt(val))))
+        //         const min  = Math.min(...valsFiltered);
+        //         const max  = Math.max(...valsFiltered);
+        //         if (annotationName === annotationFields.paraz3dscore.name){
+        //             colorScale = chroma.scale(['white', 'magenta']).domain([0,max]);
+        //         } else if (annotationName === annotationFields.mtr3dscore.name){
+        //             colorScale = chroma.scale(['purple', 'white']).domain([0,max]);
+        //         } else {
+        //             colorScale = chroma.scale(['#f00', '#0f0']).domain([min,max]);
+        //         }
+        //     }
+
+        //     return function (val) {
+
+        //         if (categorical) {
+        //             return colors[distinctVals.indexOf(val)];
+
+        //         } else {
+
+        //             return isNaN(parseInt(val)) ? chroma("black").hex() : colorScale(val).hex() ;
+        //         }
+        //     }
+
+        // }
 
 
     }
     return $.get(annotationsFileName).then(data => {
         let tab = parseTSV(data, filters);
         tab = filterAnnotations(tab);
-        tab = createDerivedAnnotations(tab);
+        //tab = createDerivedAnnotations(tab); //PER_3D is in v2 explicitely stored in the tables as the PVE3D column
 
         const features = [];
-        Object.keys(annotationFields)
+        //Object.keys(annotationFields)
+        Object.values(annotationFields)
             // .filter(afk => !annotationFields[afk].derived)
-            .forEach(key => {
-            const vals = tab[key];
-            const catName = annotationFields[key].category;
+            .forEach(af => {
+                const key = af.name;
+                const vals = tab[key];
+                const catName = af.category;
 
-            let colorScale = createColorScale(key, vals, annotationFields[key].categorical);
+                let colorScale = createColorScale(af, vals);
 
-            let lastIx = 0;
-            let lastVal = tab[key][0];
-            //merge same value neighboring annotations
-            tab[key].forEach((val, ix) => {
-                if (ix !== 0 && lastVal !== val) {
-                    // output only values which are defined
-                    if (lastVal !== undefined) {
-                        features.push({
-                            type: key,
-                            category: catName,
-                            begin: String(tab['Uniprot_position'][lastIx]),
-                            end: String(tab['Uniprot_position'][ix - 1]),
-                            color: colorScale(lastVal),
-                            // description: `${annotationFields[key].label}: ${lastVal}`
-                            description: `${lastVal}`
-                        });
+                let lastIx = 0;
+                let lastVal = tab[key][0];
+                //merge same value neighboring annotations
+                tab[key].forEach((val, ix) => {
+                    if (ix !== 0 && lastVal !== val) {
+                        // output only values which are defined
+                        if (lastVal !== undefined) {
+                            features.push({
+                                type: key,
+                                category: catName,
+                                begin: String(tab['Uniprot_position'][lastIx]),
+                                end: String(tab['Uniprot_position'][ix - 1]),
+                                color: colorScale(lastVal),
+                                // description: `${annotationFields[key].label}: ${lastVal}`
+                                description: `${lastVal}`
+                            });
+                        }
+
+                        lastIx = ix;
+                        lastVal = val;
                     }
-
-                    lastIx = ix;
-                    lastVal = val;
-                }
-            });
-
-            const val = tab[key][tab[key].length-1]
-            if (val !== undefined) {
-                features.push({
-                    type: key,
-                    category: catName,
-                    begin: String(tab['Uniprot_position'][lastIx]),
-                    end: String(tab['Uniprot_position'][tab[key].length - 1]),
-                    color: colorScale(val),
-                    // description: `${annotationFields[key].label}: ${val}`
-                    description: `${val}`
                 });
-            }
+
+                const val = tab[key][tab[key].length-1]
+                if (val !== undefined) {
+                    features.push({
+                        type: key,
+                        category: catName,
+                        begin: String(tab['Uniprot_position'][lastIx]),
+                        end: String(tab['Uniprot_position'][tab[key].length - 1]),
+                        color: colorScale(val),
+                        // description: `${annotationFields[key].label}: ${val}`
+                        description: `${val}`
+                    });
+                }
         });
 
         return {
@@ -433,15 +548,12 @@ function getDataUris(params) {
     const uris = new DataUris();
 
     if (params.method === METHOD.PDB.id) {
-        uris.annotations[params.structureId] = `data/pdb/Experimentally_solved_sinlge_${params.geneName}_${params.structureId}.txt`;
+        uris.annotations[params.structureId] = `${dataDir}pdb/Experimentally_solved_sinlge_${params.geneName}_${params.structureId}.txt`;
     } else if (params.method === METHOD.PDB_MULTI.id) {
-        uris.annotations[params.structureId] = `data/pdb-multi/Experimentally_solved_complex_${params.structureId.split("_")[0]}.txt`;
-    } else if (params.method === METHOD.SWISS.id) {
-        uris.annotations[params.structureId] = `data/swissmodel/Swiss_${params.structureId}.txt`;
-        uris.structure = `data/swissmodel/${params.geneName}.pdb`;
-    } else if (params.method === METHOD.RAPTOR.id) {
-        uris.annotations[params.structureId] = `data/raptor/RaptorX_${params.geneName}.txt`;
-        uris.structure = `data/raptor/${params.geneName}.pdb`;
+        uris.annotations[params.structureId] = `${dataDir}pdb-multi/Experimentally_solved_complex_${params.structureId.split("_")[0]}.txt`;    
+    } else if (params.method === METHOD.ALPHAFOLD.id) {
+        uris.annotations[params.structureId] = `${dataDir}/alphafold/Alpha_fold_${params.geneName}.txt`;
+        uris.structure = `${dataDir}alphafold/${params.geneName}.pdb`;
     }
 
     return uris;
@@ -671,10 +783,10 @@ function generateCustomConfig() {
         }
     };
 
-    Object.keys(annotationFields).forEach(k => {
-        customConfig.trackNames[k.toLocaleLowerCase()] = {
-            label: annotationFields[k].label,
-            tooltip:  annotationFields[k].tooltip
+    Object.values(annotationFields).forEach(af => {
+        customConfig.trackNames[af.name.toLocaleLowerCase()] = {
+            label: af.label,
+            tooltip:af.tooltip
         }
     });
 
@@ -691,44 +803,31 @@ function convertToLiteMolRgb(chromaRgb){
 }
 
 function getExtraHighlights(tab) {
-    const patientVariants = tab[annotationFields.pscount.name].map((v, i) => v === undefined ? undefined : parseInt(tab.Uniprot_position[i])).filter(v => v !== undefined);
-    const populationVariants = tab[annotationFields.gscount.name].map((v, i) => v === undefined ? undefined : parseInt(tab.Uniprot_position[i])).filter(v => v !== undefined);
+
+    const variantsContent = [];
+    Object.values(annotationFields).filter(af => af.variant).forEach(af => {
+        const variants = tab[af.name].map((v, i) => v === undefined ? undefined : parseInt(tab.Uniprot_position[i])).filter(v => v !== undefined);
+        variantsContent.push(
+            {
+                sequenceNumbers: variants,
+                atomNames: ['CA'],
+                label: af.label,
+                visual: {
+                    type: 'BallsAndSticks',
+                    params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
+                    color: convertToLiteMolRgb(chroma(af.color).rgb()),
+                    alpha: 1
+                }
+    
+            }
+        )
+
+    })
 
     var extraHighlights = {
         controlVisibility: true, //whether the list of custom highlights will be shown as a dropdown through which the can control visibility of the individual highlights
         label: 'Variation highlighting',
-        content: [{
-            sequenceNumbers: patientVariants,
-            atomNames: ['CA'],
-            label: 'Pathogenic',
-            visual: {
-                type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
-                color: convertToLiteMolRgb(chroma("red").rgb()),
-                alpha: 1
-            }
-
-        }, {
-            sequenceNumbers: populationVariants,
-            atomNames: ['CA'],
-            label: 'Neutral',
-            visual: {
-                type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
-                color: convertToLiteMolRgb(chroma("blue").rgb()),
-                alpha: 1
-            }
-        }, {
-            sequenceNumbers: _.intersection(populationVariants, patientVariants),
-            atomNames: ['CA'],
-            label: 'Both',
-            visual: {
-                type: 'BallsAndSticks',
-                params: {useVDW: true, vdwScaling: 1.2, bondRadius: 0.13, detail: 'Automatic'},
-                color: convertToLiteMolRgb(chroma("orange").rgb()),
-                alpha: 1
-            }
-        }]
+        content: variantsContent
     }
 
     return extraHighlights;
@@ -819,7 +918,7 @@ const btnShowOnClick = function(data) {
                 gene: gene,
                 chain: sStructureId[1]
             }});
-    } else if (method === METHOD.RAPTOR.id){
+    } else if (method === METHOD.ALPHAFOLD.id){
 
         const dataUris = getDataUris({
             geneName: gene,
@@ -827,7 +926,7 @@ const btnShowOnClick = function(data) {
             structureId: structureId
         });
 
-        let chainId = ' ';
+        let chainId = 'A';
         molArtPromise = getSSMapping({
             mappingUri: dataUris.annotations[structureId],
             structureUri: dataUris.structure,
@@ -842,33 +941,7 @@ const btnShowOnClick = function(data) {
             });
         })
 
-    } else if (method === METHOD.SWISS.id){
-
-        const sStructureId = structureId.split("_");
-        const pdbId = sStructureId[0];
-        const chainId = sStructureId[1];
-
-        const dataUris = getDataUris({
-            geneName: gene,
-            structureId: structureId,
-            chainId: chainId,
-            method: method,
-        });
-
-        molArtPromise = getSSMapping({
-            mappingUri: dataUris.annotations[structureId],
-            structureUri: dataUris.structure,
-            pdbId:pdbId,
-            chainId: chainId
-        }).then(mappingsJson => {
-            startMolArtWithFeatures({
-                uniprotId: uniprotId,
-                dataUris: dataUris,
-                structureId: structureId,
-                ssMapping: mappingsJson
-            });
-        });
-    }
+    } 
 
     return molArtPromise.then(() => {
         $("#molartWrapperContainer").css("display", "block" );
