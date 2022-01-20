@@ -1,0 +1,4 @@
+Uniprot_position	aminoacid	Position_in_structure	x	y	z	paraz	mtr	gnomAD_count	ClinVar_HGMD_count	OR	pvalue	mIntolerance3D	pConservation3D	PVE3D	Essential3D	denovoDB	DD	ASD	EPI25_DEE	UKBiobank	Uniprot	gene	chain
+185	K	107	21.728	88.729	63.776	-1.55	0.888888888888889	0	0	0	1	Inf	Inf	no	no	no	no	no	no	no	P01116	KRAS	M
+186	C	108	25.37	89.85	63.666	0.85	0.891352549889135	0	0	0	1	Inf	Inf	no	no	no	no	no	no	no	P01116	KRAS	M
+188	I	110	31.217	88.57	61.578	1.15	0.917763157894737	2	0	0	1	Inf	Inf	no	no	no	no	no	no	yes	P01116	KRAS	M

@@ -75,6 +75,9 @@ def process_dir_single_structure(type: DS_TYPE):
 
 
 def reorganize(data):
+    f = open("ndd_genes.txt")
+    genes_filter = [l.strip().strip('"') for l in f.readlines()]
+        
     genes = set()
     for type in DS_TYPE:
         if type in data:
@@ -82,24 +85,28 @@ def reorganize(data):
 
     data_r = {}
     for gene in genes:
+        if gene not in genes_filter:
+            continue
         data_r[gene] = {}
         for type in DS_TYPE:
             if type not in data:
                 continue
             if gene in data[type]:
                 data_r[gene][type.name] = data[type][gene]
+                
+    print('Not used genes from the filter: ', list(set(genes_filter)-set(data_r.keys())))
 
     return data_r
 
-
+   
 def main():
     data = {}
     for type in DS_TYPE:
-        data[type] = process_dir_single_structure(type)
-    print(data)
+        data[type] = process_dir_single_structure(type)    
+    # print(data)
     with open("list.json", "w") as f:
         f.write(json.dumps(reorganize(data), indent=2))
 
-if __name__ == "__main__":
+if __name__ == "__main__":    
     main()
 
