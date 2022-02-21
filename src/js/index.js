@@ -851,6 +851,11 @@ function startMolArtWithFeatures(params) {
             exclusions: ['PREDICT_PROTEIN', 'VARIATION', 'ANTIGEN', 'MUTAGENESIS', 'PROTEOMICS'],
             extraHighlights: getExtraHighlights(features.data),
             lmInitSurfaceTransparency: 25,
+            alphaFoldConfidence: {
+                threshold: 70,
+                startWithAll: true,
+                applyToUserStructures: true
+            },
             customConfig: customConfig
         };
 
