@@ -54,7 +54,7 @@ const annotationFields = {
         ,color: '#ED7D31'
         , variant : false
     },
-    mtr3dscore: {
+    mtr3dscore: { // in order to keep the direction of the values the same  missense constraint score is multiplied by -1, once the value are loaded into the app
         name: "mIntolerance3D",
         label: 'Missense constraint sites',
         tooltip: 'Missense constraint sites',
@@ -494,15 +494,16 @@ function getFeatures(annotationsFileName, filters) {
             // .filter(afk => !annotationFields[afk].derived)
             .forEach(af => {
                 const key = af.name;
-                const vals = tab[key];
+                let vals = tab[key];
+                if (key === annotationFields.mtr3dscore.name) vals = vals.map(v => -v)
                 const catName = af.category;
 
                 let colorScale = createColorScale(af, vals);
 
                 let lastIx = 0;
-                let lastVal = tab[key][0];
+                let lastVal = vals[0];
                 //merge same value neighboring annotations
-                tab[key].forEach((val, ix) => {
+                vals.forEach((val, ix) => {
                     if (ix !== 0 && lastVal !== val) {
                         // output only values which are defined
                         if (lastVal !== undefined) {
@@ -522,13 +523,13 @@ function getFeatures(annotationsFileName, filters) {
                     }
                 });
 
-                const val = tab[key][tab[key].length-1]
+                const val = vals[vals.length-1]
                 if (val !== undefined) {
                     features.push({
                         type: key,
                         category: catName,
                         begin: String(tab['Uniprot_position'][lastIx]),
-                        end: String(tab['Uniprot_position'][tab[key].length - 1]),
+                        end: String(tab['Uniprot_position'][vals.length - 1]),
                         color: colorScale(val),
                         // description: `${annotationFields[key].label}: ${val}`
                         description: `${val}`
