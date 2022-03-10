@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 
-const TARGET_DIR = process.env.TARGET_DIR ? process.env.TARGET_DIR : 'DIST';
+const TARGET_DIR = process.env.TARGET_DIR ? process.env.TARGET_DIR : 'dist';
 
 module.exports = {
   mode: process.env.MODE,
