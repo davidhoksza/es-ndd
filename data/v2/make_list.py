@@ -30,10 +30,25 @@ def add_to_genes_list(gl, gene_name, unp_id, pdb_id):
 
 def process_dir_single_structure(type: DS_TYPE):
 
-    genes = {}
-
+    genes = {}    
     dir_name = get_dir_name(type)
+    
+    preferred_structures = {} # dictionary of gene and pdb id to be shown first in the list of available structures in the web app
+    if type == DS_TYPE.PDB or type == DS_TYPE.PDB_MULTI:
+        with open("{}/preferred_starting_pdbids.txt".format(dir_name)) as f:
+            f.readline()
+            for line in f.readlines():
+                line = line.strip()
+                if line == "":
+                    continue
+                gene, pdb_id = line.split('\t')
+                preferred_structures[gene] = pdb_id        
+    
+    
     for f_name in glob.glob(dir_name + "/*.txt"):
+        if 'preferred_starting' in f_name: 
+            # preferred_starting_pdbids_multimer_dataset.txt
+            continue
         if type == DS_TYPE.PDB:
             aux = os.path.basename(f_name).replace('Experimentally_solved_sinlge_', '').replace('.txt', '')
             pos = aux.find('_')
@@ -68,8 +83,23 @@ def process_dir_single_structure(type: DS_TYPE):
             add_to_genes_list(gl=genes, gene_name=gene_name, unp_id=unp_id, pdb_id=pdb_id)
 
     for gene_name in genes:
+        preferred_pdb_id = preferred_structures[gene_name] if gene_name in preferred_structures else None        
+        if type == DS_TYPE.PDB and preferred_pdb_id: 
+            #for non PDB (not PDB_multi) the id is 2fo0A and needs to be transformed to 2fo0_A
+            if '_' not in preferred_pdb_id:
+                preferred_pdb_id = preferred_pdb_id[:-1] + '_' + preferred_pdb_id[-1]                
+            
         for unp_id in genes[gene_name]:
-            genes[gene_name][unp_id] = list(genes[gene_name][unp_id])
+            # sort while starting with preferred pdb_id
+            pdb_list = sorted(list(genes[gene_name][unp_id]))
+            if preferred_pdb_id:
+                preferred_pos = 0
+                for i in range(len(pdb_list)):
+                    if pdb_list[i].startswith(preferred_pdb_id):
+                        preferred_pos = i
+                        break
+                pdb_list.insert(0, pdb_list.pop(preferred_pos))
+            genes[gene_name][unp_id] = pdb_list
 
     return genes
 
