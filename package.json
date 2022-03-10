@@ -11,7 +11,7 @@
     "watch": "cross-env MODE=development webpack --env mode development --watch",
     "start": "cross-env MODE=development webpack serve --env mode development --open",
     "build:debug": "cross-env MODE=development webpack --env mode development",
-    "build:docs": "cross-env MODE=production TARGET_DIR=docs webpack --env mode development",
+    "build:docs": "cross-env MODE=production TARGET_DIR=docs webpack --env mode production",
     "build": "cross-env MODE=production webpack"
   },
   "repository": {
