@@ -49,7 +49,7 @@
     "chroma-js": "^2.1.2",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
-    "molart": "git+https://github.com/cusbg/MolArt.git",
+    "molart": "^1.14.1",
     "select2": "^4.1.0-rc.0",
     "simple-line-icons": "^2.5.5",
     "util": "^0.12.4"
